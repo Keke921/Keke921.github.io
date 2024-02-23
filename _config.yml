@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Mengke Li (李梦柯) / Associate Researcher"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Mengke Li (李梦柯)"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Mengke Li (李梦柯)"
   pronouns         : "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
