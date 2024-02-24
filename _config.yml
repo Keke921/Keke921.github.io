@@ -29,11 +29,11 @@ author:
   employer         : "Guangming Lab, SZU"
   uri              : # URL
   email            : "limengke@gml.ac.cn" 
-  icon             : 🐼 # the emoji used as the favicon
+  #icon             : 🐼 # the emoji used as the favicon
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN" 
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -43,12 +43,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/Keke921"
+  github           : "Keke921"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
