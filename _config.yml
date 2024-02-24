@@ -24,7 +24,7 @@ author:
   avatar           : "LiMengke_Panda.jpg"
   name             : "Mengke Li (李梦柯)"
   pronouns         : "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "a happy CVer"
   location         : "China"
   employer         : "Guangming Lab, SZU"
   uri              : # URL
@@ -75,8 +75,8 @@ author:
 
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+teaser                   : "Pandas2.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
