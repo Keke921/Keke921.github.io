@@ -5,8 +5,17 @@ permalink: /publication/2023-11-26-XLHuang-DeCAB
 excerpt: 'Solving the data that distributed wiht long-tailed distributions and OOD samples'
 date: 2024-02-17
 venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'files/[PRCV23] DeCAB_Debiased Semi-supervised Learning for Imbalanced Open-Set Data.pdf'
 citation: 'Huang, X., Li, M., Lu, Y., & Wang, H. (2023). &quot;DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data.&quot; <i>Chinese Conference on Pattern Recognition and Computer Vision (PRCV)</i>. pp.104-119.'
+```bibtex
+@inproceedings{huang2023decab,
+  title={DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data},
+  author={Huang, Xiaolin and Li, Mengke and Lu, Yang and Wang, Hanzi},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={104--119},
+  year={2023},
+  organization={Springer}
+}
+```
 ---
-
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
