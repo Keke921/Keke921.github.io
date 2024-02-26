@@ -8,7 +8,7 @@ venue: 'GitHub Journal of Bugs'
 paperurl: 'files/[PRCV23] DeCAB_Debiased Semi-supervised Learning for Imbalanced Open-Set Data.pdf'
 citation: 'Huang, X., Li, M., Lu, Y., & Wang, H. (2023). &quot;DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data.&quot; <i>Chinese Conference on Pattern Recognition and Computer Vision (PRCV)</i>. pp.104-119.'
 ```bibtex
-@inproceedings{huang2023decab,
+inproceedings{huang2023decab,
   title={DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data},
   author={Huang, Xiaolin and Li, Mengke and Lu, Yang and Wang, Hanzi},
   booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
