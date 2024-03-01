@@ -3,7 +3,7 @@ title: "Compact Neural Network via Stacking Hybrid Units"
 collection: publications
 permalink: /publication/2023-10-10-WCLan-BUnit-Net
 excerpt: 'network compression'
-date: 2023-10-10
+date: 2024-01-01
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)'
 paperurl: 'https://keke921.github.io/files/2023-11-26-XLHuang-DeCAB.pdf'
 citation: 'W. Lan, Y.-M. Cheung, J. Jiang, Z. Hu and M. Li, "Compact Neural Network via Stacking Hybrid Units," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 46, no. 1, pp. 103-116, Jan. 2024, doi: 10.1109/TPAMI.2023.3323496.'
