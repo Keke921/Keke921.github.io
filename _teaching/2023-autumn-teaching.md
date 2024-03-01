@@ -13,5 +13,6 @@ An introduction to machine learning.
 Useful link:
 
 [HUNG-YI LEE's course: https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html](https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html)
+
 [Yang Lu's course: https://jasonyanglu.github.io/teaching/](https://jasonyanglu.github.io/teaching/)
 
