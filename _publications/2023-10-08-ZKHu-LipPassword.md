@@ -14,7 +14,7 @@ Lip-password has provided a promising solution for speaker verification (Liu and
 ![image](https://keke921.github.io/files/2023-10-08-ZKHu-LipPassword1.png)
 ![image](https://keke921.github.io/files/2023-10-08-ZKHu-LipPassword2.png)
 
-[paper](https://www.comp.hkbu.edu.hk/~ymc/papers/conference/ICIP23-publication-version.pdf)
+[Download paper here](https://www.comp.hkbu.edu.hk/~ymc/papers/conference/ICIP23-publication-version.pdf)
 
 ```bibtex
 @inproceedings{HuZK23LipPassword,
