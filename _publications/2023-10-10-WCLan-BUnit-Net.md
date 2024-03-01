@@ -1,26 +1,27 @@
 ---
 title: "Compact Neural Network via Stacking Hybrid Units"
 collection: publications
-permalink: /publication/2023-11-26-XLHuang-DeCAB
-excerpt: 'Solving the data that distributed wiht long-tailed distributions and OOD samples'
-date: 2024-02-17
-venue: 'Chinese Conference on Pattern Recognition and Computer Vision (PRCV)'
+permalink: /publication/2023-10-10-WCLan-BUnit-Net
+excerpt: 'network compression'
+date: 2023-10-10
+venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)'
 paperurl: 'https://keke921.github.io/files/2023-11-26-XLHuang-DeCAB.pdf'
-citation: 'Huang, X., Li, M., Lu, Y., & Wang, H. (2023). &quot;DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data.&quot; <i>Chinese Conference on Pattern Recognition and Computer Vision (PRCV)</i>. pp.104-119.'
+citation: 'W. Lan, Y.-M. Cheung, J. Jiang, Z. Hu and M. Li, "Compact Neural Network via Stacking Hybrid Units," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 46, no. 1, pp. 103-116, Jan. 2024, doi: 10.1109/TPAMI.2023.3323496.'
 ---
-Semi-supervised learning (SSL) has received significant attention due to its ability to use limited labeled data and various unlabeled data to train models with high generalization performance. However, the assumption of a balanced class distribution in traditional SSL approaches limits a wide range of real applications, where the training data exhibits long-tailed distributions. As a consequence, the model is biased towards head classes and disregards tail classes, thereby leading to severe class-aware bias. Additionally, since the unlabeled data may contain out-of-distribution (OOD) samples without manual filtering, the model will be inclined to assign OOD samples to non-tail classes with high confidence, which further overwhelms the tail classes. To alleviate this class-aware bias, we propose an end-to-end semi-supervised method Debias Class-Aware Bias (DeCAB). DeCAB introduces positive-pair scores for contrastive learning instead of positive-negative pairs based on unreliable pseudo-labels, avoiding false negative pairs negatively impacts the feature space. At the same time, DeCAB utilizes class-aware thresholds to select more tail samples and selective sample reweighting for feature learning, preventing OOD samples from being misclassified as head classes and accelerating the convergence speed of the model. Experimental results demonstrate that DeCAB is robust in various semi-supervised benchmarks and achieves state-of-the-art performance. Our code is temporarily available at [https://github.com/xlhuang132/decab](https://github.com/xlhuang132/decab).
+As an effective tool for network compression, pruning techniques have been widely used to reduce the large number of parameters in deep neural networks (NNs). Nevertheless, unstructured pruning has the limitation of dealing with the sparse and irregular weights. By contrast, structured pruning can help eliminate this drawback but it requires complex criteria to determine which components to be pruned. Therefore, this paper presents a new method termed BUnit-Net, which directly constructs compact NNs by stacking designed basic units, without requiring additional judgement criteria anymore. Given the basic units of various architectures, they are combined and stacked systematically to build up compact NNs which involve fewer weight parameters due to the independence among the units. In this way, BUnit-Net can achieve the same compression effect as unstructured pruning while the weight tensors can still remain regular and dense. We formulate BUnit-Net in diverse popular backbones in comparison with the state-of-the-art pruning methods on different benchmark datasets. Moreover, two new metrics are proposed to evaluate the trade-off of compression performance. Experiment results show that BUnit-Net can achieve comparable classification accuracy while saving around 80% FLOPs and 73% parameters. That is, stacking basic units provides a new promising way for network compression.
 
-![image](https://keke921.github.io/files/2023-11-26-XLHuang-DeCAB.png)
+![image](https://keke921.github.io/files/2023-10-10-WCLan-BUnit-Net.png)
 
 ```bibtex
-@inproceedings{huang2023decab,
-  title={DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data},
-  author={Huang, Xiaolin and Li, Mengke and Lu, Yang and Wang, Hanzi},
-  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
-  pages={104--119},
-  year={2023},
-  organization={Springer}
-}
+@ARTICLE{10275036,
+  author={Lan, Weichao and Cheung, Yiu-Ming and Jiang, Juyong and Hu, Zhikai and Li, Mengke},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Compact Neural Network via Stacking Hybrid Units}, 
+  year={2024},
+  volume={46},
+  number={1},
+  pages={103-116},
+  doi={10.1109/TPAMI.2023.3323496}}
 ```
 
 <!--
