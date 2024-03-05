@@ -7,7 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 
-## Locations of key files/directories
+## Locations and Email address
 
 * Office address: Floor 10, Kerun Buiding, Guangming district. \& L6-806, Canghai Campus, Shenzhen University.
 * E-mail: limengke@gml.ac.cn
@@ -218,8 +218,9 @@ Getting our science styling on with H<sub>2</sub>O, which should push the "2" do
 ### Superscript Tag
 
 Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
--->
+
 
 ### Variable Tag
 
 This allows you to denote <var>variables</var>.
+-->
