@@ -25,7 +25,7 @@ For postgraduate students, please check [硕士招生简章](http://keke921.gith
 * **Oct 10 2023**: One co-authored TPAMI paper is accepted. Congrats to Weichao!
 * **Aug 24 2023**: One NSFC youth project is granted.
 * **Feb 28 2023**: One co-authored CVPR paper is accepted. 
-* **Dec 12 2022**: Join [the VCC](https://vcc.tech/index.html) at [GML Lab](https://www.gml.ac.cn/).
+* **Dec 12 2022**: Join [VCC](https://vcc.tech/index.html) at [GML Lab](https://www.gml.ac.cn/).
 
 ## Research Interests
 
