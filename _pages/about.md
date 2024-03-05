@@ -16,7 +16,7 @@ My research direction is optimization analysis of deep learning in practical app
 
 For postgraduate students, please check [硕士招生简章](http://keke921.github.io/postgraduate).
 
-<span style="color:red">**There is still a few postgraduate quota in Fall 2024. Please contact me. **</span>
+<span style="color:red">**There is a few postgraduate quota in Fall 2024. Please contact me. **</span>
 
 
 ## Recent News
