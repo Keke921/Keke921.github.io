@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About [中文](https://keke921.github.io//about_cn)"
+title: "About Me [中文](https://keke921.github.io//about_cn)"
 excerpt: "About me"
 author_profile: true
 redirect_from:
