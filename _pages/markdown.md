@@ -1,6 +1,6 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Contact me"
 author_profile: true
 redirect_from: 
   - /md/
@@ -9,19 +9,10 @@ redirect_from:
 
 ## Locations of key files/directories
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+* Office address: Floor 10, Kerun Buiding, Guangming district. \& L6-806, Canghai Campus, Shenzhen University.
+* E-mail: limengke@gml.ac.cn
 
+<!--
 ## Tips and hints
 
 * Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
@@ -227,6 +218,7 @@ Getting our science styling on with H<sub>2</sub>O, which should push the "2" do
 ### Superscript Tag
 
 Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
+-->
 
 ### Variable Tag
 
