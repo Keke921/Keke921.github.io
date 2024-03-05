@@ -21,7 +21,7 @@ For postgraduate students, please check [硕士招生简章](http://keke921.gith
 
 ## Recent News
 * **Dec 9 2023**: One AAAI papers are accepted!
-* **Dec 4 2023**: One GuangDong Basic and Applied Basic Research Foundation general project is granted.
+* **Dec 4 2023**: One Guangdong Basic and Applied Basic Research Foundation general project is granted.
 * **Oct 10 2023**: One co-authored TPAMI paper is accepted. Congrats to Weichao!
 * **Aug 24 2023**: One NSFC youth project is granted.
 * **Feb 28 2023**: One co-authored CVPR paper is accepted. 
