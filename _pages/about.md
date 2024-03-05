@@ -1,5 +1,55 @@
 ---
 permalink: /
+title: "About [中文](https://keke921.github.io//about_cn)"
+excerpt: "About me"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+I'm now an Associate Research in [Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)](https://www.gml.ac.cn//), work with the [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
+I received my PhD degree on computer science from Hong Kong Baptist University in 2022 supervised by [Prof. Yiu-ming Cheung](http://www.comp.hkbu.edu.hk/~ymc/),
+received my master degree on signal and information processing from Xidian University in 2018, supervised by Prof. LI Ming,
+and received my bachelor degree on communication engineering from [Hanhong College](http://hanhong.swu.edu.cn/index.htm) (The Department for Innovative Talents Training), Southwest University in 2015.
+My research direction is optimization analysis of deep learning in practical application, including long-tail learning, continual learning, semi-supervised learning and multimodal Learing.
+
+For postgraduate students, please check [硕士招生简章](http://jasonyanglu.github.io/postgraduate).
+
+<span style="color:red">**There is still a few postgraduate quota in Fall 2024. Please contact me. **</span>
+
+
+## Recent News
+* **Dec 9 2023**: One AAAI papers are accepted!
+* **Dec 4 2023**: One GuangDong BABRF general project is granted.
+* **Oct 10 2023**: One co-authored TPAMI paper is accepted. Congrats to Weichao!
+* **Aug 24 2023**: One NSFC youth project is granted.
+* **Feb 28 2023**: One co-authored CVPR paper is accepted. 
+* **Dec 12 2022**: Join [the VCC](https://vcc.tech/index.html) at [GML Lab](https://www.gml.ac.cn/).
+
+## Research Interests
+
+* Deep Learing
+* Long-tail Learing
+* Continual Learing
+* Semi-Supervised Learning
+* Multimodal Learing
+* Imbalance Learing
+* 3D point cloud Analysis
+
+
+## Supervised Students
+
+* Da Li (2023-): 3D point cloud analysis
+* Ye Liu (2023-): Long-tail learning
+
+
+
+
+
+<!--
+---
+permalink: /
 title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
@@ -47,3 +97,4 @@ Example: editing a markdown file for a talk
 For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+-->
