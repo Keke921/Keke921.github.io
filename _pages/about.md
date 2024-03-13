@@ -14,7 +14,7 @@ received my master degree on signal and information processing from Xidian Unive
 and received my bachelor degree on communication engineering from [Hanhong College](http://hanhong.swu.edu.cn/index.htm) (The Department for Innovative Talents Training), Southwest University in 2015.
 My research direction is optimization analysis of deep learning in practical application, including long-tail learning, continual learning, semi-supervised learning and multimodal Learing.
 
-For postgraduate students, please check [硕士招生简章](http://keke921.github.io/Msc).
+For postgraduate students, please check [硕士招生简章](https://keke921.github.io//postgraduate/).
 
 <span style="color:red">**There is a few postgraduate quota in Fall 2024. Please contact me. **</span>
 
