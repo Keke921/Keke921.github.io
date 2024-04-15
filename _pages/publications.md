@@ -16,7 +16,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 ## Conference
 
 - [<span style="color:blue">**ICASSP'24**</span>] Key Points Centered Sparse Hashing for Cross-Modal Retrieval,
-  Z.K. Hu, Y.M. Cheung\*, **M.K. Li**, W.C. Lan, D.L. Zhang, _IEEE International Conference on Acoustics, Speech and Signal Processing_, Seoul, Korea, April 14-19, 2024.
+  Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, DongLin Zhang, _IEEE International Conference on Acoustics, Speech and Signal Processing_, Seoul, Korea, April 14-19, 2024.
 - [<span style="color:blue">**AAAI'24**</span>] Feature Fusion from Head to Tail for Long-Tailed Visual Recognition,  
   **Mengke Li**, Zhikai Hu, Yang Lu, Weichao Lan, Yiu-ming Cheung, and Hui Huang\*,  
   _AAAI Conference on Artificial Intelligence_, vol. 38, no. 12, pp.13581-13589, Vancouver, Canada, February 20–27, 2024. (CCF-A) \[[arxiv](https://arxiv.org/abs/2306.06963)\] \[[code](https://github.com/Keke921/H2T)\]
