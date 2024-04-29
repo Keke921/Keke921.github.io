@@ -20,6 +20,7 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 
 
 ## Recent News
+* **April 29 2024**: One co-authored TPAMI paper is accepted! Congrats to Zhikai!
 * **Dec 9 2023**: One AAAI paper is accepted!
 * **Dec 4 2023**: One Guangdong Basic and Applied Basic Research Foundation general project is granted.
 * **Oct 10 2023**: One co-authored TPAMI paper is accepted. Congrats to Weichao!
