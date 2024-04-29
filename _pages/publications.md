@@ -46,7 +46,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   
 ## Journal
 - [<span style="color:blue">**TPAMI'24**</span>] Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective,  
-Zhikai Hu, Yiu-ming Cheung, **Mengke Li**, Weichao Lan, 
+Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, 
 _IEEE Transactions on Pattern Analysis and Machine Intelligence_, in print, 2024. (JCR 1区 / CCF-A)
 - [<span style="color:blue">**TPAMI'24**</span>] Compact Neural Network via Stacking Hybrid Units,  
 Weichao Lan, Yiu-Ming Cheung\*, Juyong Jiang, Zhikai Hu, and **Mengke Li**, 
