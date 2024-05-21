@@ -10,7 +10,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 \* indicates corresponding author.
 
 ## Preprints
-Transitive Vision-Language Prompt Learning for Domain Generalization,
+- Transitive Vision-Language Prompt Learning for Domain Generalization,
 Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang, \[[arxiv](https://arxiv.org/abs/2404.18758)\].
 
 ## Conference
