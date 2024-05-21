@@ -10,8 +10,8 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 \* indicates corresponding author.
 
 ## Preprints
-- Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition  
-**Mengke Li**, Yiu-ming Cheung, Yang Lu, Zhikai Hu, Weichao Lan, Hui Huang. \[[arXiv](https://arxiv.org/abs/2305.10648)\]
+Transitive Vision-Language Prompt Learning for Domain Generalization,
+Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang, \[[arxiv](https://arxiv.org/abs/2404.18758)\].
 
 ## Conference
 
@@ -45,6 +45,9 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   
   
 ## Journal
+- [<span style="color:blue">**TAI'24**</span>] Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition,
+**Mengke Li**, Yiu-ming Cheung\*, Yang Lu, Zhikai Hu, Weichao Lan, Hui Huang,
+_IEEE Transactions on Artificial Intelligence_, in press, 2024. \[[paper](https://ieeexplore.ieee.org/abstract/document/10531112) [arXiv](https://arxiv.org/abs/2305.10648)\]
 - [<span style="color:blue">**TPAMI'24**</span>] Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective,  
 Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, 
 _IEEE Transactions on Pattern Analysis and Machine Intelligence_, in press, 2024. (JCR 1区 / CCF-A)
