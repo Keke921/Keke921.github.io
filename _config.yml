@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "LiMengke_Panda.jpg"
   name             : "Mengke Li (李梦柯)"
-  pronouns         : "she/her"  
+  pronouns         : "email: limengke@gml.ac.cn"  
   #bio              : "a happy CVer"
   location         : "Shenzhen, China"
   employer         : "Guangming Lab, SZU"
   uri              : # URL
-  email "limengke@gml.ac.cn"   : "limengke@gml.ac.cn" 
+  email            : "limengke@gml.ac.cn" 
   icon             : 🐼 # the emoji used as the favicon
 
   # Academic websites
