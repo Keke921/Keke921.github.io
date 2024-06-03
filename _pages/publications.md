@@ -14,7 +14,9 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang, \[[arxiv](https://arxiv.org/abs/2404.18758)\].
 
 ## Conference
-
+- [<span style="color:blue">**IJCAI’24**</span>] Dynamically Anchored Prompting for Task-Imbalanced Continual Learning  
+  Chenxing Hong, Yan Jin, Zhiqi Kang, Yizhou Chen, **Mengke Li**, Yang Lu* and Hanzi Wang  
+  _International Joint Conference on Artificial Intelligence_, Jeju, Korea, August 3-9, 2024. (CCF-A) \[[arxiv](https://arxiv.org/abs/2404.14721)\] \[[code]( https://github.com/chenxing6666/DAP)\]
 - [<span style="color:blue">**ICASSP'24**</span>] Key Points Centered Sparse Hashing for Cross-Modal Retrieval,
   Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, DongLin Zhang, _IEEE International Conference on Acoustics, Speech and Signal Processing_, Seoul, Korea, April 14-19, 2024. (CCF-B)
 - [<span style="color:blue">**AAAI'24**</span>] Feature Fusion from Head to Tail for Long-Tailed Visual Recognition,  
