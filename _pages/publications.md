@@ -15,12 +15,12 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 
 ## Conference
 - [<span style="color:blue">**ECAI’24**</span>] Dynamically Anchored Prompting for Task-Imbalanced Continual Learning  
-  **Mengke Li**, Da Li, Guoqing Yang, Yiu-ming Cheung and Hui Huang*
+  **Mengke Li**, Da Li, Guoqing Yang, Yiu-ming Cheung, Hui Huang*
   _European Conference on Artificial Intelligence_, Santiago de Compostela, Spanish, October 19-24, 2024. (CCF-B) \[[arxiv](https://arxiv.org/abs/2407.13200)\] \[[project](https://vcc.tech/research/2024/PointFormer)\]
 
 - [<span style="color:blue">**ECAI’24**</span>] Learning Order Forest for Qualitative-Attribute Data Clustering  
   Mingjie Zhao, Sen Feng, Yiqun Zhang*, **Mengke Li**, Yang Lu, Yiu-Ming Cheung  
-  _European Conference on Artificial Intelligence_, Santiago de Compostela, October 19-24, 2024. (CCF-B)
+  _European Conference on Artificial Intelligence_, Santiago de Compostela, Spanish, October 19-24, 2024. (CCF-B)
   
 - [<span style="color:blue">**IJCAI’24**</span>] Dynamically Anchored Prompting for Task-Imbalanced Continual Learning  
   Chenxing Hong, Yan Jin, Zhiqi Kang, Yizhou Chen, **Mengke Li**, Yang Lu* and Hanzi Wang  
