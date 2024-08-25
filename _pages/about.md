@@ -20,9 +20,10 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 
 
 ## Recent News
+* **Aug 17 2024**: Win the best paper award on DOCS 2024! Congrats to all of our colleagues!
 * **May 15 2024**: One TAI paper about long-tailed learning is accepted!
 * **April 29 2024**: One co-authored TPAMI paper is accepted! Congrats to Zhikai!
-* **April 17 2024**: One co-authored paper about long-tailed continual learning is accepted by IJCAI . Congrats to Chenxing and Dr. Lu!
+* **April 17 2024**: One co-authored paper about long-tailed continual learning is accepted by IJCAI . Congrats to Chenxing and Prof. Lu!
 * **Dec 9 2023**: One AAAI paper is accepted!
 * **Dec 4 2023**: One Guangdong Basic and Applied Basic Research Foundation general project is granted.
 * **Oct 10 2023**: One co-authored TPAMI paper is accepted. Congrats to Weichao!
