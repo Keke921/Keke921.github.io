@@ -20,6 +20,7 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 
 
 ## Recent News
+* **Dec 10 2024**: One AAAI paper is accepted! Congrats to Yunfan and Prof. Zhang!
 * **Sep 26 2024**: One NeurIPS paper is accepted! Congrats to Ye!
 * **Aug 17 2024**: Win the best paper award on DOCS 2024! Congrats to all of our colleagues!
 * **May 15 2024**: One TAI paper about long-tailed learning is accepted!
