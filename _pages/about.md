@@ -53,7 +53,6 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 
 ## Supervised Students
 
-* Da Li (2023-): 3D point cloud analysis
 * Ye Liu (2023-): Long-tail learning
 * Haiquan Ling (2024-): Long-tail noisy label learning
 * Lihao Chen (2024-): 3D point cloud analysis
