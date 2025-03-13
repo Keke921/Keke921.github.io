@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm now an Associate Research in [Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)](https://www.gml.ac.cn//), work with the [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
+I'm now an Associate Research in [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
 I received my PhD degree on computer science from Hong Kong Baptist University in 2022 supervised by [Prof. Yiu-ming Cheung](http://www.comp.hkbu.edu.hk/~ymc/),
 received my master degree on signal and information processing from Xidian University in 2018, supervised by Prof. LI Ming,
 and received my bachelor degree on communication engineering from [Hanhong College](http://hanhong.swu.edu.cn/index.htm) (The Department for Innovative Talents Training), Southwest University in 2015.
