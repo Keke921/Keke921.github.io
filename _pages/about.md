@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm now an Associate Research in [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
-I received my PhD degree on computer science from Hong Kong Baptist University in 2022 supervised by [Prof. Yiu-ming Cheung](http://www.comp.hkbu.edu.hk/~ymc/),
-received my master degree on signal and information processing from Xidian University in 2018, supervised by Prof. LI Ming,
-and received my bachelor degree on communication engineering from [Hanhong College](http://hanhong.swu.edu.cn/index.htm) (The Department for Innovative Talents Training), Southwest University in 2015.
-My research direction is optimization analysis of deep learning in practical application, including long-tail learning, continual learning, semi-supervised learning and multimodal Learing.
+I'm now an Associate researcher in [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
+I received my PhD degree in computer science from Hong Kong Baptist University in 2022 supervised by [Prof. Yiu-ming Cheung](http://www.comp.hkbu.edu.hk/~ymc/),
+received my master degree in signal and information processing from Xidian University in 2018, supervised by Prof. LI Ming,
+and received my bachelor degree in communication engineering from [Hanhong College](http://hanhong.swu.edu.cn/index.htm) (The Department for Innovative Talents Training), Southwest University in 2015.
+My research direction is optimization analysis of deep learning in practical application, including long-tail learning, continual learning, noisy lable learning, and multimodal Learning.
 
 For postgraduate students, please check [硕士招生简章](https://keke921.github.io//postgraduate/).
 
-<span style="color:red">**There is a few postgraduate quotas in Fall 2025. If you are interested in Long tail learning and want to have fun with research, plearse contact me. **</span>
+<span style="color:red">**There are a few postgraduate quotas in Fall 2025. If you are interested in Long tail learning and want to have fun with research, please contact me. **</span>
 
 
 ## Recent News
@@ -54,10 +54,6 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 * Ye Liu (2023-): Long-tail learning
 * Haiquan Ling (2024-): Long-tail noisy label learning
 * Lihao Chen (2024-): 3D point cloud analysis
-
-
-
-
 
 <!--
 ---
