@@ -14,8 +14,8 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang, \[[arxiv](https://arxiv.org/abs/2404.18758)\].
 
 ## Conference
-- [<span style="color:blue">**AAAI’25**</span>] Asynchronous Federated Clustering with Unknown Number of Clusters 
-  Yunfan Zhang, Yiqun Zhang*,  Yang Lu, **Mengke Li**, Xi Chen, Yiu-ming Cheung
+- [<span style="color:blue">**AAAI’25**</span>] Asynchronous Federated Clustering with Unknown Number of Clusters,\
+  Yunfan Zhang, Yiqun Zhang*,  Yang Lu, **Mengke Li**, Xi Chen, Yiu-ming Cheung\
   _Association for the Advancement of Artificial Intelligence_, Philadelphia, Pennsylvania, USA, February 25 – March 4, 2024. (CCF-A) \[[arxiv](https://arxiv.org/pdf/2412.20341)\] \[[code](https://github.com/Yunfan-Zhang/AFCL)\]
 
 - [<span style="color:blue">**NeurIPS’24**</span>] Improving Visual Prompt Tuning by Gaussian Neighborhood Minimization for Long-Tailed Visual Recognition  
@@ -84,7 +84,7 @@ _IEEE Transactions on Pattern Analysis and Machine Intelligence_, in press, 2024
 Weichao Lan, Yiu-Ming Cheung\*, Juyong Jiang, Zhikai Hu, and **Mengke Li**, \
 _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 46, no. 1, pp.103-116, 2024. (JCR 1区 / CCF-A)
 
-- [<span style="color:blue">**TCSVT'24**</span>] Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval,  \
+- [<span style="color:blue">**TCSVT'24**</span>] Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval, \
 Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, Donglin Zhang, Qiang Liu, \
 _IEEE Transactions on Circuits and Systems for Video Technology_, vol. 34, no. 4, pp.2989-3002, 2024. (JCR 1区 / CCF-B) 
 
@@ -100,6 +100,6 @@ _IEEE Transactions on Emerging Topics in Computational Intelligence_, vol. 7, no
   Meng Pang, Yiu-ming Cheung\*, Qiquan Shi, and **Mengke Li**, \
   _IEEE transactions on neural networks and learning systems_, vol. 32, no. 4, pp.1560-1574, 2021. (JCR 1区 / CCF-B)
 
-- [<span style="color:blue">**GRSL'19**</span>] TSAR image change detection using PCANet guided by saliency detection, \ 
-  **Mengke Li**, Ming Li\*, Peng Zhang, Yan Wu, Wanying Song, and Lin An,  \ 
+- [<span style="color:blue">**GRSL'19**</span>] TSAR image change detection using PCANet guided by saliency detection,\ 
+  **Mengke Li**, Ming Li\*, Peng Zhang, Yan Wu, Wanying Song, and Lin An,\ 
   _IEEE Geoscience and Remote Sensing Letters_, vol. 16, no. 3, pp.402-406, 2019. (JCR 2区 / CCF-C)
