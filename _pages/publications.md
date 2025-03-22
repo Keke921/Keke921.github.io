@@ -7,13 +7,21 @@ author_profile: true
 
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN)
 
-\* indicates corresponding author.
+\* indicates the corresponding author.
 
 ## Preprints
 - Transitive Vision-Language Prompt Learning for Domain Generalization,
 Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang, \[[arxiv](https://arxiv.org/abs/2404.18758)\].
 
 ## Conference
+- [<span style="color:blue">**AAAI’25**</span>] Asynchronous Federated Clustering with Unknown Number of Clusters 
+  Yunfan Zhang, Yiqun Zhang*,  Yang Lu, **Mengke Li**, Xi Chen, Yiu-ming Cheung
+  _Association for the Advancement of Artificial Intelligence_, Philadelphia, Pennsylvania, USA, February 25 – March 4, 2024. (CCF-A) \[[arxiv](https://arxiv.org/pdf/2412.20341)\] \[[code](https://github.com/Yunfan-Zhang/AFCL)\]
+
+- [<span style="color:blue">**NeurIPS’24**</span>] Improving Visual Prompt Tuning by Gaussian Neighborhood Minimization for Long-Tailed Visual Recognition  
+  **Mengke Li**, Ye Liu,  Yang Lu, Yiqun Zhang, Yiu-ming Cheung, Hui Huang*
+  _Advances in Neural Information Processing Systems_, Vancouver, Canada, December 10-15, 2024. (CCF-A) \[[arxiv](https://arxiv.org/pdf/2410.21042)\] \[[project](https://vcc.tech/research/2024/GNM-PT)\]
+
 - [<span style="color:blue">**ECAI’24**</span>] Dynamically Anchored Prompting for Task-Imbalanced Continual Learning  
   **Mengke Li**, Da Li, Guoqing Yang, Yiu-ming Cheung, Hui Huang*
   _European Conference on Artificial Intelligence_, Santiago de Compostela, Spanish, October 19-24, 2024. (CCF-B) \[[arxiv](https://arxiv.org/abs/2407.13200)\] \[[project](https://vcc.tech/research/2024/PointFormer)\]
