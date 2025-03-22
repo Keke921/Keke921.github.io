@@ -92,7 +92,8 @@ _IEEE Transactions on Circuits and Systems for Video Technology_, vol. 34, no. 4
 **Mengke Li**, Yiu-Ming Cheung\*, and Zhikai Hu,
 _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 45, no. 4, pp.4812-4825, 2023. (JCR 1区 / CCF-A)
 
-- [<span style="color:blue">**TETCI'23**</span>] Identity-Preserved Complete Face Recovering Network for Partial Face Image, 
+- [<span style="color:blue">**TETCI'23**</span>] Identity-Preserved Complete Face Recovering Network for Partial Face Image,
+  
 **Mengke Li**, and Yiu-Ming Cheung\*,
 _IEEE Transactions on Emerging Topics in Computational Intelligence_, vol. 7, no. 2, pp.604-609, 2023. (JCR 1区)
 
