@@ -73,33 +73,33 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
   
 ## Journal
 - [<span style="color:blue">**TAI'24**</span>] Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition, \
-**Mengke Li**, Yiu-ming Cheung\*, Yang Lu, Zhikai Hu, Weichao Lan, Hui Huang, \
-_IEEE Transactions on Artificial Intelligence_, in press, 2024. \[[paper](https://ieeexplore.ieee.org/abstract/document/10531112) [arXiv](https://arxiv.org/abs/2305.10648)\]
+  **Mengke Li**, Yiu-ming Cheung\*, Yang Lu, Zhikai Hu, Weichao Lan, Hui Huang, \
+  _IEEE Transactions on Artificial Intelligence_, in press, 2024. \[[paper](https://ieeexplore.ieee.org/abstract/document/10531112) [arXiv](https://arxiv.org/abs/2305.10648)\]
 
-- [<span style="color:blue">**TPAMI'24**</span>] Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective, \ 
-Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, \
-_IEEE Transactions on Pattern Analysis and Machine Intelligence_, in press, 2024. (JCR 1区 / CCF-A)
+- [<span style="color:blue">**TPAMI'24**</span>] Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective, \
+  Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, \
+  _IEEE Transactions on Pattern Analysis and Machine Intelligence_, in press, 2024. (JCR 1区 / CCF-A)
 
 - [<span style="color:blue">**TPAMI'24**</span>] Compact Neural Network via Stacking Hybrid Units,  \
-Weichao Lan, Yiu-Ming Cheung\*, Juyong Jiang, Zhikai Hu, and **Mengke Li**, \
-_IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 46, no. 1, pp.103-116, 2024. (JCR 1区 / CCF-A)
+  Weichao Lan, Yiu-Ming Cheung\*, Juyong Jiang, Zhikai Hu, and **Mengke Li**, \
+  _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 46, no. 1, pp.103-116, 2024. (JCR 1区 / CCF-A)
 
 - [<span style="color:blue">**TCSVT'24**</span>] Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval, \
-Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, Donglin Zhang, Qiang Liu, \
-_IEEE Transactions on Circuits and Systems for Video Technology_, vol. 34, no. 4, pp.2989-3002, 2024. (JCR 1区 / CCF-B) 
+  Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, Donglin Zhang, Qiang Liu, \
+  _IEEE Transactions on Circuits and Systems for Video Technology_, vol. 34, no. 4, pp.2989-3002, 2024. (JCR 1区 / CCF-B) 
 
-- [<span style="color:blue">**TPAMI'23**</span>] Key point sensitive loss for long-tailed visual recognition, \ 
-**Mengke Li**, Yiu-Ming Cheung\*, and Zhikai Hu, \
-_IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 45, no. 4, pp.4812-4825, 2023. (JCR 1区 / CCF-A)
+- [<span style="color:blue">**TPAMI'23**</span>] Key point sensitive loss for long-tailed visual recognition,\
+  **Mengke Li**, Yiu-Ming Cheung\*, and Zhikai Hu, \
+  _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 45, no. 4, pp.4812-4825, 2023. (JCR 1区 / CCF-A)
 
 - [<span style="color:blue">**TETCI'23**</span>] Identity-Preserved Complete Face Recovering Network for Partial Face Image, \
-**Mengke Li**, and Yiu-Ming Cheung\*, \
-_IEEE Transactions on Emerging Topics in Computational Intelligence_, vol. 7, no. 2, pp.604-609, 2023. (JCR 1区)
+  **Mengke Li**, and Yiu-Ming Cheung\*, \
+  _IEEE Transactions on Emerging Topics in Computational Intelligence_, vol. 7, no. 2, pp.604-609, 2023. (JCR 1区)
 
 - [<span style="color:blue">**TNNLS'21**</span>] Iterative dynamic generic learning for single sample face recognition with a contaminated gallery,  
   Meng Pang, Yiu-ming Cheung\*, Qiquan Shi, and **Mengke Li**, \
   _IEEE transactions on neural networks and learning systems_, vol. 32, no. 4, pp.1560-1574, 2021. (JCR 1区 / CCF-B)
 
 - [<span style="color:blue">**GRSL'19**</span>] TSAR image change detection using PCANet guided by saliency detection,\ 
-  **Mengke Li**, Ming Li\*, Peng Zhang, Yan Wu, Wanying Song, and Lin An,\ 
+  **Mengke Li**, Ming Li\*, Peng Zhang, Yan Wu, Wanying Song, and Lin An,\
   _IEEE Geoscience and Remote Sensing Letters_, vol. 16, no. 3, pp.402-406, 2019. (JCR 2区 / CCF-C)
