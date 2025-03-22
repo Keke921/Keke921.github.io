@@ -47,7 +47,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 
 - [<span style="color:blue">**PRCV'23**</span>] DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data,  
   Xiaolin Huang, **Mengke Li**, Yang Lu\*, and Hanzi Wang,  
-  _Chinese Conference on Pattern Recognition and Computer Vision_, Xiamen, Fujian, China, 2023. (CCF-C) \[[paper](https://keke921.github.io/files/2023-11-26-XLHuang-DeCAB.pdf)\]\[[code](ttps://github.com/xlhuang132/decab)\]
+  _Chinese Conference on Pattern Recognition and Computer Vision_, Xiamen, Fujian, China, 2023. (CCF-C) \[[paper](https://keke921.github.io/files/2023-11-26-XLHuang-DeCAB.pdf)\]\[[code](https://github.com/xlhuang132/decab)\]
 
 - [<span style="color:blue">**ICIP'23**</span>] Few-Shot Lip-Password Based Speaker Verification,  
   Zhikai Hu, Yiu-Ming Cheung\*, **Mengke Li**, and Weichao Lan,
