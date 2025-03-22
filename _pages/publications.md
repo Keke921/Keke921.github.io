@@ -100,6 +100,6 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
   Meng Pang, Yiu-ming Cheung\*, Qiquan Shi, and **Mengke Li**, \
   _IEEE transactions on neural networks and learning systems_, vol. 32, no. 4, pp.1560-1574, 2021. (中科院1区 Top, CCF-B)
 
-- [<span style="color:blue">**GRSL'19**</span>] TSAR image change detection using PCANet guided by saliency detection,\ 
+- [<span style="color:blue">**GRSL'19**</span>] TSAR image change detection using PCANet guided by saliency detection,\
   **Mengke Li**, Ming Li\*, Peng Zhang, Yan Wu, Wanying Song, and Lin An,\
   _IEEE Geoscience and Remote Sensing Letters_, vol. 16, no. 3, pp.402-406, 2019. (中科院2区, CCF-C)
