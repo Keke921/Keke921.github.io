@@ -21,7 +21,7 @@ repository               : "Keke921/Keke921.github.io"
 #icon                     : 🐼  #the emoji used as the favicon
 
 # Site Settings
-teaser                   : #"Pandas2.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "Pandas2.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true #false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -67,7 +67,7 @@ author:
   employer         : "SZU"
   uri              : # URL
   email            : "mengkejiajia@hotmail.com" 
-  icon             : 🐼 # the emoji used as the favicon
+  #icon             : 🐼 # the emoji used as the favicon
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
