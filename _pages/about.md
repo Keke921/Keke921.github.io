@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mengke Li [李梦柯的学术主页](https://keke921.github.io//about_cn)"
+title: "Mengke Li | [李梦柯的学术主页](https://keke921.github.io//about_cn)"
 excerpt: "About me"
 author_profile: true
 redirect_from:
