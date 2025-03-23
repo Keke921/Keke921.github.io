@@ -56,7 +56,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 
 - [<span style="color:blue">**CVPR'22**</span>] Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment,  
   **Mengke Li** , Yiu-ming Cheung\*, and Yang Lu,  \
-  _IEEE/CVF Conference on Computer Vision and Pattern Recognition_, pp.6929-6938 , New Orleans, Louisiana, June 21–24, 2022. (CCF-A) \[[arXiv](https://arxiv.org/abs/2305.11733)\] \[[code](https://github.com/Keke921/GCLLoss)\]
+  _IEEE/CVF Conference on Computer Vision and Pattern Recognition_, pp.6929-6938, New Orleans, USA, June 21–24, 2022. (CCF-A) \[[arXiv](https://arxiv.org/abs/2305.11733)\] \[[code](https://github.com/Keke921/GCLLoss)\]
 
 - [<span style="color:blue">**ICME'22**</span>] Feature-Balanced Loss for Long-Tailed Visual Recognition,  
   **Mengke Li** , Yiu-ming Cheung\*, and Juyong Jiang,  \
@@ -75,7 +75,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 ## Journal
 - [<span style="color:blue">**TAI'24**</span>] Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition, \
   **Mengke Li**, Yiu-ming Cheung\*, Yang Lu, Zhikai Hu, Weichao Lan, Hui Huang, \
-  _IEEE Transactions on Artificial Intelligence_, in press, 2024. \[[paper](https://ieeexplore.ieee.org/abstract/document/10531112) [arXiv](https://arxiv.org/abs/2305.10648)\]
+  _IEEE Transactions on Artificial Intelligence_, in press, 2024. \[[paper](https://ieeexplore.ieee.org/abstract/document/10531112)\] \[[arXiv](https://arxiv.org/abs/2305.10648)\] \[[code](https://github.com/Keke921/GCLLoss)\]
 
 - [<span style="color:blue">**TPAMI'24**</span>] Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective, \
   Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, \
@@ -91,7 +91,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 
 - [<span style="color:blue">**TPAMI'23**</span>] Key point sensitive loss for long-tailed visual recognition,\
   **Mengke Li**, Yiu-Ming Cheung\*, and Zhikai Hu, \
-  _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 45, no. 4, pp.4812-4825, 2023. (JCR 1区, CCF-A)
+  _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 45, no. 4, pp.4812-4825, 2023. (JCR 1区, CCF-A) \[[paper](https://drive.google.com/file/d/1gOJDHBJ_M7RmU6Iw2p6uXIyo8pNgVMrv/view?pli=1)\] \[[code](https://github.com/Keke921/KPSLoss)\]
 
 - [<span style="color:blue">**TETCI'23**</span>] Identity-Preserved Complete Face Recovering Network for Partial Face Image, \
   **Mengke Li**, and Yiu-Ming Cheung\*, \
