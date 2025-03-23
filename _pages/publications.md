@@ -75,7 +75,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 ## Journal
 - [<span style="color:blue">**TAI'24**</span>] Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition, \
   **Mengke Li**, Yiu-ming Cheung\*, Yang Lu, Zhikai Hu, Weichao Lan, Hui Huang, \
-  _IEEE Transactions on Artificial Intelligence_, in press, 2024. \[[paper](https://ieeexplore.ieee.org/abstract/document/10531112)\] \[[arXiv](https://arxiv.org/abs/2305.10648)\] \[[code](https://github.com/Keke921/GCLLoss)\]
+  _IEEE Transactions on Artificial Intelligence_, vol. 5, no. 10, pp. 5026-5039, 2024. \[[paper](https://ieeexplore.ieee.org/abstract/document/10531112)\] \[[arXiv](https://arxiv.org/abs/2305.10648)\] \[[code](https://github.com/Keke921/GCLLoss)\]
 
 - [<span style="color:blue">**TPAMI'24**</span>] Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective, \
   Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, \
