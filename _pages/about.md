@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: "Mengke Li \| [李梦柯](https://keke921.github.io//about_cn) 的学术主页"
+title: "Mengke Li(李梦柯)的学术主页"
 excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+
+[李梦柯中文简介](https://keke921.github.io//about_cn) 
 
 I'm now an Associate researcher in [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
 I received my PhD degree in computer science from Hong Kong Baptist University in 2022 supervised by [Prof. Yiu-ming Cheung](http://www.comp.hkbu.edu.hk/~ymc/),
