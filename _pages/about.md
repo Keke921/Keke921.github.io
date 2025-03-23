@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mengke Li(李梦柯)的学术主页"
+title: "李梦柯(Mengke Li)的学术主页"
 excerpt: "About me"
 author_profile: true
 redirect_from:
