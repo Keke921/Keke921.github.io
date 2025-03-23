@@ -34,7 +34,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
   Chenxing Hong, Yan Jin, Zhiqi Kang, Yizhou Chen, **Mengke Li**, Yang Lu* and Hanzi Wang  \
   _International Joint Conference on Artificial Intelligence_, Jeju, Korea, August 3-9, 2024. (CCF-A) \[[arxiv](https://arxiv.org/abs/2404.14721)\] \[[code]( https://github.com/chenxing6666/DAP)\]
 
-- [<span style="color:blue">**ICASSP'24**</span>] Key Points Centered Sparse Hashing for Cross-Modal Retrieval,
+- [<span style="color:blue">**ICASSP'24**</span>] Key Points Centered Sparse Hashing for Cross-Modal Retrieval,  \
   Zhikai Hu, Yiu-ming Cheung\*, **Mengke Li**, Weichao Lan, DongLin Zhang,  \
   _IEEE International Conference on Acoustics, Speech and Signal Processing_, Seoul, Korea, April 14-19, 2024. (CCF-B)
 
@@ -56,7 +56,8 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 
 - [<span style="color:blue">**CVPR'22**</span>] Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment,  
   **Mengke Li** , Yiu-ming Cheung\*, and Yang Lu,  \
-  _IEEE/CVF Conference on Computer Vision and Pattern Recognition_, pp.6929-6938, New Orleans, USA, June 21–24, 2022. (CCF-A) \[[arXiv](https://arxiv.org/abs/2305.11733)\] \[[code](https://github.com/Keke921/GCLLoss)\]
+  _IEEE/CVF Conference on Computer Vision and Pattern Recognition_, pp.6929-6938, New Orleans, USA, June 21–24, 2022. (CCF-A)   \
+  \[[arXiv](https://arxiv.org/abs/2305.11733)\] \[[code](https://github.com/Keke921/GCLLoss)\]
 
 - [<span style="color:blue">**ICME'22**</span>] Feature-Balanced Loss for Long-Tailed Visual Recognition,  
   **Mengke Li** , Yiu-ming Cheung\*, and Juyong Jiang,  \
