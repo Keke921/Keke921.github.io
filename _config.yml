@@ -18,7 +18,7 @@ repository               : "Keke921/Keke921.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
-icon                     : 🐼  #the emoji used as the favicon
+icon                     :  ♥ #🐼  #the emoji used as the favicon
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -69,14 +69,13 @@ author:
   # Biographic information
   avatar           : "LiMengke_Panda.jpg"
   name             : "Mengke Li (李梦柯)"
-  pronouns: "Email: mengkejiajia@hotmail.com"  
+  pronouns         : #"Email: mengkejiajia@hotmail.com"  
   bio              : "Associate Researcher"
   location         : "Shenzhen, China"
   employer         : "SZU"
   uri              : # URL
   email            : "mengkejiajia@hotmail.com" 
-  #icon             : 🐼 # the emoji used as the favicon
-
+  
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN" 
