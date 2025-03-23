@@ -41,14 +41,12 @@ For the English version, please click [here](https://keke921.github.io/).
 
 ## 研究兴趣
 
-* 深度学习
 * 长尾学习
 * 持续学习
-* 半监督学习
 * 多模态学习
 * 不平衡学习
 * 3D点云分析
-
+* AIGC
 
 
 ## 指导学生
