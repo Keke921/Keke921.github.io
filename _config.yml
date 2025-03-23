@@ -20,13 +20,6 @@ repository               : "Keke921/Keke921.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 #icon                     :  ♥ #🐼  #the emoji used as the favicon
 
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-rss_icon: true
-
 
 # Site Settings
 teaser                   : "Pandas2.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
