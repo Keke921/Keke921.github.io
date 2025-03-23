@@ -1,9 +1,11 @@
 ---
 permalink: /about_cn/
-title: "关于 我 [English](https://keke921.github.io/)"
+title: "李梦柯的中文简介"
 excerpt: "关于"
 author_profile: true
 ---
+
+For the English version, please click [here](https://keke921.github.io/).
 
 我所在团队为[城市三维创新团队](https://vcc.tech/index.html)，团队带头人为[黄惠教授](https://vcc.tech/~huihuang/home)。我于2022年获得香港浸会大学计算机科学专业博士学位，导师是[张晓明教授](http://www.comp.hkbu.edu.hk/~ymc/)，于2018年获得西安电子科技大学信号与信息处理硕士学位，导师是李明教授，于2015年获得西南大学通信工程专业学士学位，毕业于[含弘学院](http://hanhong.swu.edu.cn/index.htm)(西南大学创新实验班)。 主要研究方向是深度学习的优化分析和实际应用，包括长尾学习、持续学习、多模态学习等。
 
