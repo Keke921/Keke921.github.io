@@ -31,7 +31,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
   _European Conference on Artificial Intelligence_, Santiago de Compostela, Spanish, October 19-24, 2024. (CCF-B)
   
 - [<span style="color:blue">**IJCAI’24**</span>] Dynamically Anchored Prompting for Task-Imbalanced Continual Learning  
-  Chenxing Hong, Yan Jin, Zhiqi Kang, Yizhou Chen, **Mengke Li**, Yang Lu* and Hanzi Wang  \  
+  Chenxing Hong, Yan Jin, Zhiqi Kang, Yizhou Chen, **Mengke Li**, Yang Lu* and Hanzi Wang  \
   _International Joint Conference on Artificial Intelligence_, Jeju, Korea, August 3-9, 2024. (CCF-A) \[[arxiv](https://arxiv.org/abs/2404.14721)\] \[[code]( https://github.com/chenxing6666/DAP)\]
 
 - [<span style="color:blue">**ICASSP'24**</span>] Key Points Centered Sparse Hashing for Cross-Modal Retrieval,
@@ -47,7 +47,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
   _IEEE/CVF Conference on Computer Vision and Pattern Recognition_, Vancouver, Canada, June 18–22, 2023. (CCF-A) \[[arxiv](https://arxiv.org/abs/2304.01279)\]\[[code](https://github.com/jinyan-06/SHIKE)\]
 
 - [<span style="color:blue">**PRCV'23**</span>] DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data,  
-  Xiaolin Huang, **Mengke Li**, Yang Lu\*, and Hanzi Wang,  \  
+  Xiaolin Huang, **Mengke Li**, Yang Lu\*, and Hanzi Wang,  \
   _Chinese Conference on Pattern Recognition and Computer Vision_, Xiamen, Fujian, China, 2023. (CCF-C) \[[paper](https://keke921.github.io/files/2023-11-26-XLHuang-DeCAB.pdf)\]\[[code](https://github.com/xlhuang132/decab)\]
 
 - [<span style="color:blue">**ICIP'23**</span>] Few-Shot Lip-Password Based Speaker Verification,  
@@ -55,15 +55,15 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
   _International Conference on Image Processing_, pp.1960-1964 , Kuala Lumpur, Malaysia, October 8-11, 2023. (CCF-C) \[[paper](https://www.comp.hkbu.edu.hk/~ymc/papers/conference/ICIP23-publication-version.pdf)\] 
 
 - [<span style="color:blue">**CVPR'22**</span>] Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment,  
-  **Mengke Li** , Yiu-ming Cheung\*, and Yang Lu,  \ 
+  **Mengke Li** , Yiu-ming Cheung\*, and Yang Lu,  \
   _IEEE/CVF Conference on Computer Vision and Pattern Recognition_, pp.6929-6938 , New Orleans, Louisiana, June 21–24, 2022. (CCF-A) \[[arXiv](https://arxiv.org/abs/2305.11733)\] \[[code](https://github.com/Keke921/GCLLoss)\]
 
 - [<span style="color:blue">**ICME'22**</span>] Feature-Balanced Loss for Long-Tailed Visual Recognition,  
-  **Mengke Li** , Yiu-ming Cheung\*, and Juyong Jiang,  \ 
+  **Mengke Li** , Yiu-ming Cheung\*, and Juyong Jiang,  \
   _IEEE International Conference on Multimedia and Expo_, oral, pp.1-6, Taipei, Taiwan, July18-22, 2022. oral. (CCF-B) \[[arXiv](https://arxiv.org/pdf/2305.10772.pdf)\] \[[code]( https://github.com/juyongjiang/FBL)\]
 
 - [<span style="color:blue">**ICMR'21**</span>] Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion,  
-  Yiu-Ming Cheung\*, **Mengke Li**, and Rong Zou,  \ 
+  Yiu-Ming Cheung\*, **Mengke Li**, and Rong Zou,  \
   _International Conference on Multimedia Retrieval_, oral, pp.46-54, Taibei, Taiwan, August 21-24, 2021. oral. (CCF-B) \[[paper](https://www.comp.hkbu.edu.hk/~ymc/papers/conference/ICMR21-publication-version.pdf)\]  
 
 - [<span style="color:blue">**ICME'20**</span>] Iterative dynamic generic learning for single sample face recognition with a contaminated gallery,  
