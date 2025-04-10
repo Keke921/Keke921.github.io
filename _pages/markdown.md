@@ -9,8 +9,8 @@ redirect_from:
 
 ## Locations and Email address
 
-* Office address: Floor 10, Kerun Buiding, Guangming district. \& L6-806, Canghai Campus, Shenzhen University.
-* E-mail: limengke@gml.ac.cn
+* Office Address: L6-811, Canghai Campus, Shenzhen University.
+* E-mail: mengkejiajia@hotmail.com
 
 <!--
 ## Tips and hints
