@@ -16,7 +16,7 @@ For the English version, please click [here](https://keke921.github.io/).
 
 ## 近期动态
 * **2025年5月1日**: 一篇关于SAR图像识别的论文被ICML 2025接收! 恭喜张翀和张老师!
-* **2025年3月12日 2025**: 联系我请暂时使用 **mengkejiajia@hotmail.com**. 因为工作原因，gml.ac.cn已经无法使用.
+* **2025年3月12日**: 联系我请暂时使用 **mengkejiajia@hotmail.com**. 因为工作原因，gml.ac.cn已经无法使用.
 * **2024年12月10日**：一篇关于联邦聚类的文章被AAAI 2025接收，恭喜云帆和张老师！
 * **2024年9月26日**：一篇关于长尾学习的文章被NeurIPS 2024接收，恭喜刘烨！
 * **2024年5月15日**：一篇文章被TAI接收！
