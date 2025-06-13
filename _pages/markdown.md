@@ -11,7 +11,7 @@ redirect_from:
 
 📫 Office Address: L6-811, Canghai Campus, Shenzhen University.
 
-📧 E-mail: mengkejiajia@hotmail.com
+📧 E-mail: mengkeli@szu.edu.cn
 
 
 <!--
