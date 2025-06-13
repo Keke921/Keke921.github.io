@@ -10,7 +10,7 @@ redirect_from:
 
 [李梦柯中文简介](https://keke921.github.io//about_cn) 
 
-I'm now an Associate researcher in [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
+I'm now an Assistant Professor in [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
 I received my PhD degree in computer science from Hong Kong Baptist University in 2022 supervised by [Prof. Yiu-ming Cheung](http://www.comp.hkbu.edu.hk/~ymc/),
 received my master degree in signal and information processing from Xidian University in 2018, supervised by Prof. LI Ming,
 and received my bachelor degree in communication engineering from [Hanhong College](http://hanhong.swu.edu.cn/index.htm) (The Department for Innovative Talents Training), Southwest University in 2015.
@@ -22,15 +22,17 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 
 
 ## Recent News
+* **Jun 13 2025**: szu email is available. Pleas contact me at **mengkeli@szu.edu.cn**.
 * **May 01 2025**: One ICML paper is accepted! Congrats to Chong and Prof. Zhang!
-* **Mar 12 2025**: Please contact me temporarily using **mengkejiajia@hotmail.com**. The original email address gml.ac.cn is no longer valid due to work-related changes.
 * **Dec 10 2024**: One AAAI paper is accepted! Congrats to Yunfan and Prof. Zhang!
 * **Sep 26 2024**: One NeurIPS paper is accepted! Congrats to Ye!
 * **Aug 17 2024**: Win the best paper award on DOCS 2024! Congrats to all of our colleagues!
-* **May 15 2024**: One TAI paper about long-tailed learning is accepted!
+
 
 <!--
 ---
+* **Mar 12 2025**: Please contact me temporarily using **mengkejiajia@hotmail.com**. The original email address gml.ac.cn is no longer valid due to work-related changes.
+* **May 15 2024**: One TAI paper about long-tailed learning is accepted!
 * **April 29 2024**: One co-authored TPAMI paper is accepted! Congrats to Zhikai!
 * **April 17 2024**: One co-authored paper about long-tailed continual learning is accepted by IJCAI. Congrats to Chenxing and Prof. Lu!
 * **Dec 9 2023**: One AAAI paper is accepted!
