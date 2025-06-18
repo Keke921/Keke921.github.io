@@ -75,7 +75,7 @@ Liyuan Wang, Yan Jin, Zhen Chen, Jinlin Wu, **Mengke Li**, Yang Lu\*, Hanzi Wang
 ## Journal
 - [<span style="color:#666699">**TNNLS'25**</span>] MOOD: Leveraging Out-of-Distribution Data to Enhance Imbalanced Semi-Supervised Learning, \
   Yang Lu, Xiaolin Huang, Yizhou Chen, **Mengke Li**, Yan Yan, Chen Gong \
-  _IEEE Transactions on Neural Networks and Learning Systems_, Early Access, 2025. \[[paper](https://ieeexplore.ieee.org/abstract/document/11027917)\] \[[code](https://github.com/xlhuang132/MOODv2)\]
+  _IEEE Transactions on Neural Networks and Learning Systems_, Early Access, 2025.  (中科院1区 Top, CCF-B) \[[paper](https://ieeexplore.ieee.org/abstract/document/11027917)\] \[[code](https://github.com/xlhuang132/MOODv2)\]
 
 - [<span style="color:#666699">**TAI'24**</span>] Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition, \
   **Mengke Li**, Yiu-ming Cheung\*, Yang Lu, Zhikai Hu, Weichao Lan, Hui Huang, \
