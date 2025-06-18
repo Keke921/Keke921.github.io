@@ -4,7 +4,6 @@ title: "Funded Projects"
 permalink: /funds/
 author_profile: true
 ---
-Funded Projects:
 
 - <span style="color:#666699">**西安电子科技大学雷达信号处理全国重点实验室开放基金**</span>，多源数据融合，2024.10-2026.09.
 
