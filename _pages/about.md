@@ -22,7 +22,8 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 
 
 ## Recent News
-* **Jun 13 2025**: szu email is available. Pleas contact me at **mengkeli@szu.edu.cn**.
+* **June 13 2025**: szu email is available. Pleas contact me at **mengkeli@szu.edu.cn**.
+* **June 9 2025**: One TNNLS paper is accepted! Congrats to Prof. Lu!
 * **May 01 2025**: One ICML paper is accepted! Congrats to Chong and Prof. Zhang!
 * **Dec 10 2024**: One AAAI paper is accepted! Congrats to Yunfan and Prof. Zhang!
 * **Sep 26 2024**: One NeurIPS paper is accepted! Congrats to Ye!
