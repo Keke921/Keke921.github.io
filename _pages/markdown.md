@@ -9,7 +9,7 @@ redirect_from:
 
 ## Locations and Email address
 
-📫 Office Address: L6-811, Canghai Campus, Shenzhen University.
+📫 Office Address: L6, Canghai Campus, Shenzhen University.
 
 📧 E-mail: mengkeli@szu.edu.cn
 
