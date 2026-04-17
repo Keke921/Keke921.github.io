@@ -97,11 +97,35 @@
 }
 
 .news-list li strong {
+  color: #1f2937 !important;
+  font-weight: 700 !important;
+}
+
+.news-list li > strong {
   display: inline-block;
   min-width: 4.25rem;
-  color: #1f4f84;
-  font-weight: 700;
+  color: #1f4f84 !important;
   vertical-align: top;
+}
+
+.news-list li strong:not(:first-of-type) {
+  color: #1f2937 !important;
+}
+
+/* Chinese news block: tighter date width to avoid awkward wrap */
+.news-cn-block .news-list {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.news-cn-block .news-list li {
+  text-indent: 0 !important;
+}
+
+.news-cn-block .news-list li > strong {
+  display: inline !important;
+  min-width: 0 !important;
+  margin-right: 0.12rem;
 }
 
 .news-list li a {
@@ -109,7 +133,7 @@
 }
 
 @media (max-width: 640px) {
-  .news-list li strong {
+  .news-list li > strong {
     min-width: 4.1rem;
   }
 }
