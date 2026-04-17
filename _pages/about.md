@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="about-en-page">
+<div class="about-en-page" markdown="1">
 
 <div class="home-intro">
 I'm now an Assistant Professor in <a href="https://vcc.tech/index.html" target="_blank" rel="noopener">Visual Computing Research Center (VCC)</a>, headed by <a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">Prof. Hui Huang</a>, at the College of Computer Science & Software Engineering, Shenzhen University.
