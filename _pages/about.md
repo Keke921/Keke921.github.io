@@ -81,7 +81,7 @@ For postgraduate students, please check <a href="/postgraduate/">硕士招生简
 </div>
 
 
-## 👨‍🎓 Supervised Students
+## 🧑‍🎓 Supervised Students
 
 <div class="home-block">
 <ul class="student-list">

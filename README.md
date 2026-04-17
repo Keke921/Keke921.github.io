@@ -1,41 +1,58 @@
+# Mengke Li's Academic Homepage
 
-# Academic Pages
+This repository hosts my personal academic website built with Jekyll and deployed via GitHub Pages.
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+## Website
 
-Academic Pages is a Github Pages template for academic websites.
+- Homepage: `https://keke921.github.io/`
+- Chinese homepage: `https://keke921.github.io/about_cn/`
 
+## Main Sections
 
-# Getting Started
+- `News`: recent updates and announcements
+- `Publications`: selected publications and full publication list
+- `Funds`: funded projects
+- `Teaching`: teaching activities and course information
+- `Blog Posts`: research/activity posts
+- `Contact`: office, email, profiles, and social QR code
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## Repository Structure
 
-See more info at https://academicpages.github.io/
+- `_pages/`: static pages (about, publications, funds, contact, etc.)
+- `_posts/`: blog post entries
+- `_teaching/`: teaching entries
+- `_includes/`: reusable HTML components
+- `_data/`: site data, including navigation
+- `assets/css/custom-theme.css`: custom site styles
+- `assets/images/`: image assets (including contact QR code)
 
-## Running Locally
+## Local Development
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+Run locally:
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+1. Install dependencies:
+   - `bundle install`
+2. Start local server:
+   - `bundle exec jekyll serve --host 127.0.0.1 --port 4000 --config _config.yml,_config_dev.yml`
+3. Open:
+   - `http://127.0.0.1:4000/`
 
+## Content Update Notes
 
-# Maintenance 
+- Add a news item:
+  - Update `_pages/news.md`
+  - Optionally sync highlights in `_pages/about.md` and `_pages/about_cn.md`
+- Add/update a publication:
+  - Update `_pages/publications.md`
+- Add a blog post:
+  - Add a new markdown file under `_posts/`
+- Add teaching information:
+  - Add a new markdown file under `_teaching/`
+- Update contact information:
+  - Edit `_pages/markdown.md`
 
-Bug reports and feature requests to the template  should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+## Contact
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+- Email: `mengkeli@szu.edu.cn`
+- Google Scholar: `https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN`
+- DBLP: `https://dblp.org/pid/67/6597-1.html`

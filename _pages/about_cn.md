@@ -74,7 +74,7 @@ For the English version, please click [here](https://keke921.github.io/).
 </div>
 
 
-## 👨‍🎓 指导学生
+## 🧑‍🎓 指导学生
 <div class="home-block">
 <ul class="student-list">
   <li><strong>闵琪浩</strong>（2025-）<span>多智能体分析</span></li>
