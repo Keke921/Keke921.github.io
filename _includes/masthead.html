@@ -6,7 +6,21 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/">{{ site.title }}</a>
+            <span class="masthead__lang-switch">
+              <i class="fa-solid fa-earth-asia" aria-hidden="true"></i>
+              {% if page.url == "/about_cn/" %}
+                <a class="lang-link" href="{{ base_path }}/">EN</a>
+                <span class="lang-sep">|</span>
+                <span class="lang-current">中文</span>
+              {% else %}
+                <a class="lang-link" href="{{ base_path }}/about_cn/">中文</a>
+                <span class="lang-sep">|</span>
+                <span class="lang-current">EN</span>
+              {% endif %}
+            </span>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

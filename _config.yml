@@ -12,7 +12,7 @@ title                    : "Mengke Li"
 title_separator          : "-"
 name                     : &name "Mengke Li (李梦柯)"
 description              : &description "personal description"
-url                      : "https://csse.szu.edu.cn/pages/user/index?id=1341" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://keke921.github.io" # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Keke921/Keke921.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -39,7 +39,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']  
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
@@ -64,16 +64,17 @@ author:
   name             : "Mengke Li (李梦柯)"
   pronouns         : #"Email: mengkejiajia@hotmail.com"  
   bio              : "Assistant Professor"
-  location         : "Shenzhen, Guangdong, China"
+  location         : "Shenzhen, China"
   employer         : "Shenzhen University"
   uri              : "https://csse.szu.edu.cn/pages/user/index?id=1341"
   email            : "mengkeli@szu.edu.cn" 
   
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
+  dblp             : "https://dblp.org/pid/67/6597-1.html"
   googlescholar    : "https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN" 
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "0000-0002-9433-9683"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 

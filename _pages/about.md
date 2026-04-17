@@ -1,33 +1,55 @@
 ---
 permalink: /
-title: "李梦柯(Mengke Li)的学术主页"
-excerpt: "About me"
+title: "👨‍🏫 About Me <a class='page-title-cn' href='/about_cn/'>中文</a>"
+excerpt: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-[李梦柯中文简介](https://keke921.github.io//about_cn) 
+<div class="home-intro">
+I'm now an Assistant Professor in <a href="https://vcc.tech/index.html" target="_blank" rel="noopener">Visual Computing Research Center (VCC)</a>, headed by <a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">Prof. Hui Huang</a>, at the College of Computer Science & Software Engineering, Shenzhen University.
 
-I'm now an Assistant Professor in [Visual Computing Research Center (VCC)](https://vcc.tech/index.html) (headed by [Prof. Hui Huang](https://vcc.tech/~huihuang/home)) at the College of Computer Science & Software Engineering, Shenzhen University. 
-I received my PhD degree in computer science from Hong Kong Baptist University in 2022 supervised by [Prof. Yiu-ming Cheung](http://www.comp.hkbu.edu.hk/~ymc/),
-received my master degree in signal and information processing from Xidian University in 2018, supervised by Prof. LI Ming,
-and received my bachelor degree in communication engineering from [Hanhong College](http://hanhong.swu.edu.cn/index.htm) (The Department for Innovative Talents Training), Southwest University in 2015.
-My research direction is optimization analysis of deep learning in practical application, including long-tail learning, continual learning, noisy lable learning, and multimodal Learning.
+I received my PhD degree in computer science from Hong Kong Baptist University in 2022 (supervised by <a href="http://www.comp.hkbu.edu.hk/~ymc/" target="_blank" rel="noopener">Prof. Yiu-ming Cheung</a>), my master degree in signal and information processing from Xidian University in 2018 (supervised by Prof. LI Ming), and my bachelor degree in communication engineering from <a href="http://hanhong.swu.edu.cn/index.htm" target="_blank" rel="noopener">Hanhong College</a>, Southwest University, in 2015.
 
-For postgraduate students, please check [硕士招生简章](https://keke921.github.io//postgraduate/).
+My research focuses on optimization analysis of deep learning for practical applications, including long-tail learning, continual learning, noisy label learning, and multimodal learning.
 
-<span style="color:red">**There are a few postgraduate quotas in Fall 2025. If you are interested in Long tail learning and want to have fun with research, please contact me. **</span>
+For postgraduate students, please check <a href="/postgraduate/">硕士招生简章</a>.
+<div class="home-highlight">📢 [2026.04.17] Still a few postgraduate quotas in Fall 2026. If you are interested in long-tail learning or Agentic AI, please contact me.</div>
+</div>
 
 
-## Recent News
-* **June 13 2025**: szu email is available. Pleas contact me at **mengkeli@szu.edu.cn**.
-* **June 9 2025**: One TNNLS paper is accepted! Congrats to Prof. Lu!
-* **May 01 2025**: One ICML paper is accepted! Congrats to Chong and Prof. Zhang!
-* **Dec 10 2024**: One AAAI paper is accepted! Congrats to Yunfan and Prof. Zhang!
-* **Sep 26 2024**: One NeurIPS paper is accepted! Congrats to Ye!
-* **Aug 17 2024**: Win the best paper award on DOCS 2024! Congrats to all of our colleagues!
+## 🔥 Recent News
+<div class="home-block">
+<ul class="news-list">
+  <li><strong>2026/05</strong>: The China Image and Graphics Conference officially announced a special forum co-organized by Prof. Hu (Zhengzhou University), Prof. Lu (Xiamen University), and me: <strong>"The Boundary of Foundation Model Generalization: Long-tail Challenges and Continual Learning"</strong>. Welcome to join! See details <a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">[here]</a>.</li>
+  <li><strong>2026/01</strong>: I was invited to serve as Chair of the ICDM 2026 Bluesky Track together with Prof. Jipeng Qiang. ICDM'26 <a href="http://icdm2026.neu.edu.cn/" target="_blank" rel="noopener">[website]</a></li>
+  <li><strong>2026/02</strong>: 🎉🎉🎉 Three papers accepted to CVPR 2026, congratulations to Jiacheng Yang, Hezhao Liu, Shihao Hou and Prof. Lu!</li>
+  <li><strong>2025/06/13</strong>: SZU email is available. Please contact me at <strong>mengkeli@szu.edu.cn</strong>.</li>
+  <li><strong>2025/06/09</strong>: One TNNLS paper is accepted. Congrats to Prof. Lu!</li>
+  <li><strong>2025/05/01</strong>: One ICML paper is accepted. Congrats to Chong and Prof. Zhang!</li>
+</ul>
+<details class="news-more">
+  <summary>More News</summary>
+  <ul class="news-list">
+    <li><strong>2025/03/12</strong>: Please contact me temporarily using <strong>mengkejiajia@hotmail.com</strong>. The original email address is no longer valid.</li>
+    <li><strong>2024/12/10</strong>: One AAAI paper is accepted. Congrats to Yunfan and Prof. Zhang! <a href="https://arxiv.org/pdf/2412.20341" target="_blank" rel="noopener">[paper]</a></li>
+    <li><strong>2024/09/26</strong>: One NeurIPS paper is accepted. Congrats to Ye! <a href="https://arxiv.org/pdf/2410.21042" target="_blank" rel="noopener">[paper]</a></li>
+    <li><strong>2024/08/17</strong>: Won the best paper award at DOCS 2024. Congrats to all colleagues!</li>
+    <li><strong>2024/05/15</strong>: One TAI paper about long-tailed learning is accepted. <a href="https://ieeexplore.ieee.org/abstract/document/10531112" target="_blank" rel="noopener">[paper]</a></li>
+    <li><strong>2024/04/29</strong>: One co-authored TPAMI paper is accepted. Congrats to Zhikai!</li>
+    <li><strong>2024/04/17</strong>: One co-authored paper about long-tailed continual learning is accepted by IJCAI. <a href="https://arxiv.org/abs/2404.14721" target="_blank" rel="noopener">[paper]</a> <a href="https://github.com/chenxing6666/DAP" target="_blank" rel="noopener">[code]</a></li>
+    <li><strong>2023/12/09</strong>: One AAAI paper is accepted. <a href="https://arxiv.org/abs/2306.06963" target="_blank" rel="noopener">[paper]</a> <a href="https://github.com/Keke921/H2T" target="_blank" rel="noopener">[code]</a></li>
+    <li><strong>2023/12/04</strong>: One Guangdong Basic and Applied Basic Research Foundation project is granted.</li>
+    <li><strong>2023/10/10</strong>: One co-authored TPAMI paper is accepted. Congrats to Weichao!</li>
+    <li><strong>2023/08/24</strong>: One NSFC youth project is granted.</li>
+    <li><strong>2023/08/22</strong>: One co-authored paper is accepted by TCSVT. Congrats to Zhikai!</li>
+    <li><strong>2023/02/28</strong>: One co-authored CVPR paper is accepted. <a href="https://arxiv.org/abs/2304.01279" target="_blank" rel="noopener">[paper]</a> <a href="https://github.com/jinyan-06/SHIKE" target="_blank" rel="noopener">[code]</a></li>
+  </ul>
+</details>
+<p><a href="/news/">View all news</a></p>
+</div>
 
 
 <!--
@@ -46,20 +68,29 @@ For postgraduate students, please check [硕士招生简章](https://keke921.git
 ---
 -->
 
-## Research Interests
+## 🎯 Research Interests
 
-* Long-tail/Imbalance Learning
-* Continual Learning
-* Semi-Supervised Learning
-* Multimodal Learning
-* 3D point cloud Analysis
+<div class="home-block">
+<div class="tag-list">
+  <span>Long-tail / Imbalance Learning</span>
+  <span>Continual Learning</span>
+  <span>Semi-Supervised Learning</span>
+  <span>Multimodal Learning</span>
+  <span>3D Point Cloud Analysis</span>
+</div>
+</div>
 
 
-## Supervised Students
+## 👨‍🎓 Supervised Students
 
-* Ye Liu (2023-): Long-tail learning
-* Haiquan Ling (2024-): Long-tail noisy label learning
-* Lihao Chen (2024-): 3D point cloud analysis
+<div class="home-block">
+<ul class="student-list">
+  <li><strong>Ye Liu</strong> (2023-)<span>Long-tail learning</span></li>
+  <li><strong>Haiquan Ling</strong> (2024-)<span>Long-tail noisy label learning</span></li>
+  <li><strong>Lihao Chen</strong> (2024-)<span>3D point cloud analysis</span></li>
+  <li><strong>Qihao Min</strong> (2025-)<span>Agentic AI</span></li>
+</ul>
+</div>
 
 <!--
 ---
