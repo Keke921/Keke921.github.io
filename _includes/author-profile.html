@@ -4,16 +4,25 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div class="author-profile-root"{% unless include.suppress_person_schema %} itemscope itemtype="http://schema.org/Person"{% endunless %}>
+<div class="author-profile-root" itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
+  <input type="checkbox" id="sidebar-author-profile-toggle" class="author-profile__toggle-input">
+
+  <div class="author-profile__mobile-bar">
+    <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
+    </div>
+    <label for="sidebar-author-profile-toggle" class="author-profile__expand-btn">
+      <span class="visually-hidden">Show profile and links</span>
+      <i class="fas fa-address-card" aria-hidden="true"></i>
+    </label>
   </div>
 
+  <div class="author-profile__expand-panel">
   <div class="author__content">
     {% assign name_parts = author.name | split: " (" %}
     {% if name_parts.size > 1 %}
@@ -175,4 +184,6 @@
       {% endif %}      
     </ul>
   </div>
+  </div>
+
 </div>

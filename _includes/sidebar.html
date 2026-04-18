@@ -3,44 +3,7 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}
-  {% assign sidebar_author = site.author %}
-  {% if page.author and site.data.authors[page.author] %}
-    {% assign sidebar_author = site.data.authors[page.author] %}
-  {% endif %}
-
-  {% comment %}Desktop: full profile. Mobile (CSS): collapsible strip + profile in details.{% endcomment %}
-  <div class="sidebar-author-desktop">
     {% include author-profile.html %}
-  </div>
-
-  <div class="sidebar-author-mobile">
-    <details class="sidebar-author-details" id="sidebar-author-details">
-      <summary class="sidebar-author-details__summary">
-        <span class="sidebar-author-details__thumb-wrap">
-          {% if sidebar_author.avatar %}
-            {% if sidebar_author.avatar contains "://" %}
-              <img class="sidebar-author-details__thumb" src="{{ sidebar_author.avatar }}" alt="">
-            {% else %}
-              <img class="sidebar-author-details__thumb" src="{{ sidebar_author.avatar | prepend: "/images/" | prepend: base_path }}" alt="">
-            {% endif %}
-          {% endif %}
-        </span>
-        <span class="sidebar-author-details__text">
-          {% assign _sn = sidebar_author.name | split: " (" %}
-          <span class="sidebar-author-details__name">{{ _sn[0] }}</span>
-          {% assign _sa1 = sidebar_author.affiliation_line1 | default: site.data.affiliation.line1 %}
-          {% if _sa1 %}
-            <span class="sidebar-author-details__affil">{{ _sa1 }}</span>
-          {% endif %}
-          <span class="sidebar-author-details__hint">Tap to expand</span>
-        </span>
-        <span class="sidebar-author-details__chev" aria-hidden="true"></span>
-      </summary>
-      <div class="sidebar-author-details__inner">
-        {% include author-profile.html suppress_person_schema=true %}
-      </div>
-    </details>
-  </div>
   {% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
