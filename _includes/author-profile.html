@@ -6,7 +6,7 @@
 
 <div class="author-profile-root" itemscope itemtype="http://schema.org/Person">
 
-  <input type="checkbox" id="sidebar-author-profile-toggle" class="author-profile__toggle-input">
+  <input type="checkbox" id="sidebar-author-links-toggle" class="author-profile__links-toggle-input">
 
   <div class="author-profile__mobile-bar">
     <div class="author__avatar">
@@ -16,14 +16,7 @@
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
     </div>
-    <label for="sidebar-author-profile-toggle" class="author-profile__expand-btn">
-      <span class="visually-hidden">Show profile and links</span>
-      <i class="fas fa-address-card" aria-hidden="true"></i>
-    </label>
-  </div>
-
-  <div class="author-profile__expand-panel">
-  <div class="author__content">
+    <div class="author__content">
     {% assign name_parts = author.name | split: " (" %}
     {% if name_parts.size > 1 %}
       <h3 class="author__name">
@@ -36,16 +29,18 @@
     {% assign aff_line1 = author.affiliation_line1 | default: site.data.affiliation.line1 %}
     {% assign aff_line2 = author.affiliation_line2 | default: site.data.affiliation.line2 %}
     {% if aff_line1 or aff_line2 %}
-    <p class="author__affiliation">
-      {% if aff_line1 %}{{ aff_line1 }}{% endif %}
-      {% if aff_line1 and aff_line2 %}<br>{% endif %}
-      {% if aff_line2 %}{{ aff_line2 }}{% endif %}
-    </p>
+    <p class="author__affiliation">{% if aff_line1 %}<span class="author__affiliation-line author__affiliation-line--1">{{ aff_line1 }}</span>{% endif %}{% if aff_line2 %}<span class="author__affiliation-line author__affiliation-line--2">{{ aff_line2 }}</span>{% endif %}</p>
     {% endif %}
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    </div>
+    <label for="sidebar-author-links-toggle" class="author-profile__expand-btn">
+      <span class="visually-hidden">Show contact and links</span>
+      <i class="fas fa-chevron-down" aria-hidden="true"></i>
+    </label>
   </div>
 
+  <div class="author-profile__expand-panel author-profile__urls-panel">
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">

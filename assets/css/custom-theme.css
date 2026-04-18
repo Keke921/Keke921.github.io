@@ -86,10 +86,9 @@ body {
   }
 
   /*
-   * Mobile author card: small avatar + icon; tap icon to show name / affiliation / bio / links
-   * (checkbox ~ panel pattern; desktop overrides below)
+   * Mobile: photo + name/affiliation/bio always visible; chevron toggles contact & links only
    */
-  #main .sidebar .author-profile__toggle-input {
+  #main .sidebar .author-profile__links-toggle-input {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -101,7 +100,6 @@ body {
     border: 0;
   }
 
-  /* Full-width strip: aligns with .author__content / .author__urls-wrapper below */
   #main .sidebar .author-profile-root {
     width: 100%;
     max-width: 100%;
@@ -110,26 +108,27 @@ body {
 
   #main .sidebar .author-profile__mobile-bar {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.45rem;
     flex-wrap: nowrap;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    margin-bottom: 0.45rem;
+    margin-bottom: 0.35rem;
   }
 
   #main .sidebar .author-profile__mobile-bar .author__avatar {
     display: flex !important;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     min-width: 0;
     width: auto !important;
     max-width: none !important;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
-    vertical-align: middle;
+    vertical-align: top;
+    padding-top: 0.1rem;
   }
 
   #main .sidebar .author-profile__mobile-bar .author__avatar img,
@@ -143,24 +142,73 @@ body {
     border-radius: 14px;
   }
 
+  #main .sidebar .author-profile__mobile-bar .author__content {
+    display: block !important;
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto !important;
+    max-width: 100%;
+    margin-top: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  #main .sidebar .author-profile__mobile-bar .author__name {
+    font-size: 0.95rem;
+    margin: 0 0 0.2rem;
+    line-height: 1.25;
+  }
+
+  #main .sidebar .author-profile__mobile-bar .author__name-sub {
+    font-size: 0.88em;
+  }
+
+  #main .sidebar .author-profile__mobile-bar .author__affiliation,
+  #main .sidebar .author-profile__mobile-bar .author__bio {
+    margin: 0.15rem 0 0;
+    font-size: 0.78rem;
+    line-height: 1.38;
+    font-weight: 600;
+    color: #486581;
+  }
+
+  #main .sidebar .author-profile__mobile-bar .author__bio {
+    margin-top: 0.25rem;
+  }
+
+  #main .sidebar .author-profile__mobile-bar .author__pronouns {
+    margin: 0.2rem 0 0;
+    font-size: 0.75rem;
+  }
+
   #main .sidebar .author-profile__expand-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     flex: 0 0 auto;
-    align-self: center;
-    min-width: 3rem;
-    min-height: 3rem;
-    padding: 0.4rem;
+    align-self: flex-start;
+    margin-top: 0.15rem;
+    min-width: 3.5rem;
+    min-height: 3.5rem;
+    padding: 0.45rem;
     border: 1px solid #e2e8f0;
-    border-radius: 10px;
+    border-radius: 12px;
     background: linear-gradient(180deg, #f8fbff 0%, #f1f5f9 100%);
     color: #334e68;
+    font-size: 1.2rem;
+    line-height: 1;
     box-shadow: 0 1px 3px rgba(37, 64, 108, 0.08);
     cursor: pointer;
-    flex: 0 0 auto;
     -webkit-tap-highlight-color: transparent;
-    transition: background 0.15s ease, border-color 0.15s ease;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  }
+
+  #main .sidebar .author-profile__expand-btn i {
+    line-height: 1;
+    transition: transform 0.2s ease;
   }
 
   #main .sidebar .author-profile__expand-btn:hover {
@@ -168,33 +216,34 @@ body {
     background: #ffffff;
   }
 
-  #main .sidebar .author-profile__toggle-input:focus + .author-profile__mobile-bar .author-profile__expand-btn {
+  #main .sidebar .author-profile__links-toggle-input:focus + .author-profile__mobile-bar .author-profile__expand-btn {
     outline: 2px solid #3b6ea5;
     outline-offset: 2px;
   }
 
-  #main .sidebar .author-profile__toggle-input:checked + .author-profile__mobile-bar .author-profile__expand-btn {
+  #main .sidebar .author-profile__links-toggle-input:checked + .author-profile__mobile-bar .author-profile__expand-btn {
     background: #e8f0fc;
     border-color: #b8cce8;
     color: #1f4e8c;
   }
 
-  #main .sidebar .author-profile__expand-panel {
+  #main .sidebar .author-profile__links-toggle-input:checked + .author-profile__mobile-bar .author-profile__expand-btn i {
+    transform: rotate(180deg);
+  }
+
+  #main .sidebar .author-profile__expand-panel.author-profile__urls-panel {
     display: none;
+    margin-top: 0.35rem;
   }
 
-  #main .sidebar .author-profile__toggle-input:checked ~ .author-profile__expand-panel {
+  #main .sidebar .author-profile__links-toggle-input:checked ~ .author-profile__expand-panel {
     display: block;
-  }
-
-  #main .sidebar .author-profile__expand-panel .author__content {
-    margin-top: 0.5rem;
   }
 }
 
-/* Desktop / tablet wide: full profile always visible; hide toggle control */
+/* Desktop / tablet wide: stacked avatar, text, links — no fold */
 @media screen and (min-width: 925px) {
-  .sidebar .author-profile__toggle-input {
+  .sidebar .author-profile__links-toggle-input {
     display: none !important;
   }
 
@@ -208,8 +257,41 @@ body {
     text-align: center;
   }
 
-  .sidebar .author-profile__expand-panel {
+  .sidebar .author-profile__mobile-bar .author__content {
+    margin-top: 0.75rem !important;
+    text-align: left;
+    background: #ffffff !important;
+    border: 1px solid #e8edf4 !important;
+    border-radius: 12px !important;
+    padding: 0.75rem 0.85rem !important;
+    box-shadow: none;
+  }
+
+  .sidebar .author-profile__mobile-bar .author__name {
+    font-size: inherit;
+  }
+
+  /* Same size for affiliation lines + Assistant Professor; college line spaced below university */
+  .sidebar .author-profile__mobile-bar .author__affiliation,
+  .sidebar .author-profile__mobile-bar .author__bio {
+    font-size: 0.76rem;
+    line-height: 1.42;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: #486581;
+  }
+
+  .sidebar .author-profile__mobile-bar .author__bio {
+    margin-top: 0.35rem;
+  }
+
+  .sidebar .author-profile__mobile-bar .author__affiliation-line--1 + .author__affiliation-line--2 {
+    margin-top: 0.45rem;
+  }
+
+  .sidebar .author-profile__expand-panel.author-profile__urls-panel {
     display: block !important;
+    margin-top: 0.65rem;
   }
 }
 
@@ -637,6 +719,15 @@ img.author__avatar {
   color: #486581;
   word-break: break-word;
   overflow-wrap: anywhere;
+}
+
+.author__affiliation-line {
+  display: block;
+}
+
+/* Space between university line and college line (school vs department) */
+.author__affiliation-line--1 + .author__affiliation-line--2 {
+  margin-top: 0.4rem;
 }
 
 .author__bio {
