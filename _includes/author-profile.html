@@ -24,6 +24,13 @@
     {% else %}
       <h3 class="author__name">{{ author.name }}</h3>
     {% endif %}
+    {% if author.affiliation_line1 or author.affiliation_line2 %}
+    <p class="author__affiliation">
+      {% if author.affiliation_line1 %}{{ author.affiliation_line1 }}{% endif %}
+      {% if author.affiliation_line1 and author.affiliation_line2 %}<br>{% endif %}
+      {% if author.affiliation_line2 %}{{ author.affiliation_line2 }}{% endif %}
+    </p>
+    {% endif %}
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>

@@ -15,7 +15,7 @@ author_profile: true
     {% assign py = post.date | date: "%Y" %}
     {% if py != prev_year_nav %}
       {% unless nav_first %}<span class="teaching-archive__index-sep" aria-hidden="true">·</span>{% endunless %}
-      <a href="#teaching-{{ py }}">{{ py }}</a>
+      <a href="#teaching-{{ py }}"{% if site.teaching_active_year != "" and py == site.teaching_active_year %} class="teaching-archive__index-link--active"{% endif %}>{{ py }}{% if site.teaching_active_year != "" and py == site.teaching_active_year %} <span aria-hidden="true">🔥</span>{% endif %}</a>
       {% assign prev_year_nav = py %}
       {% assign nav_first = false %}
     {% endif %}
@@ -31,11 +31,11 @@ author_profile: true
     {% if written_year != "" %}
   </div>
     {% endif %}
-  <h2 id="teaching-{{ y }}" class="teaching-archive__year">{{ y }}</h2>
+  <h2 id="teaching-{{ y }}" class="teaching-archive__year{% if site.teaching_active_year != "" and y == site.teaching_active_year %} teaching-archive__year--active{% endif %}">{{ y }}{% if site.teaching_active_year != "" and y == site.teaching_active_year %} <span aria-hidden="true">🔥</span>{% endif %}</h2>
   <div class="teaching-archive__grid">
     {% assign written_year = y %}
   {% endif %}
-    <div class="teaching-archive__item">
+    <div class="teaching-archive__item{% if site.teaching_active_year != "" and y == site.teaching_active_year %} teaching-archive__item--active{% endif %}">
       {% include archive-single.html %}
     </div>
 {% endfor %}

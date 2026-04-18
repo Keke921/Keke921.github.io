@@ -3,7 +3,7 @@ title: "最优化方法"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2025-2026-spring-optimization-methods
-venue: "L1-202, Shenzhen University"
+venue: "L1-202, SZU"
 date: 2026-02-18
 location: "Shenzhen, China"
 ---

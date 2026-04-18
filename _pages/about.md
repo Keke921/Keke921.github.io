@@ -11,7 +11,7 @@ redirect_from:
 <div class="about-en-page" markdown="1">
 
 <div class="home-intro">
-I'm now an Assistant Professor in <a href="https://vcc.tech/index.html" target="_blank" rel="noopener">Visual Computing Research Center (VCC)</a>, headed by <a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">Prof. Hui Huang</a>, at the College of Computer Science & Software Engineering, Shenzhen University.
+I'm now an Assistant Professor in <a href="https://vcc.tech/index.html" target="_blank" rel="noopener">College of Computer Science and Software Engineering (CSSE)</a>, <a href="https://www.szu.edu.cn/" target="_blank" rel="noopener">Shenzhen University (SZU)</a>. I am one of <a href="https://vcc.tech/index.html" target="_blank" rel="noopener">Visual Computing Research Center (VCC)</a>, headed by <a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">Prof. Hui Huang</a>, at the College of Computer Science & Software Engineering, Shenzhen University.
 
 I received my PhD degree in computer science from Hong Kong Baptist University in 2022 (supervised by <a href="http://www.comp.hkbu.edu.hk/~ymc/" target="_blank" rel="noopener">Prof. Yiu-ming Cheung</a>), my master degree in signal and information processing from Xidian University in 2018 (supervised by Prof. LI Ming), and my bachelor degree in communication engineering from <a href="http://hanhong.swu.edu.cn/index.htm" target="_blank" rel="noopener">Hanhong College</a>, Southwest University, in 2015.
 

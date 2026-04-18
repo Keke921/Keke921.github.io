@@ -18,6 +18,61 @@ body {
   overflow-x: hidden;
 }
 
+/* Below theme $large (925px): stack sidebar + article; avoid float/sticky overlap on phones */
+@media screen and (max-width: 924px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #main .sidebar {
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: relative !important;
+    top: auto !important;
+    z-index: auto;
+  }
+
+  #main .page {
+    float: none !important;
+    clear: both !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Author card: drop table-cell row so content doesn’t sit beside the main column */
+  #main .sidebar .author__avatar {
+    display: block !important;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  #main .sidebar .author__avatar img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main .sidebar .author__content {
+    display: block !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #main .sidebar .author__urls-wrapper {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
 .page {
   min-width: 0;
 }
@@ -394,9 +449,11 @@ body {
   opacity: 0.75;
 }
 
-/* Sidebar author card refinement */
-.sidebar.sticky {
-  top: 1.1rem;
+/* Sidebar author card refinement (sticky offset only on desktop — theme uses $large) */
+@media screen and (min-width: 925px) {
+  .sidebar.sticky {
+    top: 1.1rem;
+  }
 }
 
 .author__avatar img,
@@ -430,6 +487,14 @@ img.author__avatar {
   font-size: 0.92em;
   color: #486581;
   font-weight: 700;
+}
+
+.author__affiliation {
+  margin: 0.4rem 0 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #486581;
 }
 
 .author__bio {
@@ -895,6 +960,15 @@ img.author__avatar {
   background: transparent;
 }
 
+.teaching-archive__index-link--active {
+  color: #a63d4a !important;
+  font-weight: 700;
+}
+
+.teaching-archive__index-link--active:hover {
+  color: #8f3540 !important;
+}
+
 .teaching-archive__index-sep {
   margin: 0 0.12rem;
   color: #94a8c4;
@@ -906,6 +980,7 @@ img.author__avatar {
   margin-top: 0;
 }
 
+/* Year headings: default like other sections; only --active (teaching_active_year) is “in progress” */
 .teaching-archive__year {
   margin: 0.95rem 0 0.35rem;
   padding-bottom: 0.28rem;
@@ -919,10 +994,26 @@ img.author__avatar {
   margin-top: 0;
 }
 
+.teaching-archive__year--active {
+  padding: 0.38rem 0.55rem 0.32rem;
+  font-weight: 700;
+  color: #a63d4a;
+  border-bottom: 1px solid rgba(232, 176, 182, 0.95);
+  border-radius: 10px;
+  background: rgba(252, 234, 235, 0.65);
+}
+
+/* First section on page when it’s the active year (e.g. 2026 on top): no pill background */
+.teaching-archive > .teaching-archive__year:first-child.teaching-archive__year--active {
+  background: transparent;
+  border-radius: 0;
+  padding: 0 0 0.28rem;
+}
+
 /* Teaching cards: one place to tune fixed width × height (px) */
 .teaching-archive__grid {
   --teaching-card-w: 360px;
-  --teaching-card-h: 160px;
+  --teaching-card-h: 135px;
   display: grid;
   gap: 0.58rem;
   align-items: start;
@@ -974,9 +1065,9 @@ img.author__avatar {
 .teaching-archive__item .archive__item {
   flex: 0 0 auto;
   width: 100%;
-  height: var(--teaching-card-h, 160px);
-  min-height: var(--teaching-card-h, 160px);
-  max-height: var(--teaching-card-h, 160px);
+  height: var(--teaching-card-h, 135px);
+  min-height: var(--teaching-card-h, 135px);
+  max-height: var(--teaching-card-h, 135px);
   margin-bottom: 0 !important;
   display: flex;
   flex-direction: column;
@@ -990,10 +1081,61 @@ img.author__avatar {
   overflow: hidden;
 }
 
+/*
+ * In-progress term (teaching_active_year): one rose–blush palette for shell + type
+ * (see _config.yml). Titles use the same hue below.
+ */
+.teaching-archive__item--active {
+  --tp-stripe: #c75f6c;
+  --tp-border: rgba(232, 176, 182, 0.95);
+  --tp-surface: linear-gradient(180deg, #fff6f7 0%, #ffffff 100%);
+  --tp-shadow: 0 2px 10px rgba(180, 82, 95, 0.13);
+  --tp-badge-bg: #fceaeb;
+  --tp-badge-border: #e8b8bf;
+  --tp-badge-text: #8f3540;
+  --tp-meta: #6e4e52;
+  --tp-meta-icon: #c96a75;
+  --tp-venue: #5c3e42;
+  --tp-excerpt: #574446;
+}
+
+.teaching-archive__item--active .archive__item {
+  border-color: var(--tp-border);
+  border-left-color: var(--tp-stripe);
+  background: var(--tp-surface);
+  box-shadow: var(--tp-shadow);
+}
+
+.teaching-archive__item--active .teaching-card__type {
+  background: var(--tp-badge-bg);
+  border-color: var(--tp-badge-border);
+  color: var(--tp-badge-text);
+}
+
+.teaching-archive__item--active .teaching-card__meta {
+  color: var(--tp-meta);
+}
+
+.teaching-archive__item--active .teaching-card__loc i,
+.teaching-archive__item--active .teaching-card__venue i,
+.teaching-archive__item--active .teaching-card__term i {
+  color: var(--tp-meta-icon);
+  opacity: 1;
+}
+
+.teaching-archive__item--active .teaching-card__venue em {
+  color: var(--tp-venue);
+}
+
+.teaching-archive__item--active .archive__item-excerpt,
+.teaching-archive__item--active .archive__item-excerpt p {
+  color: var(--tp-excerpt);
+}
+
 .teaching-archive__item .archive__item-title {
-  font-size: 1.14rem;
+  font-size: 1.06rem;
   margin: 0 0 0.12rem;
-  line-height: 1.32;
+  line-height: 1.3;
   flex: 0 0 auto;
 }
 
@@ -1008,15 +1150,25 @@ img.author__avatar {
   text-decoration: underline;
 }
 
+/* In-progress titles: same rose family as --tp-stripe / badge */
+.teaching-archive__item.teaching-archive__item--active .archive__item-title a {
+  color: #a63d4a;
+}
+
+.teaching-archive__item.teaching-archive__item--active .archive__item-title a:hover {
+  color: #c75f6c;
+  text-decoration: underline;
+}
+
 .teaching-card__meta {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 0.28rem 0.55rem;
   margin: 0 0 0.18rem;
-  font-size: 0.92rem;
+  font-size: 0.86rem;
   color: #415a77;
-  line-height: 1.4;
+  line-height: 1.38;
   flex: 0 0 auto;
 }
 
@@ -1028,7 +1180,7 @@ img.author__avatar {
   border: 1px solid #c8dbf6;
   color: #315a8f;
   font-weight: 700;
-  font-size: 0.82rem;
+  font-size: 0.76rem;
 }
 
 .teaching-card__loc,
@@ -1060,8 +1212,8 @@ img.author__avatar {
   min-height: 0;
   align-self: stretch;
   color: #3d4e63;
-  line-height: 1.42;
-  font-size: 0.94rem;
+  line-height: 1.38;
+  font-size: 0.87rem;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
