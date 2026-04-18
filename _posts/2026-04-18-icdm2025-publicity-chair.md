@@ -1,6 +1,6 @@
 ---
 title: "ICDM 2025 Publicity Chair"
-date: 2025-11-15
+date: 2026-04-18
 permalink: /posts/icdm-2025-publicity-chair/
 breadcrumbs: false
 tags:

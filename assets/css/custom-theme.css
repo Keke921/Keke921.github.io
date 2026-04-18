@@ -1,5 +1,37 @@
+/* --------------------------------------------------------------------------
+   Mobile / small screens: readable layout, no horizontal drift, notch safe area
+   -------------------------------------------------------------------------- */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  padding-left: env(safe-area-inset-left, 0);
+  padding-right: env(safe-area-inset-right, 0);
+}
+
 #main {
   max-width: 1500px;
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+.page {
+  min-width: 0;
+}
+
+.page__content {
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+}
+
+.page__content img,
+.page__content svg,
+.page__content video {
+  max-width: 100%;
+  height: auto;
 }
 
 .page {
@@ -828,6 +860,40 @@ img.author__avatar {
   font-weight: 600;
 }
 
+/* Blog posts — year jump + hint (older years are below newer ones) */
+.archive__year-nav {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+  color: #315a8f;
+  font-weight: 600;
+}
+
+.archive__year-nav a {
+  color: #1f62b5;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.archive__year-nav a:hover {
+  text-decoration: underline;
+}
+
+.archive__year-nav-sep {
+  margin: 0 0.35rem;
+  opacity: 0.7;
+}
+
+.archive__year-hint {
+  margin: 0 0 1rem;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #4d6585;
+  background: #f3f7fd;
+  border: 1px solid #dbe7f6;
+  border-radius: 8px;
+}
+
 /* Blog posts page */
 .layout--archive .archive__subtitle {
   margin-top: 1rem;
@@ -1150,5 +1216,25 @@ img.author__avatar {
   .blog-card {
     width: 100%;
     max-width: 360px;
+  }
+}
+
+/* Narrow phones: comfortable tap margins, home indicator clearance */
+@media (max-width: 480px) {
+  .page__inner-wrap {
+    padding: 0.85rem 0.72rem;
+  }
+
+  .home-intro,
+  .home-block {
+    padding: 0.62rem 0.72rem;
+  }
+
+  .home-highlight {
+    font-size: 0.94rem;
+  }
+
+  .page__footer {
+    padding-bottom: max(1.25rem, env(safe-area-inset-bottom, 0px));
   }
 }
