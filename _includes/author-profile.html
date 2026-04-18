@@ -4,7 +4,7 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div itemscope itemtype="http://schema.org/Person">
+<div class="author-profile-root"{% unless include.suppress_person_schema %} itemscope itemtype="http://schema.org/Person"{% endunless %}>
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
@@ -24,11 +24,13 @@
     {% else %}
       <h3 class="author__name">{{ author.name }}</h3>
     {% endif %}
-    {% if author.affiliation_line1 or author.affiliation_line2 %}
+    {% assign aff_line1 = author.affiliation_line1 | default: site.data.affiliation.line1 %}
+    {% assign aff_line2 = author.affiliation_line2 | default: site.data.affiliation.line2 %}
+    {% if aff_line1 or aff_line2 %}
     <p class="author__affiliation">
-      {% if author.affiliation_line1 %}{{ author.affiliation_line1 }}{% endif %}
-      {% if author.affiliation_line1 and author.affiliation_line2 %}<br>{% endif %}
-      {% if author.affiliation_line2 %}{{ author.affiliation_line2 }}{% endif %}
+      {% if aff_line1 %}{{ aff_line1 }}{% endif %}
+      {% if aff_line1 and aff_line2 %}<br>{% endif %}
+      {% if aff_line2 %}{{ aff_line2 }}{% endif %}
     </p>
     {% endif %}
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}

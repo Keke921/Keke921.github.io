@@ -28,13 +28,13 @@ For postgraduate students, please check <a href="/postgraduate/">硕士招生简
   <li><strong>2026/05</strong>: The China Conference on Image and Graphics (CCIG) officially announced a special forum co-organized by Prof. Hu (Zhengzhou University), Prof. Lu (Xiamen University), and me: <strong>"The Boundary of Foundation Model Generalization: Long-tail Challenges and Continual Learning".</strong> Welcome to join! See details <a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">here</a>.</li>
   <li><strong>2026/01</strong>: I was invited to serve as Chair of the ICDM 2026 Bluesky Track together with Prof. Jipeng Qiang. ICDM'26 <a href="http://icdm2026.neu.edu.cn/" target="_blank" rel="noopener">[website]</a></li>
   <li><strong>2026/02</strong>: 🎉🎉🎉 Three papers accepted to CVPR 2026, congratulations to Jiacheng Yang, Hezhao Liu, Shihao Hou and Prof. Lu!</li>
-  <li><strong>2025/06/13</strong>: SZU email is available. Please contact me at <strong>mengkeli@szu.edu.cn</strong>.</li>
-  <li><strong>2025/06/09</strong>: One TNNLS paper is accepted. Congrats to Prof. Lu!</li>
-  <li><strong>2025/05/01</strong>: One ICML paper is accepted. Congrats to Chong and Prof. Zhang!</li>
 </ul>
 <details class="news-more">
   <summary>More News</summary>
   <ul class="news-list">
+    <li><strong>2025/06/13</strong>: SZU email is available. Please contact me at <strong>mengkeli@szu.edu.cn</strong>.</li>
+    <li><strong>2025/06/09</strong>: One TNNLS paper is accepted. Congrats to Prof. Lu!</li>
+    <li><strong>2025/05/01</strong>: One ICML paper is accepted. Congrats to Chong and Prof. Zhang!</li>
     <li><strong>2025/03/12</strong>: Please contact me temporarily using <strong>mengkejiajia@hotmail.com</strong>. The original email address is no longer valid.</li>
     <li><strong>2024/12/10</strong>: One AAAI paper is accepted. Congrats to Yunfan and Prof. Zhang! <a href="https://arxiv.org/pdf/2412.20341" target="_blank" rel="noopener">[paper]</a></li>
     <li><strong>2024/09/26</strong>: One NeurIPS paper is accepted. Congrats to Ye! <a href="https://arxiv.org/pdf/2410.21042" target="_blank" rel="noopener">[paper]</a></li>
