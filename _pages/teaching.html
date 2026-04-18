@@ -7,6 +7,21 @@ author_profile: true
 
 {% include base_path %}
 {% assign teaching_sorted = site.teaching | sort: 'date' | reverse %}
+{% assign nav_first = true %}
+{% assign prev_year_nav = "" %}
+<nav class="teaching-archive__index" aria-label="按年份跳转">
+  <span class="teaching-archive__index-links">
+  {% for post in teaching_sorted %}
+    {% assign py = post.date | date: "%Y" %}
+    {% if py != prev_year_nav %}
+      {% unless nav_first %}<span class="teaching-archive__index-sep" aria-hidden="true">·</span>{% endunless %}
+      <a href="#teaching-{{ py }}">{{ py }}</a>
+      {% assign prev_year_nav = py %}
+      {% assign nav_first = false %}
+    {% endif %}
+  {% endfor %}
+  </span>
+</nav>
 {% assign written_year = "" %}
 
 <div class="teaching-archive">

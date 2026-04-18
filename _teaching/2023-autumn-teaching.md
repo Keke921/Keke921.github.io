@@ -3,7 +3,7 @@ title: "Machine Learning"
 collection: teaching
 type: "Master student course"
 permalink: /teaching/2023-autumn-teaching
-venue: "Shenzhen University, Zhili Building, Room 706"
+venue: "L1 706, Shenzhen University"
 date: 2023-09-10
 location: "Shenzhen, China"
 ---
