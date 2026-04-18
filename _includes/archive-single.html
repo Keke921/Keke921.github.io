@@ -39,7 +39,12 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <div class="teaching-card__meta">
+            <span class="teaching-card__type">{{ post.type }}</span>
+            {% if post.location %}<span class="teaching-card__loc"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>{{ post.location }}</span>{% endif %}
+            <span class="teaching-card__venue"><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i><em>{{ post.venue }}</em></span>
+            <span class="teaching-card__term"><i class="fas fa-fw fa-calendar" aria-hidden="true"></i>{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+          </div>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

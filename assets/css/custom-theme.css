@@ -860,9 +860,210 @@ img.author__avatar {
   font-weight: 600;
 }
 
-/* Blog posts — year jump + hint (older years are below newer ones) */
+/* Teaching — index cards & single course page */
+.teaching-archive {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 0.25rem;
+  align-items: stretch;
+}
+
+@media (min-width: 720px) {
+  .teaching-archive {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  }
+}
+
+/* Grid cell fills row height → inner flex chain → cards same height per row */
+.teaching-archive__item {
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+}
+
+.teaching-archive__item > .list__item {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  width: 100%;
+}
+
+.teaching-archive__item .archive__item {
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 0;
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #deebf8;
+  border-left: 4px solid #5f86c9;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  box-shadow: 0 3px 10px rgba(37, 64, 108, 0.06);
+  padding: 0.88rem 0.95rem;
+  box-sizing: border-box;
+}
+
+.teaching-archive__item .archive__item-title {
+  font-size: 1.12rem;
+  margin: 0 0 0.25rem;
+  line-height: 1.35;
+}
+
+.teaching-archive__item .archive__item-title a {
+  color: #1f4f84;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.teaching-archive__item .archive__item-title a:hover {
+  color: #2f73bc;
+  text-decoration: underline;
+}
+
+.teaching-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.45rem 0.75rem;
+  margin: 0.15rem 0 0.5rem;
+  font-size: 0.86rem;
+  color: #415a77;
+  line-height: 1.45;
+}
+
+.teaching-card__type {
+  display: inline-block;
+  padding: 0.08rem 0.52rem;
+  border-radius: 999px;
+  background: #eaf2ff;
+  border: 1px solid #c8dbf6;
+  color: #315a8f;
+  font-weight: 700;
+  font-size: 0.78rem;
+}
+
+.teaching-card__loc,
+.teaching-card__venue,
+.teaching-card__term {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.28rem;
+}
+
+.teaching-card__loc i,
+.teaching-card__venue i,
+.teaching-card__term i {
+  margin-top: 0.12rem;
+  color: #5f86c9;
+  opacity: 0.95;
+}
+
+.teaching-card__venue em {
+  font-style: normal;
+  font-weight: 600;
+  color: #334e68;
+}
+
+.teaching-archive__item .archive__item-excerpt {
+  margin: 0;
+  flex: 1;
+  color: #3d4e63;
+  line-height: 1.5;
+}
+
+.teaching-page__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.5rem 0.85rem;
+  margin: 0.4rem 0 0.85rem;
+  padding: 0.55rem 0.72rem;
+  border-radius: 10px;
+  border: 1px solid #dce9f8;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  font-size: 0.9rem;
+  color: #415a77;
+  line-height: 1.5;
+}
+
+.teaching-page__type {
+  display: inline-block;
+  padding: 0.1rem 0.54rem;
+  border-radius: 999px;
+  background: #eaf2ff;
+  border: 1px solid #c8dbf6;
+  color: #315a8f;
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+
+.teaching-page__loc,
+.teaching-page__venue,
+.teaching-page__term {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.32rem;
+}
+
+.teaching-page__loc i,
+.teaching-page__venue i,
+.teaching-page__term i {
+  margin-top: 0.14rem;
+  color: #5f86c9;
+}
+
+.teaching-page__venue em {
+  font-style: normal;
+  font-weight: 600;
+  color: #334e68;
+}
+
+.teaching-single .page__content h3 {
+  margin: 1rem 0 0.45rem;
+  font-size: 1.05rem;
+  color: #1f4f84;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #dbe7f6;
+}
+
+.teaching-single .page__content p:first-of-type {
+  margin-top: 0.35rem;
+}
+
+.teaching-single .page__content p,
+.teaching-single .page__content li {
+  line-height: 1.65;
+}
+
+.teaching-single .page__content ul {
+  margin: 0.6rem 0 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.teaching-single .page__content ul li {
+  padding: 0.5rem 0.65rem;
+  margin: 0.35rem 0;
+  border: 1px solid #e4edf8;
+  border-radius: 8px;
+  background: #fbfdff;
+}
+
+.teaching-single .page__content ul li a {
+  color: #1f62b5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.teaching-single .page__content ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Blog posts — year links only */
 .archive__year-nav {
-  margin: 0 0 0.35rem;
+  margin: 0 0 1rem;
   font-size: 0.95rem;
   color: #315a8f;
   font-weight: 600;
@@ -881,17 +1082,6 @@ img.author__avatar {
 .archive__year-nav-sep {
   margin: 0 0.35rem;
   opacity: 0.7;
-}
-
-.archive__year-hint {
-  margin: 0 0 1rem;
-  padding: 0.5rem 0.65rem;
-  font-size: 0.88rem;
-  line-height: 1.45;
-  color: #4d6585;
-  background: #f3f7fd;
-  border: 1px solid #dbe7f6;
-  border-radius: 8px;
 }
 
 /* Blog posts page */

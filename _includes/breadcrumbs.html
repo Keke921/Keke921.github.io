@@ -1,24 +1,30 @@
 {% include base_path %}
 
-{% case site.categories.type %}
-  {% when "liquid" %}
-    {% assign path_type = "#" %}
-  {% when "jekyll-archives" %}
-    {% assign path_type = nil %}
-{% endcase %}
+{% comment %}
+  Jekyll's site.categories is the taxonomy hash (category name → posts), NOT config — it has no .path / .type.
+  Use site.category_archive from _config.yml; blog list lives at /year-archive/ (see navigation.yml).
+{% endcomment %}
 
-{% if page.collection != 'posts' %}
-  {% assign path_type = nil %}
-  {% assign crumb_path = '/' %}
-{% else %}
-  {% assign crumb_path = site.categories.path %}
+{% assign path_type = nil %}
+{% assign crumb_path = '/' %}
+
+{% if page.collection == 'posts' %}
+  {% case site.category_archive.type %}
+    {% when "liquid" %}
+      {% assign path_type = "#" %}
+    {% when "jekyll-archives" %}
+      {% assign path_type = nil %}
+  {% endcase %}
+  {% assign crumb_path = site.category_archive.path | default: '/categories/' %}
 {% endif %}
 
 <nav class="breadcrumbs">
   <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-    {% assign crumbs = page.url | split: '/' %}
+    {% comment %} Drop empty segments from split so trailing slash does not yield a bogus middle crumb {% endcomment %}
+    {% assign crumbs = page.url | split: '/' | where_exp: "item", "item != nil" | where_exp: "item", "item != empty" %}
     {% assign i = 1 %}
-    {% for crumb in crumbs offset: 1 %}
+    {% comment %} No offset: leading empty segment already removed from crumbs {% endcomment %}
+    {% for crumb in crumbs %}
       {% if forloop.first %}
         <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
           <a href="{{ base_path }}/" itemprop="item"><span itemprop="name">{{ site.data.ui-text[site.locale].breadcrumb_home_label | default: "Home" }}</span></a>
@@ -31,7 +37,11 @@
       {% else %}
         {% assign i = i | plus: 1 %}
         <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="{{ base_path }}{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path }}" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | capitalize }}</span></a>
+          {% if page.collection == 'posts' and crumb == 'posts' %}
+            <a href="{{ base_path }}/year-archive/" itemprop="item"><span itemprop="name">Blog posts</span></a>
+          {% else %}
+            <a href="{{ base_path }}{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path }}" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | capitalize }}</span></a>
+          {% endif %}
           <meta itemprop="position" content="{{ i }}" />
         </li>
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>

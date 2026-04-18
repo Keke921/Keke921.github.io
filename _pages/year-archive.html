@@ -12,7 +12,6 @@ redirect_from:
 {% assign nav_first = true %}
 {% assign prev_year_nav = "" %}
 <p class="archive__year-nav">
-  <span class="archive__year-nav-label">按年份跳转：</span>
   {% for p in site.posts %}
     {% assign py = p.date | date: "%Y" %}
     {% if py != prev_year_nav %}
@@ -23,7 +22,6 @@ redirect_from:
     {% endif %}
   {% endfor %}
 </p>
-<p class="archive__year-hint">列表按发文日期倒序；同一年的多条会排在一起。若多年份，可点击上方跳转。</p>
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}

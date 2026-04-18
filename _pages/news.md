@@ -9,7 +9,7 @@ author_profile: false
 
 
 ### 📅 2026
-- **2026/05** 中国图象图形大会正式公布我和郑大胡老师、厦大卢老师一起组织的专题论坛《大模型泛化的边界：长尾挑战与持续学习》，欢迎参加，详见[[链接](https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA)]。
+- **2026/05** 中国图象图形大会（CCIG）正式公布我和郑大胡老师、厦大卢老师一起组织的专题论坛《大模型泛化的边界：长尾挑战与持续学习》，欢迎参加，详见[[链接](https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA)]。
 - **2026/02** 🎉🎉🎉 三篇论文被CVPR 2026录用。
 - **2026/01** 我受邀和强继朋老师一起担任 ICDM 2026 Bluesky track 的 Chair。ICDM'26 会议[[官网](http://icdm2026.neu.edu.cn/)]。
 

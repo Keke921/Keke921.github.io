@@ -25,7 +25,7 @@ For postgraduate students, please check <a href="/postgraduate/">硕士招生简
 ## 🔥 Recent News
 <div class="home-block">
 <ul class="news-list">
-  <li><strong>2026/05</strong>: The China Image and Graphics Conference officially announced a special forum co-organized by Prof. Hu (Zhengzhou University), Prof. Lu (Xiamen University), and me: <strong>"The Boundary of Foundation Model Generalization: Long-tail Challenges and Continual Learning"</strong>. Welcome to join! See details <a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">[here]</a>.</li>
+  <li><strong>2026/05</strong>: The China Conference on Image and Graphics (CCIG) officially announced a special forum co-organized by Prof. Hu (Zhengzhou University), Prof. Lu (Xiamen University), and me: <strong>"The Boundary of Foundation Model Generalization: Long-tail Challenges and Continual Learning".</strong> Welcome to join! See details <a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">here</a>.</li>
   <li><strong>2026/01</strong>: I was invited to serve as Chair of the ICDM 2026 Bluesky Track together with Prof. Jipeng Qiang. ICDM'26 <a href="http://icdm2026.neu.edu.cn/" target="_blank" rel="noopener">[website]</a></li>
   <li><strong>2026/02</strong>: 🎉🎉🎉 Three papers accepted to CVPR 2026, congratulations to Jiacheng Yang, Hezhao Liu, Shihao Hou and Prof. Lu!</li>
   <li><strong>2025/06/13</strong>: SZU email is available. Please contact me at <strong>mengkeli@szu.edu.cn</strong>.</li>
