@@ -862,15 +862,31 @@ img.author__avatar {
 
 /* Teaching — index cards & single course page */
 .teaching-archive {
-  display: grid;
-  gap: 0.85rem;
   margin-top: 0.25rem;
+}
+
+.teaching-archive__year {
+  margin: 1.35rem 0 0.55rem;
+  padding-bottom: 0.35rem;
+  font-size: 1.35rem;
+  color: #1d3e66;
+  border-bottom: 1px solid #dbe7f6;
+}
+
+.teaching-archive__year:first-of-type {
+  margin-top: 0;
+}
+
+.teaching-archive__grid {
+  display: grid;
+  gap: 0.75rem;
   align-items: stretch;
+  margin-bottom: 0.15rem;
 }
 
 @media (min-width: 720px) {
-  .teaching-archive {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  .teaching-archive__grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   }
 }
 
@@ -878,7 +894,7 @@ img.author__avatar {
 .teaching-archive__item {
   display: flex;
   flex-direction: column;
-  min-height: 260px;
+  min-height: 195px;
 }
 
 .teaching-archive__item > .list__item {
@@ -901,7 +917,7 @@ img.author__avatar {
   border-radius: 12px;
   background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
   box-shadow: 0 3px 10px rgba(37, 64, 108, 0.06);
-  padding: 0.88rem 0.95rem;
+  padding: 0.72rem 0.82rem;
   box-sizing: border-box;
 }
 

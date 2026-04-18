@@ -6,11 +6,25 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% assign teaching_sorted = site.teaching | sort: 'date' | reverse %}
+{% assign written_year = "" %}
 
 <div class="teaching-archive">
-  {% for post in site.teaching reversed %}
+{% for post in teaching_sorted %}
+  {% assign y = post.date | date: "%Y" %}
+  {% if y != written_year %}
+    {% if written_year != "" %}
+  </div>
+    {% endif %}
+  <h2 id="teaching-{{ y }}" class="teaching-archive__year">{{ y }}</h2>
+  <div class="teaching-archive__grid">
+    {% assign written_year = y %}
+  {% endif %}
     <div class="teaching-archive__item">
       {% include archive-single.html %}
     </div>
-  {% endfor %}
+{% endfor %}
+{% if teaching_sorted.size > 0 %}
+  </div>
+{% endif %}
 </div>
