@@ -15,7 +15,7 @@ I'm now an Assistant Professor in <a href="https://vcc.tech/index.html" target="
 
 I received my PhD degree in computer science from Hong Kong Baptist University in 2022 (supervised by <a href="http://www.comp.hkbu.edu.hk/~ymc/" target="_blank" rel="noopener">Prof. Yiu-ming Cheung</a>), my master degree in signal and information processing from Xidian University in 2018 (supervised by Prof. LI Ming), and my bachelor degree in communication engineering from <a href="http://hanhong.swu.edu.cn/index.htm" target="_blank" rel="noopener">Hanhong College</a>, Southwest University, in 2015.
 
-My research focuses on optimization analysis of deep learning for practical applications, including long-tail learning, continual learning, noisy label learning, and multimodal learning.
+My research focuses on computer vision, including long-tail learning, continual learning, noisy label learning, and multimodal learning. I've recently been focusing on multi-agent analysis.
 
 For postgraduate students, please check <a href="/postgraduate/">硕士招生简章</a>.
 <div class="home-highlight">📢 [2026.04.17] Still a few postgraduate quotas in Fall 2026. If you are interested in long-tail learning or Agentic AI, please contact me.</div>
