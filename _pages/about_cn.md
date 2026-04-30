@@ -10,7 +10,7 @@ For the English version, please click [here](https://keke921.github.io/).
 <div class="home-intro">
 本人就职于<a href="https://www.szu.edu.cn/" target="_blank" rel="noopener">深圳大学 (SZU)</a> <a href="https://csse.szu.edu.cn/en" target="_blank" rel="noopener">计算机与软件学院(CSSE)</a>，所在团队为<a href="https://vcc.tech/index.html" target="_blank" rel="noopener">可视计算研究中心(VCC)</a>，团队带头人为<a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">黄惠教授</a>。我于2022年获得香港浸会大学计算机科学专业博士学位（导师：<a href="http://www.comp.hkbu.edu.hk/~ymc/" target="_blank" rel="noopener">张晓明教授</a>)），于2018年获得西安电子科技大学信号与信息处理硕士学位，导师为李明教授；于2015年获得西南大学通信工程专业学士学位，毕业于<a href="http://hanhong.swu.edu.cn/index.htm" target="_blank" rel="noopener">含弘学院</a>（西南大学创新实验班）。
 
-主要研究方向是深度学习的优化分析和实际应用，包括长尾学习、持续学习、多模态学习等。
+主要研究方向是计算机视觉，包括长尾学习、持续学习、多模态学习等，最近比较关注多智能体分析。
 
 有意加入课题组的硕士生，请查看<a href="/postgraduate/">硕士招生简章</a>。
 <div class="home-highlight">📢[2026.04.17] 26级硕士生仍有名额，有兴趣的同学欢迎联系我。</div>
