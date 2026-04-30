@@ -4,8 +4,8 @@ This repository hosts my personal academic website built with Jekyll and deploye
 
 ## Website
 
-- Homepage: `https://keke921.github.io/`[https://keke921.github.io/]
-- Chinese homepage: `https://keke921.github.io/about_cn/`
+- Homepage: https://keke921.github.io/
+- Chinese homepage: https://keke921.github.io/about_cn/
 
 ## Main Sections
 
