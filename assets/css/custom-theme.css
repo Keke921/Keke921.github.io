@@ -972,6 +972,28 @@ img.author__avatar {
   font-weight: 400 !important;
 }
 
+/* ORCID brand green → same as sidebar link / theme blue */
+.author__urls i.ai-orcid,
+.author__urls .ai-orcid {
+  color: #245f72 !important;
+}
+
+.author__urls li a:hover i.ai-orcid,
+.author__urls li a:hover .ai-orcid {
+  color: #4b5cc4 !important;
+}
+
+/* GitHub brand black → theme link blue (sidebar only) */
+.author__urls i.fa-github,
+.author__urls .fa-github {
+  color: #245f72 !important;
+}
+
+.author__urls li a:hover i.fa-github,
+.author__urls li a:hover .fa-github {
+  color: #4b5cc4 !important;
+}
+
 .author__urls i.fas,
 .author__urls i.fa-solid,
 .author__urls .fas,
