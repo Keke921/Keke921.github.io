@@ -11,13 +11,9 @@ redirect_from:
 <div class="about-en-page" markdown="1">
 
 <div class="home-intro">
-I'm now an Assistant Professor in <a href="https://vcc.tech/index.html" target="_blank" rel="noopener">Visual Computing Research Center (VCC)</a>, headed by <a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">Prof. Hui Huang</a>, at the <a href="https://csse.szu.edu.cn/" target="_blank" rel="noopener">College of Computer Science & Software Engineering (CSSE)</a>, <a href="https://www.szu.edu.cn/" target="_blank" rel="noopener">Shenzhen University (SZU)</a>.
+I'm now an Assistant Professor in <a href="https://vcc.tech/index.html" target="_blank" rel="noopener">Visual Computing Research Center (VCC)</a>, headed by <a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">Prof. Hui Huang</a>, at the <a href="https://csse.szu.edu.cn/" target="_blank" rel="noopener">College of Computer Science & Software Engineering (CSSE)</a>, <a href="https://www.szu.edu.cn/" target="_blank" rel="noopener">Shenzhen University (SZU)</a>. I received my PhD degree in computer science from Hong Kong Baptist University in 2022 (supervised by <a href="http://www.comp.hkbu.edu.hk/~ymc/" target="_blank" rel="noopener">Prof. Yiu-ming Cheung</a>), my master degree in signal and information processing from Xidian University in 2018 (supervised by Prof. LI Ming), and my bachelor degree in communication engineering from <a href="http://hanhong.swu.edu.cn/index.htm" target="_blank" rel="noopener">Hanhong College</a>, Southwest University, in 2015.
 
-I received my PhD degree in computer science from Hong Kong Baptist University in 2022 (supervised by <a href="http://www.comp.hkbu.edu.hk/~ymc/" target="_blank" rel="noopener">Prof. Yiu-ming Cheung</a>), my master degree in signal and information processing from Xidian University in 2018 (supervised by Prof. LI Ming), and my bachelor degree in communication engineering from <a href="http://hanhong.swu.edu.cn/index.htm" target="_blank" rel="noopener">Hanhong College</a>, Southwest University, in 2015.
-
-My research focuses on computer vision, including long-tail learning, continual learning, noisy label learning, and multimodal learning. I've recently been focusing on multi-agent analysis.
-
-For postgraduate students, please check <a href="/postgraduate/">硕士招生简章</a>.
+My research focuses on computer vision, including long-tail learning, continual learning, noisy label learning, and multimodal learning. I've recently been focusing on multi-agent <span class="home-intro-no-orphan">analysis.</span> For prospective graduate students (master's), please see the <a href="/postgraduate/" lang="zh">硕士招生简章</a>.
 <div class="home-highlight">📢 [2026.04.17] Still a few postgraduate quotas in Fall 2026. If you are interested in long-tail learning or Agentic AI, please contact me.</div>
 </div>
 
@@ -25,7 +21,8 @@ For postgraduate students, please check <a href="/postgraduate/">硕士招生简
 ## 🔥 Recent News
 <div class="home-block">
 <ul class="news-list">
-  <li><strong>2026/05</strong>: The China Conference on Image and Graphics (CCIG) officially announced a special forum co-organized by Prof. Hu (Zhengzhou University), Prof. Lu (Xiamen University), and me: <strong>"The Boundary of Foundation Model Generalization: Long-tail Challenges and Continual Learning".</strong> Welcome to join! See details <a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">here</a>.</li>
+  <li><strong>2026/05</strong>: 🎉 One ICML 2026 is accepted! Big congrats to Haiquan! Many thanks to our colloges! </li>
+  <li><strong>2026/04</strong>: The China Conference on Image and Graphics (CCIG) officially announced a special forum co-organized by Prof. Hu (Zhengzhou University), Prof. Lu (Xiamen University), and me: <strong>"The Boundary of Foundation Model Generalization: Long-tail Challenges and Continual Learning".</strong> Welcome to join! See details <a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">here</a>.</li>
   <li><strong>2026/02</strong>: 🎉🎉🎉 Three papers accepted to CVPR 2026, congratulations to Jiacheng Yang, Hezhao Liu, Shihao Hou and Prof. Lu!</li>
   <li><strong>2026/01</strong>: I was invited to serve as Chair of the ICDM 2026 Bluesky Track together with Prof. Jipeng Qiang. ICDM'26 <a href="http://icdm2026.neu.edu.cn/" target="_blank" rel="noopener">[website]</a></li>
 </ul>

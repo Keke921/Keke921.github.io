@@ -13,7 +13,7 @@ body {
 }
 
 #main {
-  max-width: 1500px;
+  max-width: 1760px;
   min-width: 0;
   overflow-x: hidden;
 }
@@ -260,10 +260,10 @@ body {
   .sidebar .author-profile__mobile-bar .author__content {
     margin-top: 0.75rem !important;
     text-align: left;
-    background: #ffffff !important;
-    border: 1px solid #e8edf4 !important;
-    border-radius: 12px !important;
-    padding: 0.75rem 0.85rem !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0.35rem 0 0 !important;
     box-shadow: none;
   }
 
@@ -297,6 +297,7 @@ body {
 
 .page {
   min-width: 0;
+  max-width: 1300px;
 }
 
 .page__content {
@@ -311,22 +312,23 @@ body {
   height: auto;
 }
 
-.page {
-  max-width: 1220px;
-}
-
 .page__inner-wrap {
   background: #ffffff;
   border: 1px solid #e8edf4;
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(37, 64, 108, 0.08);
-  padding: 1.25rem 1.4rem;
+  padding: 1.22rem 1.25rem;
 }
 
 .page__title {
   color: #1b2a41;
   font-weight: 800;
   line-height: 1.25;
+  padding-bottom: 0.55rem;
+  margin-bottom: 0.85rem;
+  display: block;
+  width: 100%;
+  border-bottom: none !important;
 }
 
 .page__title .page-title-cn {
@@ -349,7 +351,18 @@ body {
 .home-intro p,
 .home-block p {
   text-align: justify;
+  text-justify: inter-word;
   line-height: 1.68;
+}
+
+.home-intro p {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* Keep final word + period together (avoids lone “.” on a line under justified text) */
+.home-intro .home-intro-no-orphan {
+  white-space: nowrap;
 }
 
 .home-block ul {
@@ -357,13 +370,31 @@ body {
   padding-left: 1.1rem;
 }
 
+/* News uses .news-list with date column — no extra list indent */
+.home-block ul.news-list {
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .page__content h2 {
   margin-top: 1.2rem;
   margin-bottom: 0.55rem;
   font-size: 1.4rem;
   color: #102a43;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid #dbe6f4;
+  padding-bottom: 0.45rem;
+  display: block;
+  width: 100%;
+  border-bottom: none !important;
+}
+
+/* Fixed thick segment (11rem) + full-width thin rule — keep above theme resets */
+article.page .page__inner-wrap header .page__title,
+.archive > .page__title,
+.page__content h2 {
+  border-bottom: none !important;
+  background:
+    linear-gradient(#2a5686, #2a5686) 0 100% / 11rem 3px no-repeat,
+    linear-gradient(to right, rgba(42, 86, 134, 0.42), rgba(42, 86, 134, 0.42)) 0 100% / 100% 1px no-repeat !important;
 }
 
 .page__content a {
@@ -373,20 +404,20 @@ body {
 
 .home-intro,
 .home-block {
-  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
-  border: 1px solid #e7eef6;
-  border-radius: 14px;
-  padding: 0.75rem 0.9rem;
-  margin: 0.55rem 0 0.75rem;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0.55rem 0 0.85rem;
 }
 
 .home-highlight {
   margin-top: 0.5rem;
-  padding: 0.5rem 0.72rem;
-  border-radius: 10px;
-  border: 1px solid #cddff7;
+  padding: 0.5rem 0 0.5rem 0.85rem;
+  border-radius: 0;
+  border: none;
   border-left: 4px solid #1f4e8c;
-  background: #edf5ff;
+  background: rgba(237, 245, 255, 0.72);
   color: #1f3c68;
   font-weight: 600;
 }
@@ -403,6 +434,11 @@ body {
   border: 0;
   background: transparent;
   line-height: 1.55;
+  text-align: left;
+  text-justify: auto;
+  /* .page__content uses overflow-wrap:anywhere — too aggressive for prose; prefer normal word breaks */
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .news-list li strong {
@@ -412,9 +448,27 @@ body {
 
 .news-list li > strong {
   display: inline-block;
-  min-width: 4.25rem;
+  min-width: 4.5rem;
   color: #1f4f84 !important;
   vertical-align: top;
+}
+
+@media screen and (min-width: 925px) {
+  .home-block .news-list li > strong:first-of-type,
+  .news-cn-block .news-list li > strong:first-of-type {
+    white-space: nowrap;
+  }
+}
+
+/* Bullet before date for a cleaner visual column */
+.news-list li > strong:first-of-type::before {
+  content: '\2022';
+  display: inline-block;
+  width: 0.5em;
+  margin-right: 0.28em;
+  color: #5f86c9;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .news-list li strong:not(:first-of-type) {
@@ -437,9 +491,8 @@ body {
   margin-right: 0.12rem;
 }
 
-/* English homepage typography */
-.about-en-page p,
-.about-en-page li {
+/* English homepage: justify paragraphs only — lists look bad with full justification */
+.about-en-page p {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -455,7 +508,7 @@ body {
 }
 
 .news-more {
-  margin-top: 0.6rem;
+  margin-top: 0.65rem;
 }
 
 .news-more summary {
@@ -467,7 +520,9 @@ body {
   border: 1px solid #d9e3f2;
   background: #f5f8ff;
   border-radius: 999px;
-  padding: 0.25rem 0.72rem;
+  padding: 0.3rem 0.85rem;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(37, 64, 108, 0.06);
 }
 
 .news-more summary::-webkit-details-marker {
@@ -476,6 +531,17 @@ body {
 
 .news-more[open] summary {
   background: #edf3ff;
+  border-color: #c7d7ec;
+  color: #1a4a5c;
+}
+
+.news-more summary:focus-visible {
+  outline: 2px solid #3b6ea5;
+  outline-offset: 2px;
+}
+
+.news-more > ul.news-list {
+  margin-top: 0.55rem;
 }
 
 .tag-list {
@@ -485,14 +551,43 @@ body {
   margin-top: 0.35rem;
 }
 
+/* About: research interests — use full column width, larger chips (section felt too narrow) */
+.home-block:has(> .tag-list) {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-block:has(> .tag-list) .tag-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+  gap: 0.55rem 0.65rem;
+  margin-top: 0.2rem;
+}
+
 .tag-list span {
   display: inline-block;
   border-radius: 999px;
-  border: 1px solid #d9e3f2;
-  background: #f5f8ff;
+  border: none;
+  background: rgba(232, 240, 252, 0.85);
   color: #2c4a72;
   font-size: 0.92rem;
   padding: 0.2rem 0.55rem;
+}
+
+.home-block:has(> .tag-list) .tag-list span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 0.52rem 0.85rem;
+  border-radius: 12px;
+  border: 1px solid rgba(42, 86, 134, 0.14);
+  background: linear-gradient(180deg, #f3f8ff 0%, #e8f1fb 100%);
+  box-sizing: border-box;
 }
 
 .student-list {
@@ -671,6 +766,13 @@ body {
   opacity: 0.75;
 }
 
+.masthead__lang-switch i.fa-solid,
+.masthead__lang-switch .fa-solid {
+  font-family: 'Font Awesome 6 Free' !important;
+  font-weight: 900;
+  font-style: normal !important;
+}
+
 /* Sidebar author card refinement (sticky offset only on desktop — theme uses $large) */
 @media screen and (min-width: 925px) {
   .sidebar.sticky {
@@ -680,17 +782,17 @@ body {
 
 .author__avatar img,
 img.author__avatar {
-  border-radius: 14px;
-  border: 1px solid #e7eef6;
-  box-shadow: 0 6px 18px rgba(37, 64, 108, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(15, 42, 67, 0.08);
+  box-shadow: none;
 }
 
 .author__content,
 .author__urls-wrapper {
-  background: #ffffff;
-  border: 1px solid #e8edf4;
-  border-radius: 12px;
-  padding: 0.75rem 0.85rem;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0.35rem 0;
 }
 
 .author__content {
@@ -743,6 +845,11 @@ img.author__avatar {
   padding: 0;
 }
 
+/* _sidebar.scss sets z-index:-1 for the Follow dropdown; list can sit under opaque fills — fix all breakpoints */
+.sidebar .author__urls {
+  z-index: 0;
+}
+
 .author__urls li {
   display: flex;
   align-items: center;
@@ -767,11 +874,45 @@ img.author__avatar {
 }
 
 .author__urls .icon-pad-right {
-  width: 1.05rem;
-  min-width: 1.05rem;
+  width: 1.2rem;
+  min-width: 1.2rem;
   text-align: center;
   margin-right: 0;
   line-height: 1;
+  flex-shrink: 0;
+}
+
+/* Restore icon fonts inside sidebar links (wrapper/text inherits sans-serif) */
+.author__urls i.ai,
+.author__urls .ai {
+  font-family: 'Academicons', serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.author__urls i.fas,
+.author__urls i.fa-solid,
+.author__urls .fas,
+.author__urls .fa-solid {
+  font-family: 'Font Awesome 6 Free' !important;
+  font-style: normal !important;
+  font-weight: 900 !important;
+}
+
+.author__urls i.far,
+.author__urls i.fa-regular,
+.author__urls .far {
+  font-family: 'Font Awesome 6 Free' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.author__urls i.fab,
+.author__urls i.fa-brands,
+.author__urls .fab {
+  font-family: 'Font Awesome 6 Brands' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
 }
 
 /* Publication list cards on archive pages */
@@ -1902,7 +2043,8 @@ img.author__avatar {
 /* Narrow phones: comfortable tap margins, home indicator clearance */
 @media (max-width: 480px) {
   .page__inner-wrap {
-    padding: 0.85rem 0.72rem;
+    border-radius: 12px;
+    padding: 0.9rem 0.85rem;
   }
 
   .home-intro,

@@ -20,15 +20,16 @@ For the English version, please click [here](https://keke921.github.io/).
 ## 🔥 近期动态
 <div class="home-block news-cn-block">
 <ul class="news-list">
-  <li><strong>2026/05</strong>: 中国图象图形大会（CCIG）正式公布我和郑大胡老师、厦大卢老师共同组织的专题论坛《大模型泛化的边界：长尾挑战与持续学习》，欢迎参加，详见<a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">[链接]</a>。</li>
-  <li><strong>2026/01</strong>: 我受邀和强继朋老师一起担任 ICDM 2026 Bluesky track 的 Chair。ICDM'26 <a href="http://icdm2026.neu.edu.cn/" target="_blank" rel="noopener">[官网]</a></li>
+  <li><strong>2026/05</strong>: 🎉 一篇关于长尾噪声学习的文章被 ICML 2026接收，恭喜海权！感谢一起努力的同事们！ </li>
+  <li><strong>2026/04</strong>: 中国图象图形大会（CCIG）正式公布我和郑大胡老师、厦大卢老师共同组织的专题论坛《大模型泛化的边界：长尾挑战与持续学习》，欢迎参加，详见<a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">[链接]</a>。</li>
   <li><strong>2026/02</strong>: 🎉🎉🎉 三篇论文被CVPR 2026录用，恭喜嘉诚、赫昭和世豪同学以及卢杨教授！</li>
-  <li><strong>2025/05</strong>: 🎉 一篇关于SAR图像识别的论文被 ICML 2025 接收。恭喜张翀和张老师！</li>
+  <li><strong>2026/01</strong>: 我受邀和强继朋老师一起担任 ICDM 2026 Bluesky track 的 Chair。ICDM'26 <a href="http://icdm2026.neu.edu.cn/" target="_blank" rel="noopener">[官网]</a></li>
 </ul>
 
 <details class="news-more">
   <summary>更多动态</summary>
   <ul class="news-list">
+    <li><strong>2025/05</strong>: 🎉 一篇关于SAR图像识别的论文被 ICML 2025 接收。恭喜张翀和张老师！</li>
     <li><strong>2025/03/12</strong>: 联系我请暂时使用 <strong>mengkejiajia@hotmail.com</strong>，因为工作原因，gml.ac.cn 已经无法使用。</li>
     <li><strong>2024/12/10</strong>: 🎉 一篇关于联邦聚类的文章被 AAAI 2025 接收，恭喜云帆和张老师！<a href="https://arxiv.org/pdf/2412.20341" target="_blank" rel="noopener">[论文]</a></li>
     <li><strong>2024/09/26</strong>: 🎉 一篇关于长尾学习的文章被 NeurIPS 2024 接收，恭喜刘烨！<a href="https://arxiv.org/pdf/2410.21042" target="_blank" rel="noopener">[论文]</a></li>
