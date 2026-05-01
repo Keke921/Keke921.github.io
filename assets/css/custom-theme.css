@@ -12,10 +12,13 @@ body {
   padding-right: env(safe-area-inset-right, 0);
 }
 
+/* Let theme #main max-width match .masthead__inner-wrap ($large 925px → $x-large 1280px).
+   Do not set a larger #main only — the nav stays narrow/centered while the body spreads left. */
 #main {
-  max-width: 1760px;
   min-width: 0;
   overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Below theme $large (925px): stack sidebar + article; avoid float/sticky overlap on phones */
@@ -157,19 +160,19 @@ body {
   }
 
   #main .sidebar .author-profile__mobile-bar .author__name {
-    font-size: 0.95rem;
+    font-size: 0.99rem;
     margin: 0 0 0.2rem;
     line-height: 1.25;
   }
 
   #main .sidebar .author-profile__mobile-bar .author__name-sub {
-    font-size: 0.88em;
+    font-size: 0.9em;
   }
 
   #main .sidebar .author-profile__mobile-bar .author__affiliation,
   #main .sidebar .author-profile__mobile-bar .author__bio {
     margin: 0.15rem 0 0;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     line-height: 1.38;
     font-weight: 600;
     color: #486581;
@@ -181,7 +184,7 @@ body {
 
   #main .sidebar .author-profile__mobile-bar .author__pronouns {
     margin: 0.2rem 0 0;
-    font-size: 0.75rem;
+    font-size: 0.78rem;
   }
 
   #main .sidebar .author-profile__expand-btn {
@@ -274,7 +277,7 @@ body {
   /* Same size for affiliation lines + Assistant Professor; college line spaced below university */
   .sidebar .author-profile__mobile-bar .author__affiliation,
   .sidebar .author-profile__mobile-bar .author__bio {
-    font-size: 0.76rem;
+    font-size: 0.84rem;
     line-height: 1.42;
     letter-spacing: 0.01em;
     font-weight: 600;
@@ -295,9 +298,10 @@ body {
   }
 }
 
+/* Do not cap .page width: theme uses float:right + ~83% width; a fixed max-width
+   leaves a large empty band between the sidebar and the content card on wide screens. */
 .page {
   min-width: 0;
-  max-width: 1300px;
 }
 
 .page__content {
@@ -318,6 +322,16 @@ body {
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(37, 64, 108, 0.08);
   padding: 1.22rem 1.25rem;
+}
+
+/* Home (/) and About CN: narrow the white card for comfortable reading; does not affect other pages */
+@media screen and (min-width: 925px) {
+  article.page .page__inner-wrap:has(.about-en-page),
+  article.page .page__inner-wrap:has(.news-cn-block) {
+    max-width: min(50rem, 100%);
+    margin-left: 0;
+    margin-right: auto;
+  }
 }
 
 .page__title {
@@ -670,11 +684,17 @@ article.page .page__inner-wrap header .page__title,
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12) inset, 0 2px 8px rgba(16, 34, 54, 0.22);
 }
 
+.masthead__inner-wrap {
+  font-size: 1.08rem;
+}
+
 .greedy-nav {
   background: transparent;
+  font-size: 1em;
 }
 
 .greedy-nav a {
+  font-size: 1.05em;
   color: #f3f8ff;
   font-weight: 600;
 }
@@ -703,6 +723,7 @@ article.page .page__inner-wrap header .page__title,
 }
 
 .greedy-nav .hidden-links a {
+  font-size: 1em;
   color: #f4f8ff;
 }
 
@@ -713,11 +734,9 @@ article.page .page__inner-wrap header .page__title,
 
 .masthead__menu-item--lg a {
   color: #ffffff;
-}
-
-.masthead__menu-item--lg a {
   font-weight: 800;
   letter-spacing: 0.2px;
+  font-size: 1.12rem;
 }
 
 .masthead__menu-item--lg {
@@ -733,12 +752,18 @@ article.page .page__inner-wrap header .page__title,
 
 .masthead__lang-switch {
   margin-left: 0.1rem;
+  /* Fixed size: do not inherit .greedy-nav a scaling — keeps 中文 / EN visually even */
   font-size: 0.78rem;
   color: #d7e7fb;
   white-space: nowrap;
   display: inline-flex;
   align-items: center;
   line-height: 1;
+}
+
+/* EN uses <a class="lang-link"> — neutralize .greedy-nav a { font-size: 1.05em } here */
+.greedy-nav .masthead__lang-switch .lang-link {
+  font-size: 1em !important;
 }
 
 .masthead__lang-switch i {
@@ -757,6 +782,7 @@ article.page .page__inner-wrap header .page__title,
 }
 
 .masthead__lang-switch .lang-current {
+  font-size: 1em;
   color: #ffffff;
   font-weight: 700;
 }
@@ -773,10 +799,66 @@ article.page .page__inner-wrap header .page__title,
   font-style: normal !important;
 }
 
-/* Sidebar author card refinement (sticky offset only on desktop — theme uses $large) */
-@media screen and (min-width: 925px) {
+/* Sidebar + main column: match theme $large breakpoint (57.8125em ≈ 925px at 16px reference) */
+@media screen and (min-width: 57.8125em) {
+  /* Less outer padding + top gap so the block doesn’t sit right of a wide blank stripe */
+  #main {
+    padding-left: 0.65em !important;
+    padding-right: 0.85em !important;
+    margin-top: 1.35em !important;
+  }
+
   .sidebar.sticky {
     top: 1.1rem;
+  }
+
+  /* Wider author column (theme default ~15.25% × ~2 cols); tune width / page together ≈ 100% */
+  #main > .sidebar.sticky,
+  #main > .sidebar {
+    float: left !important;
+    margin-left: 0 !important;
+    margin-right: 1.25% !important;
+    width: 21% !important;
+    min-width: 11.5rem !important;
+    max-width: none !important;
+  }
+
+  #main > .page,
+  #main > .archive {
+    float: right !important;
+    padding-left: 0.55% !important;
+    width: 77.75% !important;
+    max-width: none !important;
+  }
+
+  #main > .page__related {
+    margin-left: 27.85% !important;
+  }
+
+  /* Slightly larger type in the author column (links + body text inherit base) */
+  #main .sidebar {
+    font-size: 1.055rem;
+  }
+
+  #main .sidebar .author__name {
+    font-size: 1.11rem;
+  }
+
+  #main .sidebar .author__name-sub {
+    font-size: 0.94em;
+  }
+
+  #main .sidebar .author__affiliation {
+    font-size: 0.94rem;
+  }
+
+  #main .sidebar .author__bio {
+    font-size: 0.9rem;
+  }
+
+  #main .sidebar .author__urls li,
+  #main .sidebar .author__urls li a {
+    font-size: 0.98rem;
   }
 }
 
