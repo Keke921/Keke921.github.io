@@ -7,6 +7,62 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.news-list li {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 10px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+.news-list li:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+.news-list li strong {
+  min-width: 85px;
+  display: inline-block;
+  font-weight: 600;
+  color: #555;
+}
+.news-list li {
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+.news-list a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+.news-list a:hover {
+  text-decoration: underline;
+}
+.news-list > li:first-child {
+  background: rgba(255, 77, 79, 0.08);
+  border-left: 3px solid #ff4d4f;
+}
+.news-list > li:first-child strong::after {
+  content: " NEW";
+  font-size: 11px;
+  color: #ff4d4f;
+  margin-left: 6px;
+  font-weight: bold;
+}
+.news-more summary {
+  cursor: pointer;
+  margin-top: 6px;
+  color: #666;
+  font-size: 14px;
+}
+.news-more summary:hover {
+  color: #000;
+}
+</style>
+
 
 <div class="about-en-page" markdown="1">
 
