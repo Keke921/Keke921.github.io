@@ -1,5 +1,5 @@
 ---
-title: "CCIG 2026 Forum Recap: Boundaries of Foundation Model Generalization"
+title: "CCIG 2026 Special Forum Recap"
 date: 2026-05-31
 permalink: /posts/ccig-2026-forum-recap/
 breadcrumbs: false
