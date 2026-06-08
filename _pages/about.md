@@ -89,8 +89,8 @@ My research focuses on computer vision, including long-tail learning, continual 
 <details class="student-group" open markdown="1">
   <summary>Current</summary>
   <ul class="student-list">
-    <li><strong>Haiquan Ling</strong> (2024-)<span>Long-tail noisy label learning</span></li>
-    <li><strong>Lihao Chen</strong> (2024-)<span>3D point cloud analysis</span></li>
+    <li><strong>Haiquan Ling</strong> (2024-)<span>Long-tail noisy label learning</span><span class="student-outcome">CVM'25, ICML'26</span></li>
+    <li><strong>Lihao Chen</strong> (2024-)<span>3D point cloud analysis</span><span class="student-outcome">TPAMI'26</span></li>
     <li><strong>Qihao Min</strong> (2025-)<span>Agentic AI</span></li>
   </ul>
 </details>
@@ -98,14 +98,8 @@ My research focuses on computer vision, including long-tail learning, continual 
 <details class="student-group" markdown="1">
   <summary>Graduated</summary>
   <ul class="student-list student-list--graduated">
-    <li><strong>Ye Liu</strong> (2023-2026)<span>Long-tail learning</span></li>
+    <li><strong>Ye Liu</strong> (2023-2026)<span>Long-tail learning</span><span class="student-outcome">NeurIPS'24</span></li>
   </ul>
-  <div class="student-outcomes">
-    <h4>Graduation Outcomes</h4>
-    <ul>
-      <li><strong>Ye Liu</strong>: Co-authored <em>Improving Visual Prompt Tuning by Gaussian Neighborhood Minimization for Long-Tailed Visual Recognition</em>, accepted by <strong>NeurIPS 2024</strong>. <a href="https://arxiv.org/pdf/2410.21042" target="_blank" rel="noopener">[paper]</a></li>
-    </ul>
-  </div>
 </details>
 </div>
 
