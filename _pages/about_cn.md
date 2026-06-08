@@ -79,10 +79,19 @@ For the English version, please click [here](https://keke921.github.io/).
 
 ## 🧑‍🎓 指导学生
 <div class="home-block">
-<ul class="student-list">
-  <li><strong>闵琪浩</strong>（2025-）<span>多智能体分析</span></li>
-  <li><strong>陈力豪</strong>（2024-）<span>点云分析</span></li>
-  <li><strong>凌海权</strong>（2024-）<span>长尾噪声学习</span></li>
-  <li><strong>刘烨</strong>（2023-2026）<span>长尾学习</span></li>
-</ul>
+<details class="student-group" open markdown="1">
+  <summary>在读学生</summary>
+  <ul class="student-list">
+    <li><strong>闵琪浩</strong>（2025-）<span>多智能体分析</span></li>
+    <li><strong>陈力豪</strong>（2024-）<span>点云分析</span><span class="student-outcome">TPAMI'26</span></li>
+    <li><strong>凌海权</strong>（2024-）<span>长尾噪声学习</span><span class="student-outcome">CVM'25, ICML'26</span></li>
+  </ul>
+</details>
+
+<details class="student-group" markdown="1">
+  <summary>已毕业</summary>
+  <ul class="student-list student-list--graduated">
+    <li><strong>刘烨</strong>（2023-2026）<span>长尾学习</span><span class="student-outcome">NeurIPS'24</span></li>
+  </ul>
+</details>
 </div>
