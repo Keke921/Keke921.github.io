@@ -1,0 +1,166 @@
+{% if site.data.citations %}
+<script id="publication-citations-data" type="application/json">{{ site.data.citations | jsonify }}</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const dataNode = document.getElementById("publication-citations-data");
+    if (!dataNode) {
+      return;
+    }
+
+    let data;
+    try {
+      data = JSON.parse(dataNode.textContent || "{}");
+    } catch (error) {
+      return;
+    }
+
+    const byArxiv = {};
+    const byOpenReview = {};
+    const byIeee = {};
+    const byTitle = {};
+
+    function normalizeTitle(title) {
+      return (title || "")
+        .toLowerCase()
+        .replace(/<[^>]+>/g, " ")
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    (data.papers || []).forEach(function (paper) {
+      if (
+        !paper ||
+        paper.citations === null ||
+        paper.citations === undefined ||
+        paper.citations <= 0
+      ) {
+        return;
+      }
+      const payload = {
+        count: paper.citations,
+        url: paper.scholar_url || null,
+        title: paper.title || "",
+        title_norm: paper.title_norm || "",
+      };
+      if (paper.title_norm) {
+        byTitle[paper.title_norm] = payload;
+      }
+      if (paper.arxiv && paper.id === paper.arxiv) {
+        byArxiv[paper.arxiv] = payload;
+      } else if (paper.arxiv && !byArxiv[paper.arxiv]) {
+        byArxiv[paper.arxiv] = payload;
+      }
+      if (paper.openreview && paper.id === paper.openreview) {
+        byOpenReview[paper.openreview] = payload;
+      } else if (paper.openreview && !byOpenReview[paper.openreview]) {
+        byOpenReview[paper.openreview] = payload;
+      }
+      if (paper.ieee && paper.id === paper.ieee) {
+        byIeee[paper.ieee] = payload;
+      } else if (paper.ieee && !byIeee[paper.ieee]) {
+        byIeee[paper.ieee] = payload;
+      }
+    });
+
+    function extractIds(href) {
+      const ids = {};
+      const arxivMatch = href.match(/arxiv\.org\/(?:abs|pdf)\/(\d{4}\.\d{4,5})/i);
+      if (arxivMatch) {
+        ids.arxiv = arxivMatch[1];
+      }
+      const openReviewMatch = href.match(/openreview\.net\/(?:pdf|forum)\?id=([^&\s"]+)/i);
+      if (openReviewMatch) {
+        ids.openreview = openReviewMatch[1];
+      }
+      const ieeeMatch = href.match(/ieeexplore\.ieee\.org\/abstract\/document\/(\d+)/i);
+      if (ieeeMatch) {
+        ids.ieee = ieeeMatch[1];
+      }
+      return ids;
+    }
+
+    function lookupFromLinks(node) {
+      const links = node.querySelectorAll("a[href]");
+      for (const link of links) {
+        const ids = extractIds(link.href || "");
+        if (ids.arxiv && byArxiv[ids.arxiv]) {
+          return byArxiv[ids.arxiv];
+        }
+        if (ids.openreview && byOpenReview[ids.openreview]) {
+          return byOpenReview[ids.openreview];
+        }
+        if (ids.ieee && byIeee[ids.ieee]) {
+          return byIeee[ids.ieee];
+        }
+      }
+      return null;
+    }
+
+    function lookupFromTitle(node) {
+      const heading = node.querySelector("h3");
+      let rawTitle = heading ? heading.textContent : node.textContent;
+      rawTitle = rawTitle.split("[paper]")[0].split("[code]")[0];
+      const venueMatch = rawTitle.match(/^\s*[^,]+,\s*(.+)$/);
+      if (venueMatch) {
+        rawTitle = venueMatch[1];
+      }
+      const normalized = normalizeTitle(rawTitle);
+      return byTitle[normalized] || null;
+    }
+
+    function createBadge(info) {
+      const badge = document.createElement("span");
+      badge.className = "scholar-cite-count";
+      badge.textContent = "Citations: " + info.count;
+      badge.title = "Google Scholar citations";
+      if (info.url) {
+        const link = document.createElement("a");
+        link.href = info.url;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.className = "scholar-cite-count__link";
+        link.textContent = badge.textContent;
+        badge.textContent = "";
+        badge.appendChild(link);
+      }
+      return badge;
+    }
+
+    function attachBadge(node) {
+      if (node.querySelector(".scholar-cite-count")) {
+        return;
+      }
+      const info = lookupFromTitle(node) || lookupFromLinks(node);
+      if (!info) {
+        return;
+      }
+      const badge = createBadge(info);
+      const authorLine = node.querySelector("p");
+      if (authorLine) {
+        authorLine.appendChild(document.createTextNode(" "));
+        authorLine.appendChild(badge);
+        return;
+      }
+      node.appendChild(document.createTextNode(" "));
+      node.appendChild(badge);
+    }
+
+    document
+      .querySelectorAll(".selected-pubs-list > li, .pub-year-group li")
+      .forEach(attachBadge);
+
+    const updatedAt = data.updated_at;
+    if (updatedAt) {
+      const intro = document.querySelector(".publications-cite-note");
+      if (intro) {
+        const date = new Date(updatedAt);
+        const label = isNaN(date.getTime())
+          ? updatedAt.slice(0, 10)
+          : date.toISOString().slice(0, 10);
+        intro.textContent = "Citation counts are synced from Google Scholar (last updated: " + label + ").";
+      }
+    }
+  });
+</script>
+{% endif %}

@@ -1,0 +1,266 @@
+scholar_author_id: 0N26QgMAAAAJ
+updated_at: '2026-06-08T08:17:48Z'
+papers:
+- id: '2509.00374'
+  title: 'Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models
+    for 3D Point Cloud Analysis'
+  title_norm: adaptive point prompt tuning fine tuning heterogeneous foundation models
+    for 3d point cloud analysis
+  arxiv: '2509.00374'
+  openreview: null
+  ieee: null
+  citations: 0
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/11535628/
+  scholar_title: null
+- id: '2605.23254'
+  title: 'CARE: Class-Adaptive Expert Consensus for Reliable Learning with Long-Tailed
+    Noisy Labels'
+  title_norm: care class adaptive expert consensus for reliable learning with long
+    tailed noisy labels
+  arxiv: '2605.23254'
+  openreview: null
+  ieee: null
+  citations: 0
+  scholar_url: https://arxiv.org/abs/2605.23254
+  scholar_title: null
+- id: si1iynl5y7
+  title: Gamma Distribution PCA-Enhanced Feature Learning for Angle-Robust SAR Target
+    Recognition
+  title_norm: gamma distribution pca enhanced feature learning for angle robust sar
+    target recognition
+  arxiv: null
+  openreview: si1iynl5y7
+  ieee: null
+  citations: null
+  scholar_url: null
+  scholar_title: null
+- id: '2410.21042'
+  title: Improving Visual Prompt Tuning by Gaussian Neighborhood Minimization for
+    Long-Tailed Visual Recognition
+  title_norm: improving visual prompt tuning by gaussian neighborhood minimization
+    for long tailed visual recognition
+  arxiv: '2410.21042'
+  openreview: null
+  ieee: null
+  citations: 28
+  scholar_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/bc667ac84ef58f2b5022da97a465cbab-Abstract-Conference.html
+  scholar_title: null
+- id: '2306.06963'
+  title: Feature Fusion from Head to Tail for Long-Tailed Visual Recognition
+  title_norm: feature fusion from head to tail for long tailed visual recognition
+  arxiv: '2306.06963'
+  openreview: null
+  ieee: null
+  citations: 79
+  scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/29262
+  scholar_title: null
+- id: key point sensitive loss for long tailed visual recognition
+  title: Key point sensitive loss for long-tailed visual recognition
+  title_norm: key point sensitive loss for long tailed visual recognition
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 56
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/9848833/
+  scholar_title: null
+- id: long tailed visual recognition via gaussian clouded logit adjustment
+  title: Long-tailed visual recognition via gaussian clouded logit adjustment
+  title_norm: long tailed visual recognition via gaussian clouded logit adjustment
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: null
+  scholar_url: null
+  scholar_title: null
+- id: '2412.20341'
+  title: Asynchronous Federated Clustering with Unknown Number of Clusters
+  title_norm: asynchronous federated clustering with unknown number of clusters
+  arxiv: '2412.20341'
+  openreview: null
+  ieee: null
+  citations: 22
+  scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/34429
+  scholar_title: null
+- id: '2407.13200'
+  title: Dynamically Anchored Prompting for Task-Imbalanced Continual Learning
+  title_norm: dynamically anchored prompting for task imbalanced continual learning
+  arxiv: '2407.13200'
+  openreview: null
+  ieee: null
+  citations: 12
+  scholar_url: https://arxiv.org/abs/2404.14721
+  scholar_title: null
+- id: learning order forest for qualitative attribute data clustering
+  title: Learning Order Forest for Qualitative-Attribute Data Clustering
+  title_norm: learning order forest for qualitative attribute data clustering
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 15
+  scholar_url: https://drive.google.com/file/d/1revVu1typu0DADGONXjBBLAD5JN2qVq-/view
+  scholar_title: null
+- id: '2404.14721'
+  title: Dynamically Anchored Prompting for Task-Imbalanced Continual Learning
+  title_norm: dynamically anchored prompting for task imbalanced continual learning
+  arxiv: '2404.14721'
+  openreview: null
+  ieee: null
+  citations: 12
+  scholar_url: https://arxiv.org/abs/2404.14721
+  scholar_title: null
+- id: key points centered sparse hashing for cross modal retrieval
+  title: Key Points Centered Sparse Hashing for Cross-Modal Retrieval
+  title_norm: key points centered sparse hashing for cross modal retrieval
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 6
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/10446586/
+  scholar_title: null
+- id: '2304.01279'
+  title: Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge
+    Excavation
+  title_norm: long tailed visual recognition via self heterogeneous integration with
+    knowledge excavation
+  arxiv: '2304.01279'
+  openreview: null
+  ieee: null
+  citations: 93
+  scholar_url: http://openaccess.thecvf.com/content/CVPR2023/html/Jin_Long-Tailed_Visual_Recognition_via_Self-Heterogeneous_Integration_With_Knowledge_Excavation_CVPR_2023_paper.html
+  scholar_title: null
+- id: decab debiased semi supervised learning for imbalanced open set data
+  title: 'DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data'
+  title_norm: decab debiased semi supervised learning for imbalanced open set data
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 0
+  scholar_url: https://link.springer.com/chapter/10.1007/978-981-99-8546-3_9
+  scholar_title: null
+- id: few shot lip password based speaker verification
+  title: Few-Shot Lip-Password Based Speaker Verification
+  title_norm: few shot lip password based speaker verification
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 1
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/10221963/
+  scholar_title: null
+- id: '2305.11733'
+  title: Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment
+  title_norm: long tailed visual recognition via gaussian clouded logit adjustment
+  arxiv: '2305.11733'
+  openreview: null
+  ieee: null
+  citations: 226
+  scholar_url: http://openaccess.thecvf.com/content/CVPR2022/html/Li_Long-Tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment_CVPR_2022_paper.html
+  scholar_title: null
+- id: '2305.10772'
+  title: Feature-Balanced Loss for Long-Tailed Visual Recognition
+  title_norm: feature balanced loss for long tailed visual recognition
+  arxiv: '2305.10772'
+  openreview: null
+  ieee: null
+  citations: 27
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/9860003/
+  scholar_title: null
+- id: facial structure guided gan for identity preserved face image de occlusion
+  title: Facial Structure Guided GAN for Identity-preserved Face Image De-occlusion
+  title_norm: facial structure guided gan for identity preserved face image de occlusion
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 14
+  scholar_url: https://dl.acm.org/doi/abs/10.1145/3460426.3463642
+  scholar_title: null
+- id: iterative dynamic generic learning for single sample face recognition with a
+    contaminated gallery
+  title: Iterative dynamic generic learning for single sample face recognition with
+    a contaminated gallery
+  title_norm: iterative dynamic generic learning for single sample face recognition
+    with a contaminated gallery
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 1
+  scholar_url: https://www.comp.hkbu.edu.hk/~ymc/papers/conference/ICME20-publication-version.pdf
+  scholar_title: null
+- id: '11027917'
+  title: 'MOOD: Leveraging Out-of-Distribution Data to Enhance Imbalanced Semi-Supervised
+    Learning'
+  title_norm: mood leveraging out of distribution data to enhance imbalanced semi
+    supervised learning
+  arxiv: null
+  openreview: null
+  ieee: '11027917'
+  citations: 1
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/11027917/
+  scholar_title: null
+- id: '2305.10648'
+  title: Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition
+  title_norm: adjusting logit in gaussian form for long tailed visual recognition
+  arxiv: '2305.10648'
+  openreview: null
+  ieee: '10531112'
+  citations: null
+  scholar_url: null
+  scholar_title: null
+- id: cross modal hashing method with properties of hamming space a new perspective
+  title: 'Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective'
+  title_norm: cross modal hashing method with properties of hamming space a new perspective
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 57
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/10506992/
+  scholar_title: null
+- id: compact neural network via stacking hybrid units
+  title: Compact Neural Network via Stacking Hybrid Units
+  title_norm: compact neural network via stacking hybrid units
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 13
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/10275036/
+  scholar_title: null
+- id: joint semantic preserving sparse hashing for cross modal retrieval
+  title: Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval
+  title_norm: joint semantic preserving sparse hashing for cross modal retrieval
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 23
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/10226248/
+  scholar_title: null
+- id: identity preserved complete face recovering network for partial face image
+  title: Identity-Preserved Complete Face Recovering Network for Partial Face Image
+  title_norm: identity preserved complete face recovering network for partial face
+    image
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 19
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/9515473/
+  scholar_title: null
+- id: tsar image change detection using pcanet guided by saliency detection
+  title: TSAR image change detection using PCANet guided by saliency detection
+  title_norm: tsar image change detection using pcanet guided by saliency detection
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 85
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/8521665/
+  scholar_title: null
+- id: '2506.00625'
+  title: Long-Tailed Visual Recognition via Permutation-Invariant Head-to-Tail Feature
+    Fusion
+  title_norm: long tailed visual recognition via permutation invariant head to tail
+    feature fusion
+  arxiv: '2506.00625'
+  openreview: null
+  ieee: null
+  citations: 2
+  scholar_url: https://arxiv.org/abs/2506.00625
+  scholar_title: null
+matched_count: 26
+registry_count: 26

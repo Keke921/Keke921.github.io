@@ -44,6 +44,11 @@ Run locally:
   - Optionally sync highlights in `_pages/about.md` and `_pages/about_cn.md`
 - Add/update a publication:
   - Update `_pages/publications.md`
+  - Run `python scripts/update_citations.py --bootstrap` to refresh the citation registry
+- Google Scholar citation counts:
+  - Stored in `_data/citations.yml`
+  - Updated weekly by `.github/workflows/update-citations.yml`
+  - Manual refresh: `pip install -r scripts/requirements-citations.txt` then `python scripts/update_citations.py`
 - Add a blog post:
   - Add a new markdown file under `_posts/`
 - Add teaching information:

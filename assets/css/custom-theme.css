@@ -1175,6 +1175,38 @@ img.author__avatar {
   margin-top: 0.06rem;
 }
 
+/* Google Scholar citation badges on Publications page */
+.scholar-cite-count {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.04rem 0.5rem;
+  border-radius: 999px;
+  background: #eef3ff;
+  border: 1px solid #c8d6f5;
+  color: #2f4f8f;
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 1.25;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.scholar-cite-count__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.scholar-cite-count__link:hover {
+  color: #1f3f7a;
+  text-decoration: underline;
+}
+
+.publications-cite-note {
+  margin: 0.35rem 0 0.8rem;
+  font-size: 0.82rem;
+  color: #5f6f86;
+}
+
 /* Publications year-group consistency */
 .pub-year-group {
   margin: 0.35rem 0 0.65rem;

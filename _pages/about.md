@@ -21,8 +21,9 @@ My research focuses on computer vision, including long-tail learning, continual 
 ## 🔥 Recent News
 <div class="home-block">
 <ul class="news-list">
+  <li><strong>2026/06</strong>: 🎉 One TPAMI paper about 3D point analysis is accepted. Congrats to Lihao! Many thanks to our colleagues! <a href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[paper]</a></li>
   <li><strong>2026/05</strong>: 🏅 I was recognized as a Gold Reviewer at ICML 2026. </li>
-  <li><strong>2026/05</strong>: 🎉 One ICML 2026 is accepted! Big congrats to Haiquan! Many thanks to our colloges! </li>
+  <li><strong>2026/05</strong>: 🎉 One ICML 2026 paper about long-tailed noisy label learning is accepted. Big congrats to Haiquan! Many thanks to our colleagues! <a href="https://arxiv.org/pdf/2605.23254" target="_blank" rel="noopener">[paper]</a></li>
   <li><strong>2026/04</strong>: The China Conference on Image and Graphics (CCIG) officially announced a special forum co-organized by Prof. Hu (Zhengzhou University), Prof. Lu (Xiamen University), and me: <strong>"The Boundary of Foundation Model Generalization: Long-tail Challenges and Continual Learning".</strong> Welcome to join! See details <a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">here</a>.</li>
   <li><strong>2026/02</strong>: 🎉🎉🎉 Three papers accepted to CVPR 2026, congratulations to Jiacheng Yang, Hezhao Liu, Shihao Hou and Prof. Lu!</li>
   <li><strong>2026/01</strong>: I was invited to serve as Chair of the ICDM 2026 Bluesky Track together with Prof. Jipeng Qiang. ICDM'26 <a href="http://icdm2026.neu.edu.cn/" target="_blank" rel="noopener">[website]</a></li>

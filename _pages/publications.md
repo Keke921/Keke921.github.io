@@ -249,9 +249,22 @@ author_profile: true
 <div class="home-intro">
 You can also find my articles on my <a href="https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar profile</a> and <a href="https://dblp.org/pid/67/6597-1.html" target="_blank" rel="noopener">DBLP</a>.
 </div>
+<p class="publications-cite-note">Citation counts are synced from Google Scholar.</p>
 
 ## 🌟 Selected Publications
 <ul class="selected-pubs-list">
+  <li class="pub-highlight-card">
+    <div class="pub-badge">TPAMI'26</div>
+    <div class="pub-topics"><span>Point Cloud</span><span>Prompt Tuning</span></div>
+    <h3>Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models for 3D Point Cloud Analysis <a class="pub-link-paper" href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[paper]</a></h3>
+    <p>M Li, L Chen, P Zhang, Y Cheung, H Huang<span class="corr-icon">✉</span>.</p>
+  </li>
+  <li class="pub-highlight-card">
+    <div class="pub-badge">ICML'26</div>
+    <div class="pub-topics"><span>Long-tail</span><span>Noisy Labels</span></div>
+    <h3>CARE: Class-Adaptive Expert Consensus for Reliable Learning with Long-Tailed Noisy Labels <a class="pub-link-paper" href="https://arxiv.org/pdf/2605.23254" target="_blank" rel="noopener">[paper]</a></h3>
+    <p>M Li, H Ling, L Chen, Y Lu, Y Zhang, H Huang<span class="corr-icon">✉</span>.</p>
+  </li>
   <li class="pub-highlight-card">
     <div class="pub-badge">ICML'25</div>
     <div class="pub-topics"><span>SAR</span><span>Recognition</span></div>
@@ -290,6 +303,14 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 
 ## 🎤 Conference
 <details class="pub-year-group" open markdown="1">
+  <summary>2026</summary>
+
+- <span class="venue-tag">ICML'26</span> CARE: Class-Adaptive Expert Consensus for Reliable Learning with Long-Tailed Noisy Labels,<br>
+  **Mengke Li**, Haiquan Ling, Lihao Chen, Yang Lu, Yiqun Zhang, Hui Huang<span class="corr-icon">✉</span><br>
+  _Forty-third International Conference on Machine Learning (ICML 2026)_. <span class="ccf-tag ccf-a">CCF-A</span> <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/pdf/2605.23254" target="_blank" rel="noopener">arxiv</a>
+</details>
+
+<details class="pub-year-group" markdown="1">
   <summary>2025–2024</summary>
 
 - <span class="venue-tag">ICML’25</span> Gamma Distribution PCA-Enhanced Feature Learning for Angle-Robust SAR Target Recognition,<br>
@@ -362,6 +383,14 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
   
 ## 📘 Journal
 <details class="pub-year-group" open markdown="1">
+  <summary>2026</summary>
+
+- <span class="venue-tag">TPAMI'26</span> Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models for 3D Point Cloud Analysis,<br>
+  **Mengke Li**, Lihao Chen, Peng Zhang, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span><br>
+  _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2026. <span class="ccf-tag ccf-a">中科院1区 Top</span><span class="ccf-tag ccf-a">CCF-A</span> <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">arxiv</a>
+</details>
+
+<details class="pub-year-group" markdown="1">
   <summary>2025–2024</summary>
 
 - <span class="venue-tag">TNNLS'25</span> MOOD: Leveraging Out-of-Distribution Data to Enhance Imbalanced Semi-Supervised Learning,<br>
@@ -406,3 +435,5 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
   _IEEE Geoscience and Remote Sensing Letters_, vol. 16, no. 3, pp.402-406, 2019.<span class="ccf-tag ccf-b">中科院2区 Top</span><span class="ccf-tag ccf-c">CCF-C</span>
 
 </details>
+
+{% include publication-citations.html %}
