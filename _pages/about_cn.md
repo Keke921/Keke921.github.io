@@ -20,7 +20,7 @@ For the English version, please click [here](https://keke921.github.io/).
 ## 🔥 近期动态
 <div class="home-block news-cn-block">
 <ul class="news-list">
-  <li><strong>2026/06</strong>: 🎉 一篇关于三维点云分析的文章被 TPAMI 接收。恭喜力豪！感谢一起努力的同事们！<a href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[论文]</a></li> 
+  <li><strong>2026/05</strong>: 🎉 一篇关于三维点云分析的文章被 TPAMI 接收。恭喜力豪！感谢一起努力的同事们！<a href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[论文]</a></li> 
   <li><strong>2026/05</strong>: 🏅 我被ICML 2026组委会授予金牌审稿人!</li>
   <li><strong>2026/05</strong>: 🎉 一篇关于长尾噪声学习的文章被 ICML 2026 接收。恭喜海权！感谢一起努力的同事们！<a href="https://arxiv.org/pdf/2605.23254" target="_blank" rel="noopener">[论文]</a></li>
   <li><strong>2026/04</strong>: 中国图象图形大会（CCIG）正式公布我和郑大胡老师、厦大卢老师共同组织的专题论坛《大模型泛化的边界：长尾挑战与持续学习》，欢迎参加，详见<a href="https://mp.weixin.qq.com/s/Lq5rVYeRS-0r8jS8S7ZVjA" target="_blank" rel="noopener">[链接]</a>。</li>
