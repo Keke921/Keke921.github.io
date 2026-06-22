@@ -1,5 +1,5 @@
 scholar_author_id: 0N26QgMAAAAJ
-updated_at: '2026-06-08T08:17:48Z'
+updated_at: '2026-06-22T11:54:59Z'
 papers:
 - id: '2509.00374'
   title: 'Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models
@@ -31,8 +31,8 @@ papers:
   arxiv: null
   openreview: si1iynl5y7
   ieee: null
-  citations: null
-  scholar_url: null
+  citations: 0
+  scholar_url: https://openreview.net/forum?id=si1iynl5y7
   scholar_title: null
 - id: '2410.21042'
   title: Improving Visual Prompt Tuning by Gaussian Neighborhood Minimization for
@@ -42,7 +42,7 @@ papers:
   arxiv: '2410.21042'
   openreview: null
   ieee: null
-  citations: 28
+  citations: 29
   scholar_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/bc667ac84ef58f2b5022da97a465cbab-Abstract-Conference.html
   scholar_title: null
 - id: '2306.06963'
@@ -51,7 +51,7 @@ papers:
   arxiv: '2306.06963'
   openreview: null
   ieee: null
-  citations: 79
+  citations: 80
   scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/29262
   scholar_title: null
 - id: key point sensitive loss for long tailed visual recognition
@@ -69,8 +69,8 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: null
-  scholar_url: null
+  citations: 227
+  scholar_url: http://openaccess.thecvf.com/content/CVPR2022/html/Li_Long-Tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment_CVPR_2022_paper.html
   scholar_title: null
 - id: '2412.20341'
   title: Asynchronous Federated Clustering with Unknown Number of Clusters
@@ -78,7 +78,7 @@ papers:
   arxiv: '2412.20341'
   openreview: null
   ieee: null
-  citations: 22
+  citations: 24
   scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/34429
   scholar_title: null
 - id: '2407.13200'
@@ -125,7 +125,7 @@ papers:
   arxiv: '2304.01279'
   openreview: null
   ieee: null
-  citations: 93
+  citations: 94
   scholar_url: http://openaccess.thecvf.com/content/CVPR2023/html/Jin_Long-Tailed_Visual_Recognition_via_Self-Heterogeneous_Integration_With_Knowledge_Excavation_CVPR_2023_paper.html
   scholar_title: null
 - id: decab debiased semi supervised learning for imbalanced open set data
@@ -152,7 +152,7 @@ papers:
   arxiv: '2305.11733'
   openreview: null
   ieee: null
-  citations: 226
+  citations: 227
   scholar_url: http://openaccess.thecvf.com/content/CVPR2022/html/Li_Long-Tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment_CVPR_2022_paper.html
   scholar_title: null
 - id: '2305.10772'
@@ -202,8 +202,8 @@ papers:
   arxiv: '2305.10648'
   openreview: null
   ieee: '10531112'
-  citations: null
-  scholar_url: null
+  citations: 20
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/10531112/
   scholar_title: null
 - id: cross modal hashing method with properties of hamming space a new perspective
   title: 'Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective'
@@ -211,7 +211,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 57
+  citations: 61
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10506992/
   scholar_title: null
 - id: compact neural network via stacking hybrid units
@@ -262,5 +262,5 @@ papers:
   citations: 2
   scholar_url: https://arxiv.org/abs/2506.00625
   scholar_title: null
-matched_count: 26
-registry_count: 26
+matched_count: 27
+registry_count: 27
