@@ -21,6 +21,7 @@ My research focuses on computer vision, including long-tail learning, continual 
 ## 🔥 Recent News
 <div class="home-block">
 <ul class="news-list">
+  <li><strong>2026/07</strong>: 🎉 One TPAMI paper about Long Tail learning is accepted. Many thanks to our colleagues! <a href="https://arxiv.org/abs/2506.00625" target="_blank" rel="noopener">[paper]</a></li>
   <li><strong>2026/05</strong>: 🎉 One TPAMI paper about 3D point analysis is accepted. Congrats to Lihao! Many thanks to our colleagues! <a href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[paper]</a></li>
   <li><strong>2026/05</strong>: 🏅 I was recognized as a Gold Reviewer at ICML 2026. </li>
   <li><strong>2026/05</strong>: 🎉 One ICML 2026 paper about long-tailed noisy label learning is accepted. Big congrats to Haiquan! Many thanks to our colleagues! <a href="https://arxiv.org/pdf/2605.23254" target="_blank" rel="noopener">[paper]</a></li>
