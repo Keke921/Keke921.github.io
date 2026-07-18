@@ -255,6 +255,12 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 <ul class="selected-pubs-list">
   <li class="pub-highlight-card">
     <div class="pub-badge">TPAMI'26</div>
+    <div class="pub-topics"><span>Long-tail</span><span>Prompt Tuning</span></div>
+    <h3>PI-H2T: Enhancing Long-Tailed Visual Recognition with Permutation-Invariant and Head-to-Tail Feature Fusion <a class="pub-link-paper" href="https://arxiv.org/abs/2506.00625" target="_blank" rel="noopener">[paper]</a></h3>
+    <p>M Li, Z Hu, Y Lu, W Lan, Y Cheung, H Huang<span class="corr-icon">✉</span>.</p>
+  </li>
+  <li class="pub-highlight-card">
+    <div class="pub-badge">TPAMI'26</div>
     <div class="pub-topics"><span>Point Cloud</span><span>Prompt Tuning</span></div>
     <h3>Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models for 3D Point Cloud Analysis <a class="pub-link-paper" href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[paper]</a></h3>
     <p>M Li, L Chen, P Zhang, Y Cheung, H Huang<span class="corr-icon">✉</span>.</p>
@@ -384,6 +390,10 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 ## 📘 Journal
 <details class="pub-year-group" open markdown="1">
   <summary>2026</summary>
+- <span class="venue-tag">TPAMI'26</span> PI-H2T: Enhancing Long-Tailed Visual Recognition with Permutation-Invariant and Head-to-Tail Feature Fusion,<br>
+  **Mengke Li**, Zhikai Hu, Yang Lu, Weichao Lan, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span><br>
+  _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2026. <span class="ccf-tag ccf-a">中科院1区 Top</span><span class="ccf-tag ccf-a">CCF-A</span> <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">arxiv</a>
+</details>
 
 - <span class="venue-tag">TPAMI'26</span> Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models for 3D Point Cloud Analysis,<br>
   **Mengke Li**, Lihao Chen, Peng Zhang, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span><br>
