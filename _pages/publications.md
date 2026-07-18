@@ -393,15 +393,15 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 - <span class="venue-tag">TPAMI'26</span> PI-H2T: Enhancing Long-Tailed Visual Recognition with Permutation-Invariant and Head-to-Tail Feature Fusion,<br>
   **Mengke Li**, Zhikai Hu, Yang Lu, Weichao Lan, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span><br>
   _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2026. <span class="ccf-tag ccf-a">中科院1区 Top</span><span class="ccf-tag ccf-a">CCF-A</span> <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/abs/2506.00625" target="_blank" rel="noopener">arxiv</a>
-</details>
-
-<details class="pub-year-group" markdown="1">
-  <summary>2025–2024</summary>
 
 - <span class="venue-tag">TPAMI'26</span> Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models for 3D Point Cloud Analysis,<br>
   **Mengke Li**, Lihao Chen, Peng Zhang, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span><br>
   _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2026. <span class="ccf-tag ccf-a">中科院1区 Top</span><span class="ccf-tag ccf-a">CCF-A</span> <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">arxiv</a>
+</details>
 
+<details class="pub-year-group" markdown="1">
+  <summary>2025–2024</summary>
+  
 - <span class="venue-tag">TNNLS'25</span> MOOD: Leveraging Out-of-Distribution Data to Enhance Imbalanced Semi-Supervised Learning,<br>
   Yang Lu, Xiaolin Huang, Yizhou Chen, **Mengke Li**, Yan Yan, Chen Gong,<br>
   _IEEE Transactions on Neural Networks and Learning Systems_, Early Access, 2025. <span class="ccf-tag ccf-a">中科院1区 Top</span><span class="ccf-tag ccf-b">CCF-B</span> <a class="pub-link-paper" href="https://ieeexplore.ieee.org/abstract/document/11027917" target="_blank" rel="noopener">paper</a> <a class="pub-link-code" href="https://github.com/xlhuang132/MOODv2" target="_blank" rel="noopener">code</a>
