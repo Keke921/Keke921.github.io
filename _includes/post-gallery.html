@@ -1,0 +1,25 @@
+{% if page.gallery and page.gallery.images.size > 0 %}
+<section class="post-gallery">
+  <h2 class="post-gallery__title">🖼️ Gallery</h2>
+  {% if page.gallery.date or page.gallery.location %}
+    <p class="post-gallery__meta">
+      {% if page.gallery.date %}<span class="post-gallery__date">{{ page.gallery.date }}</span>{% endif %}
+      {% if page.gallery.date and page.gallery.location %}<span class="post-gallery__sep">·</span>{% endif %}
+      {% if page.gallery.location %}<span class="post-gallery__location">{{ page.gallery.location }}</span>{% endif %}
+    </p>
+  {% endif %}
+
+  <div class="post-gallery__grid">
+    {% for item in page.gallery.images %}
+      <figure class="post-gallery__item">
+        <div class="post-gallery__image-wrap">
+          <img src="{{ item.url | relative_url }}" alt="{{ item.caption | default: '' | strip_html }}" loading="lazy">
+        </div>
+        {% if item.caption %}
+          <figcaption>{{ item.caption }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

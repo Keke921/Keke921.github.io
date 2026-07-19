@@ -360,6 +360,10 @@ body {
 .page__content p {
   line-height: 1.6;
   margin: 0 0 0.65rem;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 .home-intro p,
@@ -425,6 +429,17 @@ article.page .page__inner-wrap header .page__title,
   margin: 0.55rem 0 0.85rem;
 }
 
+.home-intro {
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.home-highlight {
+  text-align: left;
+}
+
 .home-highlight {
   margin-top: 0.5rem;
   padding: 0.5rem 0 0.5rem 0.85rem;
@@ -448,8 +463,10 @@ article.page .page__inner-wrap header .page__title,
   border: 0;
   background: transparent;
   line-height: 1.55;
-  text-align: left;
-  text-justify: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
   /* .page__content uses overflow-wrap:anywhere — too aggressive for prose; prefer normal word breaks */
   overflow-wrap: normal;
   word-break: normal;
@@ -623,6 +640,20 @@ article.page .page__inner-wrap header .page__title,
   background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
   box-shadow: 0 2px 8px rgba(37, 64, 108, 0.06);
   position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+}
+
+.student-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 64, 108, 0.12);
+  border-color: #b8d1f0;
+  border-left-color: #4a73be;
+}
+
+.student-list li:hover::before {
+  transform: scale(1.08);
+  box-shadow: 0 4px 10px rgba(30, 61, 110, 0.28);
 }
 
 .student-list li:last-child {
@@ -651,6 +682,7 @@ article.page .page__inner-wrap header .page__title,
   color: #ffffff;
   box-shadow: 0 2px 6px rgba(30, 61, 110, 0.2);
   line-height: 1;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .student-list li span {
@@ -2195,4 +2227,416 @@ img.author__avatar {
   .page__footer {
     padding-bottom: max(1.25rem, env(safe-area-inset-bottom, 0px));
   }
+}
+
+/* Publications: justify both grouped and selected publication entries */
+.pub-year-group li,
+.selected-pubs-list li {
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* =========================================================
+   Student cards (参考 OMG 主页成员区块)
+   ========================================================= */
+
+.student-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0.6rem 0 0;
+  padding: 0;
+}
+
+.student-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.75rem 0.65rem 0.7rem;
+  border: 1px solid #dce9f8;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  box-shadow: 0 2px 8px rgba(37, 64, 108, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(37, 64, 108, 0.1);
+}
+
+.student-card__avatar {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4a73be 0%, #6e96dc 100%);
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(30, 61, 110, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-bottom: 0.45rem;
+}
+
+.student-card__status {
+  display: inline-block;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.35rem;
+}
+
+.student-card__status--current {
+  color: #1a5e3a;
+  background: #e3f8ec;
+}
+
+.student-card__status--graduated {
+  color: #7c4a0e;
+  background: #fff4e0;
+}
+
+.student-card__name {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #1b2a41;
+  margin: 0 0 0.1rem;
+}
+
+.student-card__years {
+  font-size: 0.78rem;
+  color: #5f7ea6;
+  margin-bottom: 0.35rem;
+}
+
+.student-card__field,
+.student-card__outcome {
+  font-size: 0.84rem;
+  color: #4f6685;
+  line-height: 1.45;
+  margin: 0.12rem 0 0;
+}
+
+.student-card__outcome {
+  font-weight: 600;
+  color: #1f4f84;
+}
+
+@media (max-width: 640px) {
+  .student-card-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .student-card {
+    padding: 0.65rem 0.55rem 0.6rem;
+  }
+
+  .student-card__avatar {
+    width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.1rem;
+  }
+
+  .student-card__name {
+    font-size: 0.92rem;
+  }
+
+  .student-card__field,
+  .student-card__outcome,
+  .student-card__years {
+    font-size: 0.78rem;
+  }
+}
+
+/* =========================================================
+   Blog post gallery (参考 OMG 主页影像区块)
+   ========================================================= */
+
+.post-gallery {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e1eaf5;
+}
+
+.post-gallery__title {
+  font-size: 1.25rem;
+  color: #102a43;
+  margin: 0 0 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.post-gallery__meta {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: #5f7ea6;
+}
+
+.post-gallery__sep {
+  margin: 0 0.4rem;
+  opacity: 0.7;
+}
+
+.post-gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.post-gallery__item {
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e1eaf5;
+  box-shadow: 0 2px 8px rgba(37, 64, 108, 0.06);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.post-gallery__item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(37, 64, 108, 0.14);
+}
+
+.post-gallery__image-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f4f8fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-gallery__image-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(27, 58, 94, 0);
+  transition: background 0.25s ease;
+}
+
+.post-gallery__item:hover .post-gallery__image-wrap::after {
+  background: rgba(27, 58, 94, 0.04);
+}
+
+.post-gallery__item img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.35s ease;
+}
+
+.post-gallery__item:hover img {
+  transform: scale(1.05);
+}
+
+.post-gallery__item figcaption {
+  padding: 0.55rem 0.75rem 0.7rem;
+  font-size: 0.85rem;
+  color: #4f6685;
+  line-height: 1.45;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .post-gallery__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 925px) {
+  .post-gallery__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Hide old student-list styles when new cards are used */
+.student-card-grid + .student-list,
+.student-card-grid ~ .student-list,
+.home-block .student-card-grid {
+  list-style: none;
+}
+
+.student-card-grid .student-card {
+  list-style: none;
+}
+
+/* Hide default list bullets if li is used inside student-card-grid */
+.student-card-grid > li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.student-card-grid > li::before,
+.student-card-grid > li::after {
+  display: none !important;
+}
+
+/* =========================================================
+   Horizontal student cards (flat / 扁扁的卡片 + 可折叠)
+   ========================================================= */
+
+.student-list-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
+}
+
+.student-card-h {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #dce9f8;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  box-shadow: 0 2px 8px rgba(37, 64, 108, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card-h:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(37, 64, 108, 0.1);
+}
+
+.student-card-h__avatar {
+  flex-shrink: 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4a73be 0%, #6e96dc 100%);
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(30, 61, 110, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.student-card-h__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.student-card-h__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.student-card-h__name {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #1b2a41;
+  margin: 0;
+}
+
+.student-card-h__status {
+  flex-shrink: 0;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.student-card-h__status--current {
+  color: #1a5e3a;
+  background: #e3f8ec;
+}
+
+.student-card-h__status--graduated {
+  color: #7c4a0e;
+  background: #fff4e0;
+}
+
+.student-card-h__years {
+  font-size: 0.82rem;
+  color: #5f7ea6;
+  margin: 0.12rem 0 0.28rem;
+}
+
+.student-card-h__field,
+.student-card-h__outcome {
+  font-size: 0.88rem;
+  color: #4f6685;
+  line-height: 1.45;
+  margin: 0.1rem 0 0;
+}
+
+.student-card-h__outcome {
+  font-weight: 600;
+  color: #1f4f84;
+}
+
+@media (max-width: 640px) {
+  .student-card-h {
+    padding: 0.65rem 0.75rem;
+  }
+
+  .student-card-h__avatar {
+    width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.1rem;
+  }
+
+  .student-card-h__name {
+    font-size: 0.95rem;
+  }
+
+  .student-card-h__field,
+  .student-card-h__outcome,
+  .student-card-h__years {
+    font-size: 0.82rem;
+  }
+}
+
+/* Restore details summary styling for student groups */
+.student-group summary {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1f4f84;
+  cursor: pointer;
+  padding: 0.35rem 0;
+  user-select: none;
+}
+
+.student-group summary::-webkit-details-marker {
+  margin-right: 0.45rem;
+}
+
+.student-group[open] summary {
+  margin-bottom: 0.3rem;
+}
+
+.student-group + .student-group {
+  margin-top: 0.6rem;
 }

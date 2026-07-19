@@ -13,11 +13,11 @@
               {% if page.url == "/about_cn/" %}
                 <a class="lang-link" href="{{ base_path }}/">EN</a>
                 <span class="lang-sep">|</span>
-                <span class="lang-current">中文</span>
+                <a class="lang-link lang-current" href="{{ base_path }}/about_cn/">中文</a>
               {% else %}
-                <a class="lang-link" href="{{ base_path }}/about_cn/">中文</a>
+                <a class="lang-link lang-current" href="{{ base_path }}/">EN</a>
                 <span class="lang-sep">|</span>
-                <span class="lang-current">EN</span>
+                <a class="lang-link" href="{{ base_path }}/about_cn/">中文</a>
               {% endif %}
             </span>
           </li>
