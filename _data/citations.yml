@@ -1,6 +1,17 @@
 scholar_author_id: 0N26QgMAAAAJ
 updated_at: '2026-07-13T09:26:20Z'
 papers:
+- id: '2506.00625'
+  title: 'PI-H2T: Enhancing Long-Tailed Visual Recognition with Permutation-Invariant
+    and Head-to-Tail Feature Fusion'
+  title_norm: pi h2t enhancing long tailed visual recognition with permutation invariant
+    and head to tail feature fusion
+  arxiv: '2506.00625'
+  openreview: null
+  ieee: null
+  citations: 2
+  scholar_url: https://arxiv.org/abs/2506.00625
+  scholar_title: null
 - id: '2509.00374'
   title: 'Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models
     for 3D Point Cloud Analysis'
@@ -250,17 +261,6 @@ papers:
   ieee: null
   citations: 87
   scholar_url: https://ieeexplore.ieee.org/abstract/document/8521665/
-  scholar_title: null
-- id: '2506.00625'
-  title: Long-Tailed Visual Recognition via Permutation-Invariant Head-to-Tail Feature
-    Fusion
-  title_norm: long tailed visual recognition via permutation invariant head to tail
-    feature fusion
-  arxiv: '2506.00625'
-  openreview: null
-  ieee: null
-  citations: 2
-  scholar_url: https://arxiv.org/abs/2506.00625
   scholar_title: null
 matched_count: 27
 registry_count: 27
