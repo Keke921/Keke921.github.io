@@ -303,9 +303,11 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
   </li>
 </ul>
 
+<!--
 ## Preprints
 - Long-Tailed Visual Recognition via Permutation-Invariant Head-to-Tail Feature Fusion,<br>
 **Mengke Li**, Zhikai Hu, Yang Lu, Weichao Lan, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span>, <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/pdf/2506.00625" target="_blank" rel="noopener">arxiv</a>.
+-->
 
 ## 🎤 Conference
 <details class="pub-year-group" open markdown="1">
