@@ -1,5 +1,5 @@
 {% if page.gallery and page.gallery.images.size > 0 %}
-<section class="post-gallery">
+<section class="post-gallery{% if page.gallery.fit == 'cover' %} post-gallery--cover{% endif %}">
   <h2 class="post-gallery__title">🖼️ Gallery</h2>
   {% if page.gallery.date or page.gallery.location %}
     <p class="post-gallery__meta">
@@ -13,7 +13,9 @@
     {% for item in page.gallery.images %}
       <figure class="post-gallery__item">
         <div class="post-gallery__image-wrap">
-          <img src="{{ item.url | relative_url }}" alt="{{ item.caption | default: '' | strip_html }}" loading="lazy">
+          <a href="{{ item.url | relative_url }}" title="{{ item.caption | default: '' | strip_html }}">
+            <img src="{{ item.url | relative_url }}" alt="{{ item.caption | default: '' | strip_html }}" loading="lazy">
+          </a>
         </div>
         {% if item.caption %}
           <figcaption>{{ item.caption }}</figcaption>

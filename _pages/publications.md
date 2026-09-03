@@ -247,7 +247,7 @@ author_profile: true
 </script>
 
 <div class="home-intro">
-You can also find my articles on my <a href="https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar profile</a> and <a href="https://dblp.org/pid/67/6597-1.html" target="_blank" rel="noopener">DBLP</a>.
+You can also find our works on my <a href="https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar profile</a> and <a href="https://dblp.org/pid/67/6597-1.html" target="_blank" rel="noopener">DBLP</a>.
 </div>
 <p class="publications-cite-note">Citation counts are synced from Google Scholar.</p>
 
@@ -302,12 +302,6 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
     <p>M Li, YM Cheung<span class="corr-icon">✉</span>, Y Lu.</p>
   </li>
 </ul>
-
-<!--
-## Preprints
-- Long-Tailed Visual Recognition via Permutation-Invariant Head-to-Tail Feature Fusion,<br>
-**Mengke Li**, Zhikai Hu, Yang Lu, Weichao Lan, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span>, <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/pdf/2506.00625" target="_blank" rel="noopener">arxiv</a>.
--->
 
 ## 🎤 Conference
 <details class="pub-year-group" open markdown="1">
@@ -392,6 +386,10 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 ## 📘 Journal
 <details class="pub-year-group" open markdown="1">
   <summary>2026</summary>
+- <span class="venue-tag">PR'26</span> Class-Modulated Top-K Logit Adjustment for long-tailed visual recognition,<br>
+  **Mengke Li**, Ye Liu, Zhikai Hu, Yiqun Zhang, Yang Lu, Hui Huang<span class="corr-icon">✉</span><br>
+  _Pattern Recognition_, vol. 180, art. no. 114608, 2026. <span class="ccf-tag ccf-a">中科院1区 Top</span><span class="ccf-tag ccf-b">CCF-B</span> <a class="pub-link-paper" href="https://www.sciencedirect.com/science/article/pii/S0031320326015724" target="_blank" rel="noopener">paper</a>
+
 - <span class="venue-tag">TPAMI'26</span> PI-H2T: Enhancing Long-Tailed Visual Recognition with Permutation-Invariant and Head-to-Tail Feature Fusion,<br>
   **Mengke Li**, Zhikai Hu, Yang Lu, Weichao Lan, Yiu-ming Cheung, Hui Huang<span class="corr-icon">✉</span><br>
   _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2026. <span class="ccf-tag ccf-a">中科院1区 Top</span><span class="ccf-tag ccf-a">CCF-A</span> <a class="pub-link-arxiv" style="display:inline-block;padding:0.07rem 0.58rem;margin:0.08rem 0.24rem 0.08rem 0;border-radius:999px;text-decoration:none;font-size:0.78rem;font-weight:700;line-height:1.18;color:#fff;background:#6b50c9;border:1px solid #5b43ad;box-shadow:0 1px 2px rgba(20,40,70,.16);" href="https://arxiv.org/abs/2506.00625" target="_blank" rel="noopener">arxiv</a>

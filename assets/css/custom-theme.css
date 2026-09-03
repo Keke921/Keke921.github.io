@@ -776,6 +776,10 @@ article.page .page__inner-wrap header .page__title,
   font-size: 0.98rem;
 }
 
+.student-list li.female::before {
+  content: "👩‍🎓";
+}
+
 .student-list li::before {
   content: "👨‍🎓";
   position: absolute;
@@ -2519,6 +2523,7 @@ img.author__avatar {
   content: '';
   position: absolute;
   inset: 0;
+  pointer-events: none;
   background: rgba(27, 58, 94, 0);
   transition: background 0.25s ease;
 }
@@ -2553,6 +2558,19 @@ img.author__avatar {
   .post-gallery__grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* uniform thumbnails: fill the frame, crop overflow */
+.post-gallery--cover .post-gallery__image-wrap a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.post-gallery--cover .post-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (min-width: 925px) {

@@ -21,6 +21,7 @@ redirect_from:
 ## 🔥 Recent News
 <div class="home-block">
 <ul class="news-list">
+  <li><strong>2026/08</strong>: 🎉 One Pattern Recognition paper about long-tailed visual recognition is accepted. Many thanks to our colleagues! <a href="https://www.sciencedirect.com/science/article/pii/S0031320326015724" target="_blank" rel="noopener">[paper]</a></li>
   <li><strong>2026/07</strong>: 🎉 One TPAMI paper about Long Tail learning is accepted. Many thanks to our colleagues! <a href="https://arxiv.org/abs/2506.00625" target="_blank" rel="noopener">[paper]</a></li>
   <li><strong>2026/05</strong>: 🎉 One TPAMI paper about 3D point analysis is accepted. Congrats to Lihao! Many thanks to our colleagues! <a href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[paper]</a></li>
   <li><strong>2026/05</strong>: 🏅 I was recognized as a Gold Reviewer at ICML 2026. </li>
@@ -94,13 +95,15 @@ redirect_from:
     <li><strong>Haiquan Ling</strong> (2024-)<span>Long-tail noisy label learning</span><span class="student-outcome">Outcomes: CVM'25, ICML'26</span></li>
     <li><strong>Lihao Chen</strong> (2024-)<span>3D point cloud analysis</span><span class="student-outcome">Outcomes: TPAMI'26</span></li>
     <li><strong>Qihao Min</strong> (2025-)<span>Agentic AI</span></li>
+    <li class="female"><strong>Lijie Tang</strong> (2026-)<span>Long-tail continual learning</span></li>
+    <li class="female"><strong>Xueyi Su</strong> (2026-)<span>Long-tail generative models</span></li>
   </ul>
 </details>
 
 <details class="student-group" markdown="1">
   <summary>Graduated</summary>
   <ul class="student-list student-list--graduated">
-    <li><strong>Ye Liu</strong> (2023-2026)<span>Long-tail learning</span><span class="student-outcome">Outcomes: NeurIPS'24</span></li>
+    <li><strong>Ye Liu</strong> (2023-2026)<span>Long-tail learning</span><span class="student-outcome">Outcomes: NeurIPS'24, Pattern Recognition 2026</span><span class="student-outcome">Next: PhD at Nanjing University</span></li>
   </ul>
 </details>
 </div>

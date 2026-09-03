@@ -83,6 +83,8 @@ For the English version, please click [here](https://keke921.github.io/).
 <details class="student-group" open markdown="1">
   <summary>在读学生</summary>
   <ul class="student-list">
+    <li class="female"><strong>苏雪怡</strong>（2026-）<span>生成模型长尾</span></li>
+    <li class="female"><strong>唐李洁</strong>（2026-）<span>长尾持续学习</span></li>
     <li><strong>闵琪浩</strong>（2025-）<span>多智能体分析</span></li>
     <li><strong>陈力豪</strong>（2024-）<span>点云分析</span><span class="student-outcome">成果: TPAMI'26</span></li>
     <li><strong>凌海权</strong>（2024-）<span>长尾噪声学习</span><span class="student-outcome">成果: CVM'26, ICML'26</span></li>
@@ -92,7 +94,7 @@ For the English version, please click [here](https://keke921.github.io/).
 <details class="student-group" markdown="1">
   <summary>已毕业</summary>
   <ul class="student-list student-list--graduated">
-    <li><strong>刘烨</strong>（2023-2026）<span>长尾学习</span><span class="student-outcome">成果: NeurIPS'24</span></li>
+    <li><strong>刘烨</strong>（2023-2026）<span>长尾学习</span><span class="student-outcome">成果: NeurIPS'24, Pattern Recognition 2026</span><span class="student-outcome">毕业去向: 南京大学深造</span></li>
   </ul>
 </details>
 </div>
