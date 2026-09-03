@@ -22,6 +22,7 @@ TITLE_MATCH_THRESHOLD = 0.82
 ARXIV_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})", re.I)
 OPENREVIEW_RE = re.compile(r"openreview\.net/(?:pdf|forum)\?id=([^\"&\s]+)", re.I)
 IEEE_RE = re.compile(r"ieeexplore\.ieee\.org/abstract/document/(\d+)", re.I)
+OPENALEX_MAILTO = "mengkeli@szu.edu.cn"
 VENUE_TITLE_RE = re.compile(
     r"<span class=\"venue-tag\">[^<]+</span>\s*([^,<]+)",
     re.I,
@@ -220,6 +221,72 @@ def fetch_scholar_publications(author_id: str) -> list[dict]:
     return publications
 
 
+def _openalex_get(session: "requests.Session", url: str, params: dict | None = None) -> dict | None:
+    import requests
+
+    params = dict(params or {})
+    params.setdefault("mailto", OPENALEX_MAILTO)
+    for attempt in range(3):
+        try:
+            response = session.get(url, params=params, timeout=30)
+        except requests.RequestException as error:
+            print(f"  OpenAlex request failed ({url}): {error}")
+            time.sleep(2 * (attempt + 1))
+            continue
+        if response.status_code == 404:
+            return None
+        if response.status_code == 429:
+            time.sleep(5 * (attempt + 1))
+            continue
+        response.raise_for_status()
+        return response.json()
+    return None
+
+
+def fetch_openalex_counts(papers: list[dict]) -> dict[str, int]:
+    """Fetch citation counts from OpenAlex for registered papers.
+
+    Returns a mapping of registry paper id -> cited_by_count. OpenAlex is used as a
+    fallback when Google Scholar is unreachable (e.g. from CI runner IPs).
+    """
+    import requests
+
+    session = requests.Session()
+    session.headers["User-Agent"] = f"citation-updater (mailto:{OPENALEX_MAILTO})"
+    counts: dict[str, int] = {}
+    for paper in papers:
+        key = str(paper.get("id") or "")
+        work = None
+        if paper.get("arxiv"):
+            work = _openalex_get(session, f"https://api.openalex.org/works/https://arxiv.org/abs/{paper['arxiv']}")
+        if work is None and paper.get("ieee"):
+            work = _openalex_get(session, f"https://api.openalex.org/works/10.1109/{paper['ieee']}")
+        if work is None and paper.get("openreview"):
+            work = _openalex_get(session, f"https://api.openalex.org/works/https://openreview.net/forum?id={paper['openreview']}")
+        if work is None and paper.get("title"):
+            result = _openalex_get(
+                session,
+                "https://api.openalex.org/works",
+                params={"search": paper["title"], "per-page": 5},
+            )
+            candidates = (result or {}).get("results", [])
+            best = best_title_match(normalize_title(paper["title"]), [
+                {
+                    "title_norm": normalize_title(entry.get("title") or ""),
+                    "citations": entry.get("cited_by_count", 0) or 0,
+                    "scholar_url": None,
+                }
+                for entry in candidates
+            ])
+            if best:
+                counts[key] = best["citations"]
+                continue
+        if work is not None:
+            counts[key] = work.get("cited_by_count", 0) or 0
+        time.sleep(0.2)
+    return counts
+
+
 def title_match_score(target: str, candidate: str) -> float:
     score = difflib.SequenceMatcher(None, target, candidate).ratio()
     target_tokens = set(target.split())
@@ -303,6 +370,12 @@ def main() -> int:
         action="store_true",
         help="Fetch and match citations but do not write _data/citations.yml.",
     )
+    parser.add_argument(
+        "--source",
+        choices=["auto", "scholar", "openalex"],
+        default="auto",
+        help="Citation data source. 'auto' tries Google Scholar first and falls back to OpenAlex.",
+    )
     args = parser.parse_args()
 
     if args.bootstrap:
@@ -310,18 +383,37 @@ def main() -> int:
         return 0
 
     data = bootstrap()
-    try:
-        scholar_pubs = fetch_scholar_publications(data.get("scholar_author_id", SCHOLAR_AUTHOR_ID))
-    except Exception as error:  # noqa: BLE001
-        print(f"Scholar fetch failed: {error}")
-        return 1
+    scholar_pubs: list[dict] | None = None
+    openalex_counts: dict[str, int] | None = None
 
-    matched, total = update_counts(data, scholar_pubs)
-    data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    data["matched_count"] = matched
-    data["registry_count"] = total
+    if args.source in ("auto", "scholar"):
+        try:
+            scholar_pubs = fetch_scholar_publications(data.get("scholar_author_id", SCHOLAR_AUTHOR_ID))
+        except Exception as error:  # noqa: BLE001
+            print(f"Scholar fetch failed: {error}")
+            if args.source == "scholar":
+                return 1
 
-    print(f"Matched {matched}/{total} site papers to Google Scholar entries")
+    if scholar_pubs is None:
+        if args.source == "auto":
+            print("Falling back to OpenAlex for citation counts")
+        openalex_counts = fetch_openalex_counts(data["papers"])
+        matched = sum(1 for paper in data["papers"] if str(paper.get("id") or "") in openalex_counts)
+        for paper in data["papers"]:
+            count = openalex_counts.get(str(paper.get("id") or ""))
+            if count is not None:
+                paper["citations"] = count
+        total = len(data["papers"])
+        data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        data["matched_count"] = matched
+        data["registry_count"] = total
+        print(f"Matched {matched}/{total} site papers to OpenAlex entries")
+    else:
+        matched, total = update_counts(data, scholar_pubs)
+        data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        data["matched_count"] = matched
+        data["registry_count"] = total
+        print(f"Matched {matched}/{total} site papers to Google Scholar entries")
 
     if args.dry_run:
         for paper in data["papers"]:

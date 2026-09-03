@@ -1,5 +1,5 @@
 scholar_author_id: 0N26QgMAAAAJ
-updated_at: '2026-07-13T09:26:20Z'
+updated_at: '2026-09-03T16:44:03Z'
 papers:
 - id: '2506.00625'
   title: 'PI-H2T: Enhancing Long-Tailed Visual Recognition with Permutation-Invariant
@@ -9,8 +9,8 @@ papers:
   arxiv: '2506.00625'
   openreview: null
   ieee: null
-  citations: 2
-  scholar_url: https://arxiv.org/abs/2506.00625
+  citations: 3
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/11601054/
   scholar_title: null
 - id: '2509.00374'
   title: 'Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models
@@ -53,7 +53,7 @@ papers:
   arxiv: '2410.21042'
   openreview: null
   ieee: null
-  citations: 31
+  citations: 35
   scholar_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/bc667ac84ef58f2b5022da97a465cbab-Abstract-Conference.html
   scholar_title: null
 - id: '2306.06963'
@@ -62,7 +62,7 @@ papers:
   arxiv: '2306.06963'
   openreview: null
   ieee: null
-  citations: 84
+  citations: 87
   scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/29262
   scholar_title: null
 - id: key point sensitive loss for long tailed visual recognition
@@ -71,7 +71,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 57
+  citations: 61
   scholar_url: https://ieeexplore.ieee.org/abstract/document/9848833/
   scholar_title: null
 - id: long tailed visual recognition via gaussian clouded logit adjustment
@@ -80,8 +80,8 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 236
-  scholar_url: http://openaccess.thecvf.com/content/CVPR2022/html/Li_Long-Tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment_CVPR_2022_paper.html
+  citations: 244
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/9879423/
   scholar_title: null
 - id: '2412.20341'
   title: Asynchronous Federated Clustering with Unknown Number of Clusters
@@ -89,7 +89,7 @@ papers:
   arxiv: '2412.20341'
   openreview: null
   ieee: null
-  citations: 26
+  citations: 29
   scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/34429
   scholar_title: null
 - id: '2407.13200'
@@ -107,8 +107,8 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 18
-  scholar_url: https://drive.google.com/file/d/1revVu1typu0DADGONXjBBLAD5JN2qVq-/view
+  citations: 19
+  scholar_url: https://journals.sagepub.com/doi/abs/10.3233/FAIA240709
   scholar_title: null
 - id: '2404.14721'
   title: Dynamically Anchored Prompting for Task-Imbalanced Continual Learning
@@ -125,7 +125,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 6
+  citations: 8
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10446586/
   scholar_title: null
 - id: '2304.01279'
@@ -136,8 +136,8 @@ papers:
   arxiv: '2304.01279'
   openreview: null
   ieee: null
-  citations: 97
-  scholar_url: http://openaccess.thecvf.com/content/CVPR2023/html/Jin_Long-Tailed_Visual_Recognition_via_Self-Heterogeneous_Integration_With_Knowledge_Excavation_CVPR_2023_paper.html
+  citations: 103
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/10205108/
   scholar_title: null
 - id: decab debiased semi supervised learning for imbalanced open set data
   title: 'DeCAB: Debiased Semi-supervised Learning for Imbalanced Open-Set Data'
@@ -163,8 +163,8 @@ papers:
   arxiv: '2305.11733'
   openreview: null
   ieee: null
-  citations: 236
-  scholar_url: http://openaccess.thecvf.com/content/CVPR2022/html/Li_Long-Tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment_CVPR_2022_paper.html
+  citations: 244
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/9879423/
   scholar_title: null
 - id: '2305.10772'
   title: Feature-Balanced Loss for Long-Tailed Visual Recognition
@@ -172,7 +172,7 @@ papers:
   arxiv: '2305.10772'
   openreview: null
   ieee: null
-  citations: 27
+  citations: 28
   scholar_url: https://ieeexplore.ieee.org/abstract/document/9860003/
   scholar_title: null
 - id: facial structure guided gan for identity preserved face image de occlusion
@@ -181,7 +181,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 15
+  citations: 16
   scholar_url: https://dl.acm.org/doi/abs/10.1145/3460426.3463642
   scholar_title: null
 - id: iterative dynamic generic learning for single sample face recognition with a
@@ -194,7 +194,16 @@ papers:
   openreview: null
   ieee: null
   citations: 1
-  scholar_url: https://www.comp.hkbu.edu.hk/~ymc/papers/conference/ICME20-publication-version.pdf
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/9102792/
+  scholar_title: null
+- id: class modulated top k logit adjustment for long tailed visual recognition
+  title: Class-Modulated Top-K Logit Adjustment for long-tailed visual recognition
+  title_norm: class modulated top k logit adjustment for long tailed visual recognition
+  arxiv: null
+  openreview: null
+  ieee: null
+  citations: 0
+  scholar_url: https://www.sciencedirect.com/science/article/pii/S0031320326015724
   scholar_title: null
 - id: '11027917'
   title: 'MOOD: Leveraging Out-of-Distribution Data to Enhance Imbalanced Semi-Supervised
@@ -213,7 +222,7 @@ papers:
   arxiv: '2305.10648'
   openreview: null
   ieee: '10531112'
-  citations: 22
+  citations: 24
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10531112/
   scholar_title: null
 - id: cross modal hashing method with properties of hamming space a new perspective
@@ -222,7 +231,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 62
+  citations: 71
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10506992/
   scholar_title: null
 - id: compact neural network via stacking hybrid units
@@ -231,7 +240,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 13
+  citations: 15
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10275036/
   scholar_title: null
 - id: joint semantic preserving sparse hashing for cross modal retrieval
@@ -240,7 +249,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 24
+  citations: 28
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10226248/
   scholar_title: null
 - id: identity preserved complete face recovering network for partial face image
@@ -259,8 +268,8 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 87
+  citations: 88
   scholar_url: https://ieeexplore.ieee.org/abstract/document/8521665/
   scholar_title: null
-matched_count: 27
-registry_count: 27
+matched_count: 28
+registry_count: 28
