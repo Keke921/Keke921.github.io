@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update-citations:
@@ -26,6 +27,38 @@ jobs:
 
       - name: Update citation counts
         run: python scripts/update_citations.py
+
+      - name: Notify about new publications
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            if (!fs.existsSync('new-papers.json')) {
+              console.log('No new papers detected.');
+              return;
+            }
+            const papers = JSON.parse(fs.readFileSync('new-papers.json', 'utf8'));
+            if (!papers.length) {
+              console.log('No new papers detected.');
+              return;
+            }
+            const lines = papers.map(p =>
+              `- [${p.title}](${p.url || '#'}) — ${[p.venue, p.year].filter(Boolean).join(', ')} (citations: ${p.citations})`
+            );
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📄 ${papers.length} new publication(s) detected on Google Scholar`,
+              body: [
+                'The weekly citation sync found paper(s) on your Google Scholar profile that are not listed on the site yet:',
+                '',
+                ...lines,
+                '',
+                'Add them to `_pages/publications.md` (Journal/Conference section) if they should be displayed.'
+              ].join('\n'),
+              labels: ['new-paper']
+            });
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5

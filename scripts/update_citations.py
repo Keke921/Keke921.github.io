@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import difflib
+import json
 import re
 import sys
 import time
@@ -16,8 +17,10 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 PUBLICATIONS_PAGE = ROOT / "_pages" / "publications.md"
 CITATIONS_FILE = ROOT / "_data" / "citations.yml"
+NEW_PAPERS_FILE = ROOT / "new-papers.json"
 SCHOLAR_AUTHOR_ID = "0N26QgMAAAAJ"
 TITLE_MATCH_THRESHOLD = 0.82
+ALERT_MIN_YEAR = 2025
 
 ARXIV_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})", re.I)
 OPENREVIEW_RE = re.compile(r"openreview\.net/(?:pdf|forum)\?id=([^\"&\s]+)", re.I)
@@ -210,6 +213,8 @@ def fetch_scholar_publications(author_id: str) -> list[dict]:
                 "title_norm": normalize_title(title),
                 "citations": filled.get("num_citations", 0) or 0,
                 "scholar_url": filled.get("pub_url"),
+                "year": bib.get("pub_year"),
+                "venue": bib.get("venue") or "",
                 "arxiv": None,
             }
         )
@@ -313,6 +318,37 @@ def best_title_match(target: str, candidates: list[dict]) -> dict | None:
     return None
 
 
+def detect_new_papers(scholar_pubs: list[dict], data: dict) -> list[dict]:
+    """Scholar papers that are not yet listed on the site and not yet alerted."""
+    registry_titles = [
+        paper.get("title_norm") or normalize_title(paper.get("title", ""))
+        for paper in data.get("papers", [])
+    ]
+    registry_titles = [title for title in registry_titles if title]
+    alerted = set(data.get("alerted") or [])
+    fresh: list[dict] = []
+    for pub in scholar_pubs:
+        title_norm = pub.get("title_norm") or ""
+        if not title_norm or title_norm in alerted:
+            continue
+        year = str(pub.get("year") or "")
+        if not year.isdigit() or int(year) < ALERT_MIN_YEAR:
+            continue
+        if any(title_match_score(title_norm, known) >= TITLE_MATCH_THRESHOLD for known in registry_titles):
+            continue
+        fresh.append(
+            {
+                "title": pub.get("title", ""),
+                "title_norm": title_norm,
+                "year": pub.get("year"),
+                "venue": pub.get("venue", ""),
+                "citations": pub.get("citations", 0),
+                "url": pub.get("scholar_url"),
+            }
+        )
+    return fresh
+
+
 def update_counts(data: dict, scholar_pubs: list[dict]) -> tuple[int, int]:
     matched = 0
     for paper in data.get("papers", []):
@@ -383,6 +419,7 @@ def main() -> int:
         return 0
 
     data = bootstrap()
+    NEW_PAPERS_FILE.unlink(missing_ok=True)
     scholar_pubs: list[dict] | None = None
     openalex_counts: dict[str, int] | None = None
 
@@ -414,6 +451,15 @@ def main() -> int:
         data["matched_count"] = matched
         data["registry_count"] = total
         print(f"Matched {matched}/{total} site papers to Google Scholar entries")
+
+        new_papers = detect_new_papers(scholar_pubs, data)
+        previously_alerted = set(data.get("alerted") or [])
+        data["alerted"] = sorted(previously_alerted | {paper["title_norm"] for paper in new_papers})
+        if new_papers:
+            NEW_PAPERS_FILE.write_text(
+                json.dumps(new_papers, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
+            print(f"Detected {len(new_papers)} new papers -> {NEW_PAPERS_FILE.name}")
 
     if args.dry_run:
         for paper in data["papers"]:
