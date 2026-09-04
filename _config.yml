@@ -64,17 +64,18 @@ author:
   # Biographic information
   avatar           : "LiMengke_Panda.jpg"
   name             : "Mengke Li (李梦柯)"
-  affiliation_line1: "Shenzhen University"
-  affiliation_line2: "College of Computer Science and Software Engineering"
-  pronouns         : #"Email: mengkejiajia@hotmail.com"  
-  bio              : "Assistant Professor"
+  affiliation_line1: '<a href="https://www.szu.edu.cn/" target="_blank" rel="noopener">Shenzhen University</a>'
+  affiliation_line2: '<a href="https://csse.szu.edu.cn/" target="_blank" rel="noopener">College of Computer Science and Software Engineering</a>'
+  pronouns         : #"Email: mengkejiajia@hotmail.com"
+  bio              : '<a href="https://csse.szu.edu.cn/pages/user/index?id=1341" target="_blank" rel="noopener">Assistant Professor</a>'
   location         : "Shenzhen, China"
   employer         : "Shenzhen University"
+  employer_url     : "https://www.szu.edu.cn/"
   uri              : "https://csse.szu.edu.cn/pages/user/index?id=1341"
   email            : "mengkeli@szu.edu.cn" 
   
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://arxiv.org/a/li_m_12.html" # URL - Update with the correct link to your profile
   dblp             : "https://dblp.org/pid/67/6597-1.html"
   googlescholar    : "https://scholar.google.com/citations?user=0N26QgMAAAAJ&hl=zh-CN" 
   impactstory      : # URL

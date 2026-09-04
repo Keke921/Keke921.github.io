@@ -17,15 +17,7 @@
     {% endif %}
     </div>
     <div class="author__content">
-    {% assign name_parts = author.name | split: " (" %}
-    {% if name_parts.size > 1 %}
-      <h3 class="author__name">
-        {{ name_parts[0] }}
-        <span class="author__name-sub">({{ name_parts[1] }}</span>
-      </h3>
-    {% else %}
-      <h3 class="author__name">{{ author.name }}</h3>
-    {% endif %}
+    <h3 class="author__name">{{ author.name }}</h3>
     {% assign aff_line1 = author.affiliation_line1 | default: site.data.affiliation.line1 %}
     {% assign aff_line2 = author.affiliation_line2 | default: site.data.affiliation.line2 %}
     {% if aff_line1 or aff_line2 %}
@@ -50,18 +42,18 @@
         <li><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ location_value }}</li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        <li><a href="{{ author.employer_url | default: site.author.employer_url }}"><i class="fa-solid fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
       {% endif %}
       {% assign email_value = author.email | default: site.author.email %}
       {% if email_value %}
-        <li><a href="mailto:{{ email_value }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>&nbsp;{{ email_value }}</a></li>
+        <li><a href="mailto:{{ email_value }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ email_value }}</a></li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>&nbsp;{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% assign dblp_value = author.dblp | default: site.author.dblp %}
       {% if dblp_value %}
-        <li><a href="{{ dblp_value }}"><i class="ai ai-dblp ai-fw icon-pad-right" aria-hidden="true"></i>&nbsp;DBLP</a></li>
+        <li><a href="{{ dblp_value }}"><i class="ai ai-dblp ai-fw icon-pad-right" aria-hidden="true"></i>DBLP</a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
