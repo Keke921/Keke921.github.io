@@ -19,6 +19,7 @@ author_profile: true
 ## 🔥 近期动态
 <div class="home-block news-cn-block">
 <ul class="news-list">
+  <li><strong>2026/08</strong>: 🎉 一篇关于长尾学习析的文章被 Pattern Recognition 接收！恭喜刘烨！感谢一起努力的同事们！<a href="https://arxiv.org/abs/2506.00625" target="_blank" rel="noopener">[论文]</a></li> 
   <li><strong>2026/07</strong>: 🎉 一篇关于长尾学习析的文章被 TPAMI 接收！感谢一起努力的同事们！<a href="https://arxiv.org/abs/2506.00625" target="_blank" rel="noopener">[论文]</a></li> 
   <li><strong>2026/05</strong>: 🎉 一篇关于三维点云分析的文章被 TPAMI 接收。恭喜力豪！感谢一起努力的同事们！<a href="https://arxiv.org/pdf/2509.00374" target="_blank" rel="noopener">[论文]</a></li> 
   <li><strong>2026/05</strong>: 🏅 我被ICML 2026组委会授予金牌审稿人!</li>
