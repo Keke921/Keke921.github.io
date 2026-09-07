@@ -1,5 +1,5 @@
 scholar_author_id: 0N26QgMAAAAJ
-updated_at: '2026-09-03T16:44:03Z'
+updated_at: '2026-09-07T12:02:14Z'
 papers:
 - id: '2506.00625'
   title: 'PI-H2T: Enhancing Long-Tailed Visual Recognition with Permutation-Invariant
@@ -9,7 +9,7 @@ papers:
   arxiv: '2506.00625'
   openreview: null
   ieee: null
-  citations: 3
+  citations: 0
   scholar_url: https://ieeexplore.ieee.org/abstract/document/11601054/
   scholar_title: null
 - id: '2509.00374'
@@ -53,7 +53,7 @@ papers:
   arxiv: '2410.21042'
   openreview: null
   ieee: null
-  citations: 35
+  citations: 4
   scholar_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/bc667ac84ef58f2b5022da97a465cbab-Abstract-Conference.html
   scholar_title: null
 - id: '2306.06963'
@@ -62,7 +62,7 @@ papers:
   arxiv: '2306.06963'
   openreview: null
   ieee: null
-  citations: 87
+  citations: 48
   scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/29262
   scholar_title: null
 - id: key point sensitive loss for long tailed visual recognition
@@ -71,7 +71,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 61
+  citations: 31
   scholar_url: https://ieeexplore.ieee.org/abstract/document/9848833/
   scholar_title: null
 - id: long tailed visual recognition via gaussian clouded logit adjustment
@@ -80,7 +80,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 244
+  citations: 92
   scholar_url: https://ieeexplore.ieee.org/abstract/document/9879423/
   scholar_title: null
 - id: '2412.20341'
@@ -89,7 +89,7 @@ papers:
   arxiv: '2412.20341'
   openreview: null
   ieee: null
-  citations: 29
+  citations: 14
   scholar_url: https://ojs.aaai.org/index.php/AAAI/article/view/34429
   scholar_title: null
 - id: '2407.13200'
@@ -98,7 +98,7 @@ papers:
   arxiv: '2407.13200'
   openreview: null
   ieee: null
-  citations: 13
+  citations: 0
   scholar_url: https://arxiv.org/abs/2404.14721
   scholar_title: null
 - id: learning order forest for qualitative attribute data clustering
@@ -107,7 +107,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 19
+  citations: 14
   scholar_url: https://journals.sagepub.com/doi/abs/10.3233/FAIA240709
   scholar_title: null
 - id: '2404.14721'
@@ -116,7 +116,7 @@ papers:
   arxiv: '2404.14721'
   openreview: null
   ieee: null
-  citations: 13
+  citations: 0
   scholar_url: https://arxiv.org/abs/2404.14721
   scholar_title: null
 - id: key points centered sparse hashing for cross modal retrieval
@@ -125,7 +125,7 @@ papers:
   arxiv: null
   openreview: null
   ieee: null
-  citations: 8
+  citations: 5
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10446586/
   scholar_title: null
 - id: '2304.01279'
@@ -136,7 +136,7 @@ papers:
   arxiv: '2304.01279'
   openreview: null
   ieee: null
-  citations: 103
+  citations: 62
   scholar_url: https://ieeexplore.ieee.org/abstract/document/10205108/
   scholar_title: null
 - id: decab debiased semi supervised learning for imbalanced open set data
@@ -271,5 +271,5 @@ papers:
   citations: 88
   scholar_url: https://ieeexplore.ieee.org/abstract/document/8521665/
   scholar_title: null
-matched_count: 28
+matched_count: 14
 registry_count: 28
