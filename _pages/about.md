@@ -14,6 +14,8 @@ redirect_from:
 <p>I'm now an Assistant Professor in&nbsp;<a href="https://vcc.tech/index.html" target="_blank" rel="noopener">Visual Computing Research Center (VCC)</a>, headed by&nbsp;<a href="https://vcc.tech/~huihuang/home" target="_blank" rel="noopener">Prof. Hui Huang</a>, at the&nbsp;<a href="https://csse.szu.edu.cn/" target="_blank" rel="noopener">College of Computer Science & Software Engineering (CSSE)</a>,&nbsp;<a href="https://www.szu.edu.cn/" target="_blank" rel="noopener">Shenzhen University (SZU)</a>. I received my PhD degree in computer science from Hong Kong Baptist University in 2022 (supervised by <a href="http://www.comp.hkbu.edu.hk/~ymc/" target="_blank" rel="noopener">Prof. Yiu-ming Cheung</a>), my master degree in signal and information processing from Xidian University in 2018 (supervised by Prof. LI Ming), and my bachelor degree in communication engineering from <a href="http://hanhong.swu.edu.cn/index.htm" target="_blank" rel="noopener">Hanhong College</a>, Southwest University, in 2015.</p>
 
 <p>My research focuses on computer vision, including long-tail learning, continual learning, noisy label learning, and multimodal learning. I've recently been focusing on multi-agent <span class="home-intro-no-orphan">analysis.</span> For prospective graduate students (master's), please see the <a href="/postgraduate/" lang="zh">硕士招生简章</a>.</p>
+<div class="home-highlight">📢 [2026.09.23] 此前与我联系过、并已报名深圳大学27级推免的同学，如仍有意向，请尽快与我取得联系并确认相关信息。若在9月25未收到确认信息，将默认该名额不再保留，并根据情况进行后续调整。感谢大家理解 </div>
+</div>
 <div class="home-highlight">📢 [2026.04.17] Still a few postgraduate quotas in Fall 2026. If you are interested in long-tail learning or Agentic AI, please contact me.</div>
 </div>
 
