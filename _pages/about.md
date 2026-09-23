@@ -17,7 +17,7 @@ redirect_from:
 
 <div class="home-highlight">
 📢 [2026.09.23] 此前与我联系过、并已报名深圳大学27级推免的同学，如仍有意向，请尽快与我取得联系并确认相关信息。若在9月25日前未收到确认信息，将默认该名额不再保留，并根据情况进行后续调整。感谢大家理解。
-<hr>
+<br><br>
 📢 [2026.04.17] Still a few postgraduate quotas in Fall 2026. If you are interested in long-tail learning or Agentic AI, please contact me.
 </div>
 
